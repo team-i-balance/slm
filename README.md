@@ -196,3 +196,21 @@ ARM(M5)에서는 INT8 이득이 1.35배. Xeon 서버 실측이 필요하다.
 .venv/bin/python export_onnx.py models/v3_1/trim models/v3_1/trim_onnx
 .venv/bin/python bench_cpu.py models/v2/trim models/v3_1/trim models/v3_1/trim_onnx:model_quantized.onnx
 ```
+
+### 배포 현황 (2026-11-05)
+
+- 배포 서버(`https://13.193.207.69`, team-i-balance/backend `local_ai/slm`)는 **v3.1 축소본**을 쓴다. 경로는 `~/models/slm-v3_1-trim`이고, 기준값은 기밀 0.45 / 개인정보 0.35다.
+- AWS 실측(Xeon 8175M 물리 2코어, 같은 20문장, 탐지 1회):
+
+  | 모델 | p50 | p95 | RSS |
+  |---|---|---|---|
+  | v2 축소본 | 461ms | 561ms | 1.55GB |
+  | v3.1 축소본 | 416ms | 459ms | 1.56GB |
+  | v3.1 INT8 | 427ms | 490ms | 1.14GB |
+
+- **INT8은 보류한다.** 서버에서 탐지가 0건으로 나왔다. VNNI가 없는 x86에서 s8 MatMulInteger가 포화되는 문제로 추정한다. 속도 이득도 작다. `reduce_range` 버전은 서버에서 아직 검증하지 않았다.
+- 되돌리려면 서버 `slm.conf`의 `LOCAL_SLM_MODEL_DIR`를 `~/models/slm-v2-trim`으로 바꾸고 재시작한다.
+- 남은 약점은 다음과 같다.
+  - 이름 앞 단어나 조사까지 구간에 넣는다(`담당 한지우`, `김민수의`).
+  - 공시된 수치를 기밀로 잡는다.
+  - 생성기 문자열(openpyxl)과 `ABC 신한`을 오탐한다. 백엔드 규칙으로 막아 두었다.
