@@ -1,6 +1,6 @@
 """생성 데이터 검사.  python3 data/check_raw.py data/train_raw/X.samples.jsonl [...]
 
-검사: JSON 형식, 구간이 원문에 글자 그대로 있는지, 규칙 ID 존재, 평가셋 문장 중복,
+검사: JSON 형식, 구간이 원문에 글자 그대로 있는지, 규칙 ID 존재(고정 라벨 P-* 포함), 평가셋(v1·v2) 문장 중복,
 heldout 개념 누수 의심(경고만), 규칙별 양성/음성 개수.
 """
 import json
@@ -16,6 +16,9 @@ LEAK = re.compile(r"이사회|리콜|불량률|결함|해지|이탈|출장|동�
 
 def rule_ids(samples_path: Path):
     ids = {r["id"] for r in json.loads((HERE / "rules.json").read_text())["rules"] if r["split"] == "train"}
+    ids |= {r["id"] for r in json.loads((HERE / "fixed_labels.json").read_text())["labels"]}
+    if samples_path.name.startswith("pii_"):  # 개인정보 전용 파일은 모든 업종 기밀 규칙과 섞을 수 있다
+        ids |= {r["id"] for r in json.loads((HERE / "rule_bank.json").read_text())}
     rp = samples_path.with_name(samples_path.name.replace(".samples.jsonl", ".rules.json"))
     if rp.exists():
         ids |= {r["id"] for r in json.loads(rp.read_text())["rules"]}
@@ -24,7 +27,8 @@ def rule_ids(samples_path: Path):
 
 def check(path: Path):
     ids = rule_ids(path)
-    eval_texts = {json.loads(l)["text"] for l in (HERE / "eval.jsonl").read_text().splitlines()}
+    eval_texts = {json.loads(l)["text"] for f in ("eval.jsonl", "eval_v2.jsonl") if (HERE / f).exists()
+                  for l in (HERE / f).read_text().splitlines()}
     errs, leaks = [], []
     pos, neg = Counter(), Counter()
     seen = set()

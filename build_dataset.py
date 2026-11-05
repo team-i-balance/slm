@@ -2,6 +2,10 @@
 
 출력 한 줄: {"text", "spans": [[start, end, rule_id]], "near": [...], "industry"}
 단어 분리·라벨 문자열 구성은 학습 스크립트에서 한다 (분리기 실험을 위해 문자 위치로 저장).
+
+- <업종>.samples.jsonl: 업종 규칙 문장. 같은 이름의 <업종>.pii.jsonl 이 있으면 개인정보 구간(P-*)을 덧붙인다
+- pii_*.samples.jsonl: 개인정보 중심 문장 (고정 라벨 + 모든 업종 기밀 규칙)
+- 고정 라벨(fixed_labels.json)은 rule_bank 에 industry "고정" 으로 들어간다
 """
 import json
 import random
@@ -14,7 +18,8 @@ from check_raw import LEAK  # noqa: E402
 
 DATA = Path(__file__).parent / "data"
 RAW = DATA / "train_raw"
-# 개인정보 규칙은 규칙 엔진(piiguard) 담당이라 SLM 학습에서 뺀다
+# 개인정보 명단성 규칙은 업종 규칙으로 두지 않는다. 그 구간만 빼고 문장은 살려서
+# 이름·주소는 고정 라벨(P-*)로 학습한다
 EXCLUDE = {"COM-18", "CON-08", "CON-17", "GAME-13", "PUB-15"}
 
 
@@ -41,10 +46,17 @@ def main():
             assert r["id"] not in bank, f"규칙 ID 중복 {r['id']}"
             if r["id"] not in EXCLUDE:
                 bank[r["id"]] = r
-    eval_texts = {json.loads(l)["text"] for l in (DATA / "eval.jsonl").read_text().splitlines()}
+    for r in json.loads((DATA / "fixed_labels.json").read_text())["labels"]:
+        bank[r["id"]] = {**r, "industry": "고정"}
+    eval_texts = {json.loads(l)["text"] for f in ("eval.jsonl", "eval_v2.jsonl") if (DATA / f).exists()
+                  for l in (DATA / f).read_text().splitlines()}
 
     rows, seen, drop = [], set(), Counter()
     for sp in sorted(RAW.glob("*.samples.jsonl")):
+        add = {}
+        pp = sp.with_name(sp.name.replace(".samples.jsonl", ".pii.jsonl"))
+        if pp.exists():
+            add = {d["text"]: d["add"] for d in map(json.loads, filter(str.strip, pp.read_text().splitlines()))}
         for line in sp.read_text().splitlines():
             if not line.strip():
                 continue
@@ -57,9 +69,9 @@ def main():
             if t in seen or t in eval_texts:
                 drop["중복/평가셋"] += 1
                 continue
-            if any(s[1] in EXCLUDE for s in d["spans"]):
-                drop["개인정보 규칙"] += 1
-                continue
+            n_ex = sum(s[1] in EXCLUDE for s in d["spans"])
+            drop["개인정보 규칙 구간(문장은 유지)"] += n_ex
+            d["spans"] = [s for s in d["spans"] if s[1] not in EXCLUDE] + add.get(t, [])
             if any(len(s) != 2 or s[1] not in bank or s[0] not in t for s in d["spans"]):
                 drop["구간/ID 오류"] += 1
                 continue
@@ -67,10 +79,11 @@ def main():
                 drop["heldout 규칙 사용"] += 1
                 continue
             seen.add(t)
-            rid0 = (d["spans"][0][1] if d["spans"] else (d.get("near") or ["?"])[0])
+            conf = [s[1] for s in d["spans"] if not s[1].startswith("P-")] + [n for n in d.get("near", []) if not n.startswith("P-")]
+            rid0 = conf[0] if conf else "?"
             rows.append({"text": t, "spans": char_spans(t, d["spans"]),
                          "near": [n for n in d.get("near", []) if n in bank],
-                         "industry": bank.get(rid0, {}).get("industry", "?"),
+                         "industry": bank.get(rid0, {}).get("industry", "개인정보"),
                          "leak_suspect": bool(d["spans"] and LEAK.search(t))})
 
     random.Random(0).shuffle(rows)
@@ -85,6 +98,7 @@ def main():
     pos = sum(bool(r["spans"]) for r in rows)
     print(f"규칙 {len(bank)}개 / 문장 {len(rows)} (양성 {pos}, 음성 {len(rows) - pos}) → train {len(train)}, dev {len(dev)}")
     print("업종별:", dict(Counter(r["industry"] for r in rows)))
+    print("고정 라벨 구간:", dict(Counter(rid for r in rows for _, _, rid in r["spans"] if rid.startswith("P-"))))
     print("버린 것:", dict(drop))
     print("누수 의심 표시:", sum(r["leak_suspect"] for r in rows))
     lens = sorted(e - s for r in rows for s, e, _ in r["spans"])

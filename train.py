@@ -2,7 +2,7 @@
 
   python train.py --out models/v1 [--desc] [--steps 1200] [--max-width 24]
 
-문장마다 넣는 규칙 목록 = 정답 규칙 + near(헷갈림) + 같은 업종 다른 규칙 + 다른 업종 무작위.
+문장마다 넣는 규칙 목록 = 고정 라벨(P-*, 항상) + 정답 규칙 + near(헷갈림) + 같은 업종 다른 규칙 + 다른 업종 무작위.
 목록은 꺼낼 때마다 새로 뽑는다 (같은 문장도 매번 다른 규칙들과 섞여 나오게).
 """
 import argparse
@@ -41,7 +41,9 @@ class RuleSpanDataset(Dataset):
         self.by_ind = defaultdict(list)
         for rid, r in bank.items():
             self.by_ind[r["industry"]].append(rid)
-        self.all_ids = list(bank)
+        # 고정 라벨은 실제 사용 때처럼 모든 문장에 넣는다
+        self.fixed_ids = self.by_ind.pop("고정", [])
+        self.all_ids = [x for x in bank if x not in self.fixed_ids]
         sp = EojeolSplitter()
         self.items, self.too_wide = [], 0
         for r in rows:
@@ -60,8 +62,8 @@ class RuleSpanDataset(Dataset):
 
     def sample(self, i, rng):
         it = self.items[i]
-        ids = list(dict.fromkeys([x[2] for x in it["ner"]] + it["near"]))
-        n = rng.randint(*self.n_labels)
+        ids = list(dict.fromkeys(self.fixed_ids + [x[2] for x in it["ner"]] + it["near"]))
+        n = rng.randint(*self.n_labels) + len(self.fixed_ids)
         same = [x for x in self.by_ind[it["industry"]] if x not in ids]
         rng.shuffle(same)
         ids += same[: max(0, n // 2 - len(ids))]
