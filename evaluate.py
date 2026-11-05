@@ -127,6 +127,11 @@ def evaluate(model, policies, items):
     prec = defaultdict(lambda: [0, 0])    # 기밀/개인정보 → [맞음, 예측 수]
     neg = defaultdict(lambda: [0, 0])     # set → [오탐 문장, 음성 문장]
     acc = [0, 0]
+    # 등급 판정: 문장 등급 = 걸린 규칙 grade 중 가장 높은 것 (C > S > O)
+    order = ["O", "S", "C"]
+    grade_of = {r["id"]: r.get("grade", "S") for rules in policies.values() for r in rules}
+    sent_grade = lambda spans: max((grade_of[s[2]] for s in spans), key=order.index, default="O")
+    gconf = defaultdict(int)              # (정답 등급, 예측 등급) → 문장 수
     lat, misses, fps = [], defaultdict(list), defaultdict(list)
     for it in items:
         t0 = time.perf_counter()
@@ -152,6 +157,7 @@ def evaluate(model, policies, items):
             neg[it["set"]][1] += 1
         acc[0] += bool(preds) == bool(it["spans"])
         acc[1] += 1
+        gconf[(sent_grade(it["spans"]), sent_grade(preds))] += 1
 
     pct = lambda a, b: f"{100 * a / b:5.1f}%" if b else "  -  "
     tot = lambda keys: [sum(rec[k][i] for k in keys) for i in (0, 1)]
@@ -172,6 +178,12 @@ def evaluate(model, policies, items):
     detail = ", ".join(f"{k} {pct(*v).strip()}" for k, v in sorted(neg.items()))
     print(f"오탐 문장률             {pct(*allneg)}  ({allneg[0]}/{allneg[1]})   [{detail}]")
     print(f"문장 정확도             {pct(*acc)}")
+    gok = sum(v for (g, p), v in gconf.items() if g == p)
+    print(f"등급 판정 정확도        {pct(gok, acc[1])}   (행=정답, 열=예측 O/S/C)")
+    for g in order:
+        row = [gconf[(g, p)] for p in order]
+        if sum(row):
+            print(f"  {g}: {row}   맞음 {pct(row[order.index(g)], sum(row)).strip()}")
     print(f"지연 p50 {statistics.median(lat):.0f}ms / p95 {sorted(lat)[int(len(lat) * .95)]:.0f}ms")
     print("\n놓친 구간 예:")
     for k in sorted(misses):

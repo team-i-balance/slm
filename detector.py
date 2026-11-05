@@ -20,7 +20,7 @@ from pathlib import Path
 HERE = Path(__file__).parent
 FIXED_TYPES = {"P-NAME": "NAME", "P-ADDR": "ADDRESS", "P-SENS": "SENSITIVE"}
 # 기준값: 평가셋 v2 에서 고른 값. 개인정보는 놓치지 않기 우선이라 더 낮다
-DEFAULT_THRESHOLDS = {"CONFIDENTIAL": 0.45, "NAME": 0.4, "ADDRESS": 0.4, "SENSITIVE": 0.4}
+DEFAULT_THRESHOLDS = {"CONFIDENTIAL": 0.45, "NAME": 0.35, "ADDRESS": 0.35, "SENSITIVE": 0.35}
 # 한 번에 넣는 최대 단어 수. 규칙 라벨도 같은 입력에 들어가므로 모델 max_len(384)보다 넉넉히 작게
 CHUNK_WORDS = 200
 SENT_END = re.compile(r"(?<=[.!?。])\s+|\n+")
@@ -93,7 +93,28 @@ class SlmDetector:
                 found.append({"start": off + e["start"], "end": off + e["end"], "type": typ, "rule_id": rid,
                               "label": r["label"], "grade": r.get("grade", "S"), "action": r.get("action", "대체"),
                               "score": round(float(e["score"]), 3)})
-        return sorted(found, key=lambda x: (x["start"], -x["end"]))
+        # 겹침 허용으로 예측하면 같은 규칙이 겹친 구간을 여러 개 낸다 → 같은 규칙끼리는 가장 긴 것만
+        found.sort(key=lambda x: (x["start"], -x["end"]))
+        out = []
+        for d in found:
+            if not any(o["rule_id"] == d["rule_id"] and o["start"] < d["end"] and d["start"] < o["end"] for o in out):
+                out.append(d)
+        return out
+
+    def judge(self, text: str) -> dict:
+        """등급 판정. 모델은 '어느 구간이 어느 규칙에 해당하는지'만 찾고,
+        등급은 보안팀이 정한 규칙의 grade 에서 정해진다 (가장 높은 등급, C > S > O).
+        confidence 는 백엔드 detection_confidence 와 같은 값: 등급을 정한 구간의 최고 점수 기준."""
+        items = self.detect(text)
+        grade = max((d["grade"] for d in items), key=GRADE_ORDER.index, default="O")
+        top = max((d["score"] for d in items if d["grade"] == grade), default=0.0)
+        conf = "high" if top >= HIGH_SCORE else "medium" if items else "low"
+        return {"grade": grade, "detection_confidence": conf, "items": items}
+
+
+GRADE_ORDER = ["O", "S", "C"]
+# 이 점수 이상이면 '확실한 탐지'(backend app/rules.md 의 high)
+HIGH_SCORE = 0.7
 
 
 def main():
