@@ -1,0 +1,12 @@
+{"company": "온기식탁 프랜차이즈(가상)", "rules": [
+{"id": "LF01", "split": "heldout", "grade": "C", "action": "대체", "label": "신메뉴 프로젝트 코드명", "description": "출시 전 신메뉴 개발 프로젝트의 내부 코드명"},
+{"id": "LF02", "split": "heldout", "grade": "S", "action": "대체", "label": "독점 식자재 공급사", "description": "핵심 식자재 독점 공급 계약을 맺은 거래처 이름"},
+{"id": "LF03", "split": "heldout", "grade": "C", "action": "대체", "label": "발주 시스템 내부명", "description": "가맹점 발주와 재고를 처리하는 내부 시스템 이름"},
+{"id": "LF04", "split": "heldout", "grade": "S", "action": "대체", "label": "인수 검토 브랜드명", "description": "인수 협상 중인 경쟁 외식 브랜드의 이름"},
+{"id": "LF05", "split": "heldout", "grade": "C", "action": "대체", "label": "시그니처 소스 명칭", "description": "공개하지 않는 시그니처 소스의 내부 명칭"},
+{"id": "LF06", "split": "heldout", "grade": "S", "action": "일반화", "label": "메뉴별 원가율", "description": "개별 메뉴의 식재료 원가율 수치"},
+{"id": "LF07", "split": "heldout", "grade": "C", "action": "일반화", "label": "로열티 감면 조건", "description": "가맹점 로열티 감면·면제 조건과 기간"},
+{"id": "LF08", "split": "heldout", "grade": "S", "action": "일반화", "label": "폐점 예정 매장 수", "description": "올해 폐점이 확정된 매장의 수와 지역"},
+{"id": "LF09", "split": "heldout", "grade": "C", "action": "삭제", "label": "위생 점검 부적합 이력", "description": "특정 매장이 위생 점검에서 부적합 받은 내부 기록"},
+{"id": "LF10", "split": "heldout", "grade": "S", "action": "일반화", "label": "메뉴 가격 인상 계획", "description": "공지 전인 메뉴 가격 인상 폭과 시행 시점"}
+]}

@@ -1,240 +1,362 @@
-{"text": "부산 센텀 매장 11월 말 철수, 같은 건물 신규 매장 이전 직원 공지 초안 써줘", "spans": [[0, 33, "COM-16"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "태양광 PPA는 kWh당 128원 15년 계약이고 후보 부지는 태안 간척지 30만 평이야. 사업 현황 요약해줘", "spans": [[9, 25, "E09"], [35, 47, "E19"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "배터리 셀 공급 조건 최소 구매 물량 미달 시 위약금 8%를 문장으로 정리해줘", "spans": [[12, 32, "AUTO-08"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "전기차 전용 플랫폼의 장점을 일반적으로 설명해줘", "spans": [], "near": ["AUTO-11"], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "청솔식품 공개 채용 일정 정리", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "직장 내 괴롭힘 신고가 들어오면 회사가 해야 할 조치 순서 알려줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "내부 포털 우리누리에 접속하는 방법을 직원용 안내문으로 다듬어줘", "spans": [[6, 10, "INS-09"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "변우진 대리 푸른미래당 당원이야. 사내 정치 중립 규정 위반인지 검토해줘", "spans": [[0, 3, "P-NAME"], [7, 15, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "김세린 대리 다시 아파서 휴직 연장한대. 복직 예정일 수정 공지 써줘", "spans": [[0, 3, "P-NAME"], [7, 21, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "이슬비 사원 연말 시상 추천 사유 써줘. 고객 응대 칭찬 많음", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "크로스셀링이 뭔지 설명해줘", "spans": [], "near": ["LAW-20"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "조하늘 씨 당 수치 때문에 약 먹기 시작했대. 간식 바구니 메뉴 바꿔줘", "spans": [[0, 3, "P-NAME"], [6, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "황수진 주무관 담당 사업 예정가격 14억 3천만 원 관련 문서 다듬어줘", "spans": [[0, 3, "P-NAME"], [11, 28, "PUB-01"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "감사 결과 보고서 초안 물품 관리 소홀로 재물조사 시 누락 118점 이 문장 다듬어줘", "spans": [[13, 37, "PUB-09"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "물품 수령지 변경: 대림하이츠 101동 1103호 → 대림하이츠 103동 604호. 변경 확인 문자 써줘", "spans": [[11, 27, "P-ADDR"], [30, 45, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "박서윤 고객님 배송지 울산 남구 달빛공원로 56, 1101호 맞나요? 확인 멘트 써줘", "spans": [[0, 3, "P-NAME"], [12, 33, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "MES 서버 192.168.120.5:9090 계정 규칙이 사번+mes인데 이거 위험한가?", "spans": [[7, 25, "MFG-14"], [33, 39, "MFG-14"]], "near": ["P-ADDR"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "인플루언서 방송 1회 800만원 고정 + 판매 수수료 10% 제안서 정리해줘", "spans": [[6, 33, "COM-20"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "과업지시서와 제안요청서의 차이를 알려줘", "spans": [], "near": ["PUB-20"], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "슬기롭게 대처하는 법에 대한 짧은 칼럼", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "아침 님(인턴)이 정리한 리서치 노트, 문장 다듬어줘", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "원자재 헤지가 무슨 뜻이야?", "spans": [], "near": ["AUTO-20"], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "구리 원자재 분기마다 200톤씩 분할 매입하는 방식 정리해줘", "spans": [[7, 23, "MFG-16"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "스웨덴 업체와 훈련 패키지 포함 3,100억에 합의 근접 내용으로 보고서 써줘", "spans": [[0, 31, "PUB-18"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "/data/shared/tmp 디렉토리 오래된 파일 지우는 크론 스크립트", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
-{"text": "성유리 님 노조 지회 부지회장이고 주말엔 성당 성가대야. 행사 일정 짤 때 참고해줘", "spans": [[0, 3, "P-NAME"], [6, 16, "P-SENS"], [19, 29, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "태성정밀과 MLCC 개당 38원에 계약했고 납품처는 OEM 라온홈케어야. 영업 메모 다듬어줘", "spans": [[0, 4, "MFG-04"], [6, 17, "MFG-03"], [33, 38, "MFG-12"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "감사 회의록: 구매팀 홍예은 대리 건 — 견적 분할 발주 지적, 아직 미조치. 개선계획 정리", "spans": [[12, 15, "P-NAME"], [23, 42, "R20"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "기업 구조조정 때 인력 관리를 위한 일반적인 원칙을 알려줘", "spans": [], "near": ["FIN-17"], "industry": "금융", "leak_suspect": false}
-{"text": "감사 중 발견사항은 보통 어떻게 보고해?", "spans": [], "near": ["LAW-06"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "작년 정부가 공고한 주파수 할당 대가 내용 요약해줘", "spans": [], "near": ["TEL-03"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "비공개 중기계획 — 2027~2029 연평균 순이익 성장률 11%, 비이자이익 비중 30%. 팀 공유용으로 정리해줘", "spans": [[11, 50, "FIN-20"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "재보험이 무엇이고 왜 필요한지 쉽게 설명해줘", "spans": [], "near": ["INS-06"], "industry": "보험", "leak_suspect": false}
-{"text": "지난 3월 공시한 작년 연결 매출 1,420억을 기준으로 5개년 추이 설명문 써줘", "spans": [], "near": ["R03"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "시흥시 정왕동 1830-6 공장 임대 광고 문구 만들어줘", "spans": [[0, 14, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "크리스마스 팀 행사 때 종교 색 빼는 아이디어 줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "전과 기록은 몇 년 지나면 조회가 안 돼?", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "공시된 감독규정상 충당금 적립률 기준을 정리해줘", "spans": [], "near": ["FIN-13"], "industry": "금융", "leak_suspect": false}
-{"text": "권태우 선임: 판교 IDC 서버 140대, AWS 계정 7개 구조. 인프라 현황 문서 다듬어줘", "spans": [[0, 3, "P-NAME"], [8, 36, "R22"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "내부명 하늘길 프로젝트의 리스크 관리 계획서 목차를 짜줘", "spans": [[4, 7, "E10"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "공장 레이아웃 설계 시 고려사항을 알려줘", "spans": [], "near": ["MFG-17"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "스톡옵션 행사가 뭔지 개념 설명해줘", "spans": [], "near": ["R08"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "PJ 모닥불 팀 신규 인원 온보딩 문서 초안 부탁", "spans": [[0, 6, "GAME-02"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "이 배관 아이소메트릭 도면 ISO-A-9920 열람 권한 신청 메일 문구 써줘", "spans": [[15, 25, "E13"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "'다은 플라워' 꽃다발 이름 아이디어", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "한별 님 둘째 가졌대. 내년 상반기 인력 계획에 반영해야 할 것 같아", "spans": [[0, 2, "P-NAME"], [5, 11, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "로펌 신규 고객 개척 방법에는 뭐가 있어?", "spans": [], "near": ["LAW-20"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "연지민 매니저 쪽 계약 금액이 연 3억 2천으로 잡혔다고 전달하는 메일 써줘", "spans": [[0, 3, "P-NAME"], [17, 24, "R05"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "합의금 3억에 분쟁 대상 특허 실시권 부여 구조의 장단점을 정리", "spans": [[0, 23, "LAW-10"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "이해충돌 조회 시스템은 보통 어떤 기능이 있어?", "spans": [], "near": ["LAW-16"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "공개된 준공도서 목록 양식 만들어줘", "spans": [], "near": ["CON-12"], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "Can you polish this? \"Dear Mr. Kowalski, please find the revised quote attached.\"", "spans": [[31, 39, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "안소율 매니저께 회의실 예약 변경 사실을 알리는 짧은 메일", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "성남시 중원구 둔촌대로488번길 2 1층 뒤편 주차장에서 뵙자고 정중하게 써줘", "spans": [[0, 22, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "Convert to bullets: next year's backbone upgrade budget is 520억, OPEX flat.", "spans": [[20, 74, "TEL-15"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "GMP 시설 증설 착공은 내년 3월, 준공은 후년 하반기로 일정 짜줘", "spans": [[10, 31, "B15"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "이수정 대리는 불교 신자라 사찰 행사 때문에 다음 주 금요일 연차래. 일정 공유", "spans": [[0, 3, "P-NAME"], [8, 13, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "조합원 명단 일부야. 김해숙 102동 1503호 분담금 2억 1천만원 이런 식인데 안내문 만들어줘", "spans": [[12, 15, "P-NAME"], [16, 26, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "자동차 딜러 마진 구조는 일반적으로 어떻게 돼?", "spans": [], "near": ["AUTO-07"], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "합병 시너지 분석 시트에서 누리증권-하나둘리츠 합병비율 1:0.82을 어떻게 설명할지 문장 제안해줘", "spans": [[15, 37, "FIN-09"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "전송망 광케이블 교체에 연 640억, 3개년 집행 검토 의견서 개요", "spans": [[0, 27, "TEL-15"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "공개 재판에서 나온 학교폭력 처분 기록 삭제 기준 설명해줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "공고 마감 전 이미 협상 순위 확정, 1순위 미르테크 한 줄로 정리해줘", "spans": [[0, 29, "PUB-13"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "교과서에 나오는 증류탑 환류비의 의미를 정리해줘", "spans": [], "near": ["E02"], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "신입 교육자료: 실타래로 주문 넣고 마루로 과금 연결되는 흐름", "spans": [[9, 12, "TEL-04"], [20, 22, "TEL-04"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "CVC 투자 대상으로 세포치료제 벤처 미라셀을 보고 있고 인수 옵션을 붙일지 논의 중이야. 정리해줘", "spans": [[21, 24, "B18"], [32, 42, "B18"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "곧 공고할 용역의 원가 산정 결과 예정가 7억 3천만원을 부서 공유 메일로 써줘", "spans": [[10, 30, "PUB-01"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "작년 국내 평균 모바일 데이터 사용량 공개 통계 기사 요약해줘", "spans": [], "near": ["TEL-16"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "운송사 정산 일정 매월 말일 마감, 익월 15일 지급 포함한 협약서 요약 부탁", "spans": [[10, 29, "COM-09"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "배양은 37도에서 시작해 72시간째 33도로 낮추고 pH 6.9 유지. 공정서 문장으로 정리해줘", "spans": [[4, 38, "B04"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "담당 법인 중에 한솔해운이랑 태경제약 거래 내역 요약본을 만들어줘", "spans": [[9, 13, "FIN-06"], [16, 20, "FIN-06"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "김지훈 책임이 갑상선암 수술 후 방사성 요오드 치료 중이라 이번 달 회의는 빼줘", "spans": [[0, 3, "P-NAME"], [8, 30, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "공동도급 구성 시 지분 배분은 보통 어떻게 협의해?", "spans": [], "near": ["CON-02"], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "입찰 경쟁 상대는 청솔컨설팅, 우리는 AI 도구 포함 패키지로 차별화 전략 메모", "spans": [[0, 38, "LAW-11"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "설계 문서 DOC-HE-5530과 DOC-HE-5531의 차이를 비교하는 체크리스트를 만들어줘", "spans": [[6, 17, "E13"], [19, 30, "E13"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "약관에 공개된 허위 리뷰 금지 조항을 요약해줘", "spans": [], "near": ["COM-17"], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "엔지니어링 매니저 1on1 템플릿 만들어줘", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "원료의약품 공급업체 선정할 때 보통 어떤 기준을 봐야 해?", "spans": [], "near": ["B13"], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "이지원 매니저와 김도현 선임에게 동시에 보내는 업무 분장 안내 메일", "spans": [[0, 3, "P-NAME"], [9, 12, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "선거 기간 공무원 정치 중립 의무 범위 알려줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "런칭 마케팅 TV 광고 8억, 옥외 광고 3.5억 예산 배분이 맞는지 의견 줘", "spans": [[7, 27, "GAME-09"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "최서준 주임 시말서 쓰고 경위서까지 냈대. 팀장 보고용 요약해줘", "spans": [[0, 3, "P-NAME"], [7, 22, "R07"], [7, 22, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "출원 전 기술 휠 내부에 소형 발전 코일을 넣어 TPMS 센서를 무배터리로 구동하는 방안을 도면 설명으로", "spans": [[8, 44, "AUTO-13"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "원가 구조: 케이스 4,200원, 배터리 7,800원, 모듈 5,500원. 표로 만들어줘", "spans": [[7, 40, "MFG-09"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "경남 하동군 악양면 매계리 711 감나무 농장에서 보내는 택배 라벨 만들어줘", "spans": [[0, 18, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "부서별 예산 편성 요청서 빈 양식 만들어줘", "spans": [], "near": ["PUB-12"], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "눈이 자주 충혈되는데 모니터 작업 많으면 생기는 거야?", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "시청 통합관제 사업에 낮게 써서 97억 투찰 예정 내부 보고로 써줘", "spans": [[0, 27, "TEL-18"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "성공보수는 합의금 20억 초과분의 5% 조건을 쉬운 말로 풀어줘", "spans": [[0, 21, "LAW-07"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "상대방 증인 김 모 씨의 이전 진술 모순을 반대신문 핵심으로 삼을 계획 정리해줘", "spans": [[0, 39, "LAW-03"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "원자재 가격 변동에 대응하는 일반적인 방법은?", "spans": [], "near": ["MFG-16"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "영업 시책 안내문 템플릿 만들어줘", "spans": [], "near": ["INS-13"], "industry": "보험", "leak_suspect": false}
-{"text": "파수꾼 대시보드 알람 임계치 설정하는 방법 문서로 정리해줘", "spans": [[0, 3, "TEL-04"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "판매 실적 주간 보고서 양식 만들어줘", "spans": [], "near": ["COM-07"], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "코드명 은하수 OST는 작곡가 40%, 제작사 60% 수익 배분으로 협의 중이야. 계약 검토 메모 정리해줘", "spans": [[0, 7, "GAME-02"], [13, 35, "GAME-17"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "라스트마일 협력사 기사 1인 월 최소 보장 건수 1,200건 조건 검토해줘", "spans": [[10, 33, "COM-09"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "공개된 판례 중 정직 처분 취소된 사례 세 개만 알려줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "하지윤 씨 이번이 세 번째 시험관 시술이래. 시술 당일 연차 처리 안내 써줘", "spans": [[0, 3, "P-NAME"], [6, 21, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "해외 인프라 투자 후보는 북유럽 풍력단지 지분 15%, 투자금 900억. 검토 보고서 서두로 써줘", "spans": [[14, 39, "INS-11"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "푸른솔 공원 산책 코스 추천해줘", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "아침 회의를 효율적으로 하는 팁", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "김도영 책임이 한빛물류 고객사 계약 금액 연 7억으로 마무리했어. 축하 메일 써줘", "spans": [[0, 3, "P-NAME"], [8, 12, "R06"], [17, 27, "R05"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "송유정 연구원이 조정한 추천 모델 파라미터 alpha=0.37, decay 0.92. 설명 문서 써줘", "spans": [[0, 3, "P-NAME"], [24, 46, "R12"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "노사협의회와 노동조합은 무슨 차이야?", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "희망퇴직 대상 검토 명단: 허준기, 남기석 — 면담 스크립트 써줘", "spans": [[15, 18, "P-NAME"], [20, 23, "P-NAME"], [0, 10, "R09"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "Explain: our tool uses a hot runner with valve gates placed near the rim", "spans": [[23, 72, "MFG-11"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "부장님께 회의 불참 사유 말씀드리는 문자 예시", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "변소희 님 매주 금요일 오후엔 사찰 봉사 가. 금요일 오후 회의 없게 일정 짜줘", "spans": [[0, 3, "P-NAME"], [6, 22, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "온재하가 확인한 비공개 인증 예비심사 결과는 응급대응 교육 항목 적합이야. 보고 제목을 붙여줘.", "spans": [[0, 3, "P-NAME"], [25, 38, "HOSP-16"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "Explain to new hires how 파수꾼 collects metrics from edge nodes.", "spans": [[25, 28, "TEL-04"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "기술 문서 번역 중인데 부품코드 UT-934B는 그대로 남겨 주세요.", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "조사 대상 3명(윤재호, 안지수, 허준)은 구매 서류 위조 의혹 이 내용으로 대외 대응 문구 정리", "spans": [[0, 35, "PUB-17"], [9, 12, "P-NAME"], [14, 17, "P-NAME"], [19, 21, "P-NAME"], [0, 35, "P-SENS"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "계좌 280-46-486699 (국민)", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "비밀번호는 Qwer$9817 야", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "고객 관제센터를 옮기는 작전 구름다리 관련 회의에서 쓸 질문을 뽑아줘.", "spans": [[16, 20, "SEC-02"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "매크로 탐지 클릭 간격 편차 0.02초 이하 연속 200회 규칙을 Lighthouse 운영툴에 넣는 작업 일지 써줘", "spans": [[7, 32, "GAME-20"], [37, 47, "GAME-10"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "[이름_3] 팀장 [사내정보_1] 했습니다", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "보안 센서 납품의 승인된 최저 투찰가는 1억3천5백만원이야. 사내 표에 넣을 설명 써줘.", "spans": [[0, 30, "SEC-15"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "청람 오픈은 내년 3월 4일이고 초기 투자비는 AI 데이터센터 1단계 920억. 보고서 개요 짜줘", "spans": [[0, 2, "TEL-02"], [7, 15, "TEL-14"], [26, 43, "TEL-15"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "과제별 연구비 배정안: SB 시리즈 150억, 초기 탐색 40억, 플랫폼 기술 70억. 품의서 문장으로 바꿔줘", "spans": [[13, 47, "B19"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "나프타 스왑 계약 만기는 내년 6월, 계약 규모 월 5만 톤이야. 포지션 표로 만들어줘", "spans": [[10, 19, "E15"], [27, 33, "E15"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "주문번호 1203-4 처리 상태 문의 답변 써줘", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "회의록 정리해줘: 참석 김태호, 이유진, 박상민 / 안건 신규 온보딩 프로세스", "spans": [[13, 16, "P-NAME"], [18, 21, "P-NAME"], [23, 26, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "달빛이 비치는 호숫가 풍경을 시처럼 써줘", "spans": [], "near": ["INS-09"], "industry": "보험", "leak_suspect": false}
+{"text": "Hannah Lee 님 카드 4348 7378 7962 9668 결제 취소 요청 메일 써줘", "spans": [[0, 10, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "Rian852 제품 라벨을 읽는 화면 낭독 예문 하나만.", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "우리 팹에서 약액 창고를 빗방울이라고 부르는데, 교육 자료 제목을 어떻게 잡지?", "spans": [[14, 17, "SEMI-08"]], "near": [], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "성남시 분당구 서현동 274-9 다가구 주택 등기부등본 보는 법 알려줘", "spans": [[0, 17, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "대상 김라온휘, 처분 출근정지 9일. 표로 정리해.", "spans": [[3, 7, "P-NAME"], [12, 19, "R07"], [12, 19, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "Hannah Lee 선임 is on medication for depression. 이 사실 빼고 업무 조정 요청 메일 써줘", "spans": [[0, 10, "P-NAME"], [14, 45, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "지원서 분류는 사내 도구 아침채를 써. 이 공고는 근무 시간 누락으로 보완 요청했어. 내부 회의록으로 묶어줘.", "spans": [[14, 17, "HR-08"], [28, 44, "HR-15"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "이노을담 사원이 도와줬다는 내용을 팀 주간 소식에 적어줘.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "박민지 팀장 성과급 2,400만원, 김태경 과장 1,600만원 — 지급 품의서 표로", "spans": [[0, 3, "P-NAME"], [7, 18, "R08"], [20, 23, "P-NAME"], [27, 34, "R08"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "조달 내부 시스템 http://e-bid.int.gosample.kr/admin 접속 경로를 인수인계서에 정리해줘", "spans": [[10, 44, "PUB-10"]], "near": ["P-ADDR"], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "문시은에게 보낼 내부 점검 요약이야. 채용 대행사에서 지원서 보관 권한 관리 미흡 판정이 나왔어. 다듬어줘.", "spans": [[0, 3, "P-NAME"], [30, 48, "HR-16"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "오픈이노베이션 후보 3곳 중 지노비트는 우선협상, 나머지 두 곳은 보류. 의사결정 메모 써줘", "spans": [[16, 26, "B18"], [28, 39, "B18"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "샛별-2에 넣을 팬 없이 히트파이프 두 개로 SoC 열을 케이스 후면으로 분산하는 방식은 아직 미출원이야, 명세서 초안 부탁", "spans": [[0, 4, "MFG-01"], [9, 43, "MFG-10"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "우하린 주임 난임 치료 휴가 3일 신청했어. 결재 의견란 문구 써줘", "spans": [[0, 3, "P-NAME"], [7, 18, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "- 아스콘 톤당 11만 4천원\n- 배수관 m당 3만 2천원\n내부 단가표로 정리", "spans": [[6, 16, "CON-20"], [23, 32, "CON-20"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "연차보고서에 공개된 보은숲제약 연구개발비 159억원의 표 제목을 간단히 만들어줘.", "spans": [], "near": ["B19"], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "반서율이 기록한 내부 판정은 미루목공팀의 인력 증빙 미비로 탈락이야. 문장 고쳐줘.", "spans": [[0, 3, "P-NAME"], [16, 35, "FURN-17"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "우리 은행 홈페이지에 공개된 제휴 파트너 소개글을 다듬어줘", "spans": [], "near": ["FIN-19"], "industry": "금융", "leak_suspect": false}
+{"text": "제어 로직 설계 문서 템플릿 만들어줘", "spans": [], "near": ["AUTO-03"], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "홍채아 대리는 근태 불량으로 경고 처분 받았어요. 인사기록 메모 다듬어줘", "spans": [[0, 3, "P-NAME"], [16, 21, "R07"], [16, 21, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "집 인터넷 공인 IP 고정으로 받으려면 통신사에 뭐라고 해야 돼?", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "시제품 마무리하고 3월 18일 mass production 시작 예정인데 일정표 정리해줘", "spans": [[10, 35, "MFG-02"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "신규 AI 번역 API는 11월 18일 정식 오픈 예정인데 사전 안내 메일 써줘", "spans": [[0, 27, "TEL-14"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "내부 검토안 전용 101㎡ 7억 7,500만원, 계약금 5% 이거 오탈자 점검해줘", "spans": [[7, 33, "CON-05"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "대리점 위탁 계약서 양식 하나 만들어줘", "spans": [], "near": ["INS-19"], "industry": "보험", "leak_suspect": false}
+{"text": "환불 계좌: 부산은행 [계좌번호_1], 주문 PO-7781", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "아직 발표 전인데 물결 쇼룸은 9월까지만 운영하기로 했어. 내부 FAQ 첫 문장 부탁.", "spans": [[10, 25, "FURN-16"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "국방조달 DB 서버 dbs-prc-03 점검 공지 문구 써줘", "spans": [[0, 21, "PUB-10"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
 {"text": "대량 구매 고객에게만 5% 리베이트를 주는 조건을 계약서에 넣었다. 안내 문구 써줘", "spans": [[0, 19, "E16"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "장준혁 대리 원불교 교무 집안이라 주말 행사 참석 어렵다고 해. 대체 인원 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 16, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "Headcount plan: +6 sales, +4 CS in Q2, JD not posted. 영어 요약 써줘", "spans": [[16, 37, "R19"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "평택시 고덕여울로 155, 3동 기준으로 아침 셔틀 정류장 순서 짜줘", "spans": [[0, 17, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "감봉 3개월 징계 받은 오태윤 대리 자택 군포시 산본숲로 31, 905호로 통지서 발송해야 해", "spans": [[0, 9, "R07"], [0, 9, "P-SENS"], [13, 16, "P-NAME"], [23, 40, "P-ADDR"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "해외 사무소 정리 계획: 호치민 사무소는 2027년 상반기 중 철수. 영어 공지문 번역해줘", "spans": [[14, 37, "FIN-16"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "촉매 샘플 관리대장 양식 만들어줘. 코드, 수량, 보관 위치 칸으로", "spans": [], "near": ["E01"], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "실사 결과 대상 회사의 미등기 채무 보증 3건 총 54억 확인 보고서 문단", "spans": [[0, 34, "LAW-18"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "방위산업체 지정 요건을 일반적으로 설명해줘", "spans": [], "near": ["PUB-14"], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "강의 장소가 서울 마포구 신촌누리로 44 미래관 5층 507호로 바뀌었다고 공지 써줘", "spans": [[7, 34, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "12월 중 EMC 사전 시험 완료 후 정식 인증 신청이라는 일정 보고 문장 다듬어줘", "spans": [[0, 29, "MFG-13"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "내부감사와 외부감사의 차이를 알려줘", "spans": [], "near": ["R20"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "펌웨어 저장소 주소 git.dawon-fw.internal:8443 안내 메일 다듬어줘", "spans": [[11, 37, "MFG-14"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "신규 PB 펫푸드 라인 사료 5종, 단백질 함량 기준으로 포지셔닝 내부 기획서 개요 만들어줘", "spans": [[6, 36, "COM-10"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "의심 주문 신고서 템플릿 써줘", "spans": [], "near": ["COM-17"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "윤하진 책임 그 문제로 이번에 강등됐대. 조직도 수정 공지 써줘", "spans": [[0, 3, "P-NAME"], [7, 21, "R07"], [7, 21, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "완화병동의 내부 손익선을 표로 옮겨줘: 병상가동률 71.8%에서 수지 균형.", "spans": [[22, 41, "HOSP-13"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "임직원 가족 할인 월 한도 80만원, 할인율 15% 규정 요약해줘", "spans": [[10, 28, "COM-08"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "본점 IT기획부와 시스템개발부를 통합하고 부장급 6자리 축소하는 안이 확정 직전이야. 정리해줘", "spans": [[3, 33, "FIN-17"]], "near": [], "industry": "금융", "leak_suspect": false}
 {"text": "PE 펀드 두 곳의 포트폴리오사 자문 공략 우선순위 정함 내부 공유 문장", "spans": [[0, 31, "LAW-20"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "결제 수수료 협상 준비 체크리스트 템플릿 만들어줘", "spans": [], "near": ["COM-19"], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "컨설턴트 직급별 청구 목표 시간 매니저 1,500, 시니어 1,750 표로", "spans": [[0, 38, "LAW-15"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "재계약 시 선급금 20% 감액, 계약 기간 2년 연장 내용을 계약 비교표에 넣어줘", "spans": [[0, 29, "GAME-04"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "권준기 과장이 접속하는 MES 서버 10.12.8.40:8080 접속 매뉴얼 써줘", "spans": [[0, 3, "P-NAME"], [20, 35, "MFG-14"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "장미나 연구원이 크론병으로 정기 투약 중이라 화장실 가까운 자리로 배치해 달라는 요청 정리해줘", "spans": [[0, 3, "P-NAME"], [9, 22, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "게임 '별빛기사단' 공식 패치노트를 커뮤니티 공지 톤으로 바꿔줘", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "송유진 선임 법원에서 벌금 나왔대, 폭행 건. 고객 응대 업무 계속 맡겨도 될지 의견 줘", "spans": [[0, 3, "P-NAME"], [7, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "신규 수임 목표 30억, 후보 고객 15곳 달성 시 성과 분배 최대 130% 적용된다고 공지 초안", "spans": [[0, 23, "LAW-20"], [29, 42, "LAW-15"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "Summarize the term sheet: buyer pays 40% in cash and 60% in shares, earn-out 3 years.", "spans": [[26, 84, "LAW-02"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "연구소 확장 판교 신사옥 개발 인력 900명 수용, 건축비 2,100억 보고용 한 줄로", "spans": [[7, 39, "AUTO-11"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "문지아 대리 임신 8주인데 입덧 때문에 병원 수액도 맞는대. 근무시간 단축 신청서 써줘", "spans": [[0, 3, "P-NAME"], [7, 12, "P-SENS"], [15, 27, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "같은 층 박 주임 자꾸 손 씻고 확인하는 증상 때문에 치료받는대. 배려할 점 정리해줘", "spans": [[5, 6, "P-NAME"], [10, 35, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "하우징 사출 조건은 금형온도 85도, 사출압력 920bar, 냉각 14초. 작업표준서 문장으로 정리해줘", "spans": [[11, 40, "R12"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "Our Austin office is moving to a hybrid schedule. 영어 공지 다듬어줘", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
-{"text": "변재훈 대리 마약 투약 혐의로 기소됐다는 연락이 왔어. 회사 차원 대응 절차 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 19, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "파트너 정산 수수료는 신규 18%, 갱신 7%로 확정 안내 메일 써줘", "spans": [[0, 29, "TEL-10"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "/home/ubuntu/.ssh/authorized_keys 권한은 몇으로 해야 돼?", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
-{"text": "팝업 장소 확정: 부산 해운대구 구남솔로 18 1층, 7월 첫째 주 오픈. 외부 공개 금지", "spans": [[10, 28, "P-ADDR"], [10, 28, "COM-16"], [30, 40, "COM-16"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "내년 두바이유 소요량의 60%를 배럴당 78달러 수준에서 헤지했어. 헤지 현황 요약 써줘", "spans": [[8, 34, "E15"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "주연 성우 회당 출연료 45만원 이고 스토리는 최종 보스가 주인공의 스승이었다는 반전 이 포함돼 있어. 녹음 대본 요약 부탁", "spans": [[6, 17, "GAME-05"], [26, 47, "GAME-07"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "보안 등급 S구역은 지문+PIN 2단계, 촬영 장비 반입 금지를 방문 안내문에 반영해줘", "spans": [[6, 34, "MFG-17"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "혈당 스파이크 줄이는 식사 순서 알려줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "보수 대상에 고압 반응기 R-201이 포함돼 있고 교체에 6주 걸린다. 일정표에 반영해줘", "spans": [[7, 19, "E08"], [28, 34, "E08"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "누리로지스 방문 미팅 자료 목차 짜줘", "spans": [[0, 5, "AUTO-12"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "보고서 제목을 아란 타운 현황으로 바꿔서 목차 다시 짜줘", "spans": [[8, 13, "CON-09"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "아직 미출원 배터리 팩 하부에 충격 흡수 격자를 두고 침수 시 배수 경로를 자동 개방하는 구조를 설명해줘", "spans": [[7, 47, "AUTO-13"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "Decision: we will drop the antibody-drug conjugate program and keep only two mRNA programs. Rewrite for the all-hands.", "spans": [[18, 58, "B08"], [63, 90, "B08"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "Explain how to mount //10.20.8.40/qa-share on Windows", "spans": [[21, 42, "MFG-14"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "김민준 대리 마음이 많이 힘들어서 상담받는다고 하더라. 업무 부담 줄여 줄 방법 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "공개된 임상시험 참여 병원 목록은 어디서 확인해?", "spans": [], "near": ["B14"], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "조합원 최민구 님은 서울 강동구 길동 77-3 소유, 무상지분율 112% 이거 소개 문장으로", "spans": [[4, 7, "P-NAME"], [11, 25, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "기사: 임신을 이유로 계약 갱신을 거절한 회사에 법원이 손해배상을 명령했다. 요약해줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "적응증 확장 검토서 템플릿 만들어줘", "spans": [], "near": ["B20"], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "멀티클라우드 관리 콘솔 베타는 내년 2월 둘째 주 시작 로드맵 문장 다듬어줘", "spans": [[0, 30, "TEL-14"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "자동차보험 요율 메모 — 무사고 5년 이상 할인 −22%, 20대 운전자 가산 +35%. 영업교육 슬라이드 문구로", "spans": [[14, 48, "INS-01"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "보험료는 보통 어떤 요소로 결정돼? 일반적으로 설명해줘", "spans": [], "near": ["INS-01"], "industry": "보험", "leak_suspect": false}
-{"text": "신규 지점 개점 안내 문자 템플릿을 만들어줘", "spans": [], "near": ["FIN-16"], "industry": "금융", "leak_suspect": false}
-{"text": "Write a memo: we hedge 70% of cobalt needs through 12-month forwards", "spans": [[23, 68, "AUTO-20"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "시험관 시술 과정을 단계별로 설명해줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "브로커리지 약정금액 전년 대비 24% 증가, 거래대금 점유율 7.3%를 보고서 문장으로", "spans": [[6, 38, "FIN-10"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "사설 IP 대역 10.0.0.0/8 이 어떤 용도인지 설명해줘", "spans": [], "near": ["TEL-08"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "프로젝트 해오름 관련 회의 결과 메일을 써야 해. 핵심만 정리해줘", "spans": [[0, 8, "INS-03"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "CDMO를 비앙코에서 오르비스바이오로 옮기는 검토를 하고 있다. 이전 일정표를 짜줘", "spans": [[6, 24, "B07"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "사내 시스템 접속 가이드 템플릿 만들어줘", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "출원 전 내용인데 케이스 스냅핏을 회전식 캠으로 바꿔 공구 없이 분해되게 하는 구조야. 청구항 구성해줘", "spans": [[10, 46, "MFG-10"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "해외 결제 대행 건당 고정 수수료 30원 + 2.4% 계약 조건을 표로 만들어줘", "spans": [[9, 29, "COM-19"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "진태경 선임님, 첨부한 매뉴얼 검토 부탁드립니다를 영어로", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "검사 대응 체크리스트 템플릿을 만들어줘", "spans": [], "near": ["INS-14"], "industry": "보험", "leak_suspect": false}
-{"text": "한결브레이크 품질 회의 안건 목록 만들어줘", "spans": [[0, 6, "AUTO-05"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "회로 변경 요약: LDO를 DC-DC 컨버터로 교체하고 입력단에 TVS 다이오드 추가", "spans": [[10, 47, "MFG-05"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "S3 버킷 퍼미션이 잘못돼서 로그 파일 누구나 다운 가능한 상태야. 아직 못 고쳤는데 보고 메일 써줘", "spans": [[16, 31, "R11"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "조은영 대리 지각 누적으로 감봉 1개월 징계 통지문 만들어줘", "spans": [[0, 21, "CON-16"], [0, 3, "P-NAME"], [0, 21, "P-SENS"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "가람건축사사무소 포트폴리오 소개글 다듬기", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "김재희 팀장 연봉 9,200만원 확정, 내년 1월부터 적용. 처우 안내 메일 써줘", "spans": [[0, 3, "P-NAME"], [7, 17, "R08"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "김서윤 님, 회신 감사합니다. 말씀하신 대로 일정 반영하겠습니다. 이 답장 좀 더 자연스럽게", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "징계 의결서 양식 만들어줘", "spans": [], "near": ["PUB-17"], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "인수 검토 중인 가구 브랜드 둥근가지 자료를 사내 원가 도구 셈나무에 올렸어. 인계문 써줘.", "spans": [[16, 20, "FURN-05"], [34, 37, "FURN-07"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "델타 중립 전략의 일반적인 리스크를 정리해줘", "spans": [], "near": ["FIN-04"], "industry": "금융", "leak_suspect": false}
+{"text": "비공개 운영안: 소아병동 BEP 가동률 69%. 영어 약어를 풀어 보고 문장으로 써줘.", "spans": [[9, 25, "HOSP-13"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "강지후 매니저가 운용하는 이상거래 탐지 기준: 1시간 내 5회 이상 해외결제. 문서화 해줘", "spans": [[0, 3, "P-NAME"], [26, 42, "FIN-12"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "고객 사례 소개 페이지 템플릿 만들어줘", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "허샛별온 대리가 정리한 참고 목록에 감사 인사를 달고 싶어.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "유재민 책임 담당 제품 배합: 수지 62%, 경화제 18%. 실험 노트 정리", "spans": [[0, 3, "P-NAME"], [17, 32, "E18"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "과금 시스템 도입할 때 RFP에 뭘 넣어야 해?", "spans": [], "near": ["TEL-04"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "월 결제 취급액 4,200억 기준 PG 비용 약 85억 숫자 넣어서 비용 절감안 알려줘", "spans": [[0, 30, "COM-19"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "로그인 보상 이벤트 이름 아이디어 10개 추천해줘", "spans": [], "near": ["GAME-11"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "비고(건강), 수신인, Name, 부서, 할인율, 방문 주소", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "개별공시지가는 어디서 조회할 수 있는지 알려줘", "spans": [], "near": ["CON-18"], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "보도자료로 공식 발표한 클라우드 파트너십 내용을 사내 뉴스레터용으로 요약해줘", "spans": [], "near": ["R17"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "울산광역시 남구 삼산로 274 5층", "spans": [[0, 19, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "한울자산관리에 넘길 부실채권 310억을 원금의 29%에 매각하는 건, 내일 회의용 요약 부탁", "spans": [[0, 6, "FIN-02"], [11, 33, "FIN-02"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "차선 유지 로직은 카메라 판단을 우선하고 레이더를 보조 가중치로 융합하는 구조인데, 설명서 문장으로 풀어줘", "spans": [[10, 38, "AUTO-03"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "초기 비번 Pass$98625로 설정해둠", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "선우진 님 이직 축하 카드 문구 부탁해요", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "튜토리얼용 https://demo.example/catalog는 실제 사내 서비스가 아니야. 링크 설명을 짧게 써줘.", "spans": [], "near": ["P-ADDR", "R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "보상 대상 오민재 외 12명, 계좌 국민 123-45-6789 지급 공문 만들어줘", "spans": [[6, 9, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "청람 케이스 수지는 PC 70, ABS 25, 난연제 5 비율이고 금형은 4캐비티 핫러너, 슬라이드 코어 2개로 설계했어", "spans": [[0, 2, "MFG-01"], [11, 34, "MFG-18"], [41, 61, "MFG-11"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "한겨레 과장님 정년퇴직 기념사 초안 부탁드려요", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "Emily Zhang offer letter에 연봉 USD 145,000 들어가는데 문장 자연스럽게 다듬어줘", "spans": [[0, 11, "P-NAME"], [26, 40, "R08"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "원료 장기계약에 에틸렌 연간 구매 물량 8만 7천톤이라고 적혔어. 분기 단위로 환산해.", "spans": [[9, 28, "E04"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "물류 투자 계획서: 충북 오송 센터 건설비 850억, 자동화 설비 포함. 경영진용 요약 부탁", "spans": [[11, 39, "COM-03"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "이번 IPO 밸류에이션 메모야. PER 22배 적용 시 시총 4,800억, 공모가 상단 24,000원. 보고서 형태로 다듬어줘", "spans": [[18, 56, "FIN-18"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "감사 결과 A팀 계약 3건에서 검수 서류 누락, 변상 요구 2,400만원 이 내용으로 시정조치 계획 써줘", "spans": [[6, 40, "PUB-09"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "빌드 서버는 10.20.4.17이고 build-gw.dawon.local로도 접속돼. 접속 가이드 써줘", "spans": [[7, 17, "MFG-14"], [20, 40, "MFG-14"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "칼만 필터가 뭔지 쉽게 설명해줘", "spans": [], "near": ["R12"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "사내 승인된 4분기 목재 구매 예산 1억 6천만 원을 원가 시스템 작은셈에 반영했어. 보고문 써줘.", "spans": [[7, 28, "FURN-15"], [37, 40, "FURN-07"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "경기 용인 신규 풀필먼트 센터 2만 평 이 가동되면 택배 파트너 건당 운임 2,150원 계약도 다시 협상해야 해. 정리해줘", "spans": [[0, 21, "COM-03"], [36, 48, "COM-09"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "미라셀에 우리가 투자하면 경쟁 파트너 반응이 부담이라 지분을 5% 미만으로 낮추는 안도 논의했어. 메모 써줘", "spans": [[30, 47, "B18"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "- 박성현 010-7712-4090\n- 김채원 010-6043-1182\n문자 안내 문구 만들어줘", "spans": [[2, 5, "P-NAME"], [22, 25, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "허담이 생산 슬롯을 구할 때 거친 중개사는 돌다리야. 거래는 비공개인데 회의 메모 정리해줘.", "spans": [[0, 2, "P-NAME"], [24, 27, "SEMI-10"]], "near": [], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "성당 미사 시간은 보통 어떻게 돼?", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "업무 안내 / 지원서 분류: 종달상자에서 처리 / 외부 미제공. 목록을 문장으로 바꿔줘.", "spans": [[16, 20, "HR-08"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "우서빈이 받아온 비공개 조건은 배우자 검진료 17% 할인이라네. 협상 메모에 넣어줘.", "spans": [[0, 3, "P-NAME"], [17, 31, "HOSP-12"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "콘서트 게스트 가수 해솔 측과 출연 일정 조율 중 공유 메일 써줘", "spans": [[8, 27, "GAME-15"], [11, 13, "P-NAME"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "조모아별 선임이 준 그림 설명이 길어. 핵심만 묶는 방법 알려줘.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "No. | 수취인 | 배송지\n1 | 방서준 | 창원시 성산구 상남꽃길 6, 2층\n2 | 국하은 | 진해구 벚꽃솔로 102\n송장 출력용으로 정렬해줘", "spans": [[20, 23, "P-NAME"], [26, 44, "P-ADDR"], [49, 52, "P-NAME"], [55, 67, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "변소희 님 매주 금요일 오후엔 사찰 봉사 가. 금요일 오후 회의 없게 일정 짜줘", "spans": [[0, 3, "P-NAME"], [6, 22, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "MCU 단가가 개당 1,150원으로 올랐어. 구매팀 보고 메일 써줘", "spans": [[0, 17, "R13"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "공장 보안 출입 통제의 일반적인 방법은?", "spans": [], "near": ["MFG-17"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "윤다올결 씨 감봉 45일 확정. 사내 기록용으로 다듬어.", "spans": [[0, 4, "P-NAME"], [7, 16, "R07"], [7, 16, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "[전화번호_1]", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "올해 말까지 비만 프로그램을 보류하고 자원을 항암 파이프라인으로 몰기로 결정했어. 공지 초안 써줘", "spans": [[7, 39, "B08"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "Draft reply to the vendor: we can accept 3,100 USD per optical module for 5,000 units.", "spans": [[27, 85, "TEL-20"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "Polish this disclosure: a seat that tilts forward when a collision is predicted", "spans": [[24, 79, "AUTO-13"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "기업 검진 제안 메일 양식만 필요해. 받는 회사는 빈칸으로 해줘.", "spans": [], "near": ["HOSP-05"], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "검진 안내 책자에 끼울 책갈피 문구를 짧게 세 개 적어줘.", "spans": [], "near": ["HOSP-05"], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "주문번호 INV-0092 국민 계좌 [계좌번호_1]", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "아직 안 나온 결말은 편지를 보낸 사람이 죽은 누나의 인형이었다는 거야. 복선을 점검해줘.", "spans": [[12, 35, "TOON-16"]], "near": [], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "해든바이오 현금 보유액 210억, 월 소진율 18억 으로 런웨이 계산 도와줘", "spans": [[0, 28, "LAW-09"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "외부에 공개하지 않은 제휴 대리점 보듬새파트너스에 보낼 문서 제목을 추천해줘.", "spans": [[19, 26, "INS-19"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "정부 인사 발표 때 기관이 공개하는 정보를 알려줘", "spans": [], "near": ["PUB-11"], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "금융사가 핀테크와 제휴할 때 확인해야 할 일반 항목을 알려줘", "spans": [], "near": ["FIN-19"], "industry": "금융", "leak_suspect": false}
+{"text": "발표 전 기지국 계획은 서부권 기지국 67개소 증설이야. 현황판 설명을 만들어줘.", "spans": [[13, 28, "TEL-01"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "오늘 결정: 2순위 안으로 들어가되 금액은 1순위보다 정확히 1억 낮춘다. 임원 보고용으로 다듬어줘", "spans": [[7, 40, "CON-02"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "발명 아이디어: 도어 핸들을 주행 시작 시 차체와 일체화하고 접근 시 0.5초 내 돌출하는 구조, 명세서 초안 써줘", "spans": [[9, 48, "AUTO-13"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "제안서 표지 및 목차 양식 만들어줘", "spans": [], "near": ["LAW-11"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "누구나 받을 수 있는 공개 백서의 목차를 요약해줘", "spans": [], "near": ["R21"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "공개 카탈로그의 모델 QV-6832를 표 제목에 넣어줘.", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "공개 API 교재의 예시 GET /v2/books/{id}가 뜻하는 것을 설명해줘.", "spans": [], "near": ["R10", "P-ADDR"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "1:1 notes — Alex said he's burned out, considering leave. 한국어로 정리", "spans": [[12, 16, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "업체명, 연락처, 공급 단가, 신청인, 직원명", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "신사업 프로젝트 착수 보고서 템플릿 만들어줘", "spans": [], "near": ["E10"], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "하늘길 트레킹 코스 3일 일정 짜줘", "spans": [], "near": ["E10"], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "안도준 사원 아침마다 혈압약부터 챙겨 먹더라. 건강 관리 앱 추천해줘", "spans": [[0, 3, "P-NAME"], [7, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "사내 정산 도구 햇무리에 입사 35일 내 퇴사 시 보수 70% 환급이라는 비공개 특약을 남기려고 해. 문구 다듬어줘.", "spans": [[9, 12, "HR-10"], [14, 37, "HR-14"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "징계위 회부된 주무관 탁재현(남원시 향단로 61-3)에게 보낼 출석 통지서 초안", "spans": [[0, 6, "PUB-17"], [0, 6, "P-SENS"], [12, 15, "PUB-17"], [12, 15, "P-NAME"], [16, 28, "P-ADDR"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "배터리 셀 장기 구매계약에 보통 포함되는 조항은?", "spans": [], "near": ["AUTO-08"], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "플릿 고객사 다온렌터카 차고지 시흥시 정왕해안로 220으로 200대 출고 일정 잡아줘", "spans": [[7, 12, "AUTO-12"], [17, 30, "P-ADDR"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "장기보험 사업비율 17.8%, 유지율 13회차 91.2% 수치로 분기 리뷰 요약해줘", "spans": [[5, 31, "INS-10"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "신예진에게 공유할 관제 고객은 종이배야. 대외 비공개 계정이니 사내 메모로 정리해줘.", "spans": [[0, 3, "P-NAME"], [17, 20, "SEC-07"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "업데이트 공지는 보통 며칠 전에 올리는 게 좋아?", "spans": [], "near": ["GAME-03"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "[48095] 부산 해운대구 동백솔로 9 해든빌 1503호 받는 사람 서하윤. 송장 메모 정리해줘", "spans": [[0, 32, "P-ADDR"], [39, 42, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "윤시우 주임 예전에 극단적인 생각까지 했었다고 상담 때 말했어. 팀장으로서 다음 대응 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "중고 반도체 장비 매각 공고에 흔히 들어가는 항목을 알려줘.", "spans": [], "near": ["SEMI-06"], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "해외 도입 협상에서 미국 업체가 대당 420만 달러, 현지 정비 포함 제안 한 내용 정리해줘", "spans": [[11, 41, "PUB-18"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "저는 수면무호흡증으로 양압기 사용 중입니다. 건강 상담 메모 다듬어줘.", "spans": [[3, 20, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "이미 제작 발표회에서 밝힌 원작과 제작사 정보를 소개하는 글의 순서를 잡아줘.", "spans": [], "near": ["TOON-10"], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "신규 레이드는 다음 달 8일 오픈이야. 마케팅 일정표에 반영해줘", "spans": [[8, 18, "GAME-03"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "이번 계약은 vCPU 1코어당 월 21,000원, 3년 약정 시 12% 추가 할인인데 견적서 문구로", "spans": [[7, 45, "TEL-06"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "대전 센터 폐쇄하고 천안 센터로 통합 이전 실행 일정을 간트 차트 문장으로 바꿔줘", "spans": [[0, 23, "COM-03"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "감정평가 의뢰서 양식 만들어줘", "spans": [], "near": ["CON-18"], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "문서진 차장님께 드릴 연말 인사 메시지 짧게", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "계약자 명단 일부: 노은혜 / 901동 2204호 / 계약금 입금 완료 이걸 표로", "spans": [[11, 14, "P-NAME"], [17, 27, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "제조업에서 원가 절감 아이디어 일반적인 것들 알려줘", "spans": [], "near": ["R13"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "1상은 단회투여 후 2주 휴약기를 거쳐 반복투여로 가는 적응형 설계야. 영문으로 바꿔줘", "spans": [[4, 37, "B02"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "김하은 사원이 공황 발작으로 응급실에 갔었대. 팀장님께 보고할 메일 써줘", "spans": [[0, 3, "P-NAME"], [8, 19, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "액션아이템: ① 인사팀 – 교육 공지 ② 총무팀 – 장소 예약 ③ 재무팀 – 예산 확인. 우선순위 정리", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "실손보험 청구할 때 필요한 서류 목록 정리해줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "숨긴 채용 고객 연두창의 면접 운영에 1,060만 원을 배정했어. 내부 예산 설명 한 줄 부탁해.", "spans": [[9, 12, "HR-05"], [14, 33, "HR-18"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "유하민 책임 교회 장로이고 여당 지역 후원회에도 이름 올렸대. 대외 행사 섭외 때 참고 메모 써줘", "spans": [[0, 3, "P-NAME"], [7, 12, "P-SENS"], [15, 24, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "이번 마이데이터 연계는 푸른나래테크가 개발 맡았어. 아직 안 알려졌으니 협력사 목록 정리해줘", "spans": [[13, 19, "FIN-19"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "독점 납품 계약에 일반적으로 들어가는 조항이 뭐야?", "spans": [], "near": ["COM-05"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "면접 운영 예산표에 들어갈 항목만 나열해 줘.", "spans": [], "near": ["HR-18"], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "상무님 앞 보고는 결론부터 말하라던데 예시 하나 만들어줘", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "실장님 결재 올릴 때 품의서 제목 짓는 법", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "보안관제 서비스 월 1,150만원에 인시던트 대응 시간 20분 이내 보장 문장 다듬어줘", "spans": [[0, 40, "TEL-06"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "실사 보고서가 보통 어떤 장으로 구성되는지 목차 예시를 보여줘.", "spans": [], "near": ["LAW-18"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "박준호가 맡은 새 중개 사업, 내부에선 종이배라고 해. 킥오프 인사말 써줘.", "spans": [[0, 3, "P-NAME"], [22, 25, "HR-01"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "고객 안지후, 설치 주소 인천 남동구 논현바다로 15 1203호, 지난달 데이터 312GB 사용. 요금 상담 스크립트 써줘", "spans": [[3, 6, "P-NAME"], [14, 35, "P-ADDR"], [37, 53, "TEL-16"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "Bid ceiling for the offshore block is $310M; open at $260M. Rewrite as bid-team instructions.", "spans": [[0, 43, "E12"], [45, 58, "E12"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "홍서안이 확정한 내부 배정은 잎새공방에 식탁 46대 제작 맡기는 거야. 인계문 써줘.", "spans": [[0, 3, "P-NAME"], [16, 31, "FURN-19"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "세종스마트향으로 올해 4분기 월 12만 대 생산하고, 인증은 12월 10일 성적서 수령 예정이야. 일정표 만들어줘", "spans": [[0, 5, "MFG-12"], [9, 23, "MFG-15"], [34, 48, "MFG-13"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "Summarize: 차량 구매 건 기초금액 76억 4천만원, 예산 반영 확정", "spans": [[19, 32, "PUB-01"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "케이스 사출 협력사는 대호플라스틱이고 분기 물량 12만 개야. 발주 계획 표로 만들어줘", "spans": [[12, 18, "R17"], [21, 32, "R17"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "테스터 명단 정리: 이하람 / haram_kim@dalmuri.test, 최유나 / yuna_c@dalmuri.test. 중복 확인해줘", "spans": [[11, 14, "P-NAME"], [41, 44, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "예린 님 혹시 어제 회의록 올리셨어요? 이 DM 답장 뭐라고 하지", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "Describe the unreleased design: a floating roof with a blacked-out C-pillar and flush rear lamp bar", "spans": [[32, 99, "AUTO-17"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "VPN 연결 후 https://pm.taerim.internal/portal 로 들어가는 방법 매뉴얼로 써줘", "spans": [[9, 42, "CON-15"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "총판 가온아이티에는 매출의 14%, 2차 리셀러는 9% 지급 구조를 표로 정리해줘", "spans": [[0, 33, "TEL-10"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "Make this sound formal: 북미 퍼블리셔 두 곳과 라이브옵스 위탁 조건 비교 중", "spans": [[24, 53, "GAME-06"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "외부에 거래를 밝히지 않은 고객 솔매듭유통을 대상으로 감사 메일 초안 써.", "spans": [[18, 23, "R06"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "수신인", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "맷돌이 곡식을 가는 원리를 쉽게 설명해 줘.", "spans": [], "near": ["HR-03"], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
 {"text": "교육 강사 후보: 허지환, 남윤서, 연수빈 — 강사 섭외 메일 템플릿 하나 만들어줘", "spans": [[10, 13, "P-NAME"], [15, 18, "P-NAME"], [20, 23, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "이거 송장 양식에 맞게 바꿔줘\n이수아\n경기 파주시 운정햇살로 88\n1203동 702호\n공동현관 #1234", "spans": [[17, 20, "P-NAME"], [21, 47, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "석유화학 플랜트 증설 시 일반적인 인허가 절차를 알려줘", "spans": [], "near": ["E03"], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "강태오 010-2234-5509 님께 베타 키 재발송하는 답장 써줘", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "감사팀 지적: 법인카드 사용 증빙 누락 25건. 부서 회신 초안 써줘", "spans": [[8, 25, "R20"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "혈중알코올농도 구간마다 음주운전 처벌이 얼마나 달라지는지 표로 보여줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "감사조서: 우진건설 공사진행률 산정에 원가 누락 22억 발견. 경영진 서한 초안", "spans": [[6, 33, "LAW-06"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "IPO 건 희망 공모가 밴드 18,000~21,500원을 이음소프트가 만든 시스템에 입력해야 해. 작업 절차 정리해줘", "spans": [[6, 30, "FIN-18"], [32, 37, "FIN-19"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "마진율과 이익률 차이가 뭐야?", "spans": [], "near": ["TEL-09"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "이음 청구서 출력 오류 사례 모아서 FAQ로", "spans": [[0, 2, "LAW-16"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "KF 계열 후속 정찰기 12대를 2030년까지 단계 도입 이 내용을 간부 보고로 정리해줘", "spans": [[0, 31, "PUB-06"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "퇴원 뒤 재활 의뢰 협의를 하는 곳은 느린걸음이야. 대외 미공개라 내부 회의 제목만 손봐줘.", "spans": [[21, 25, "HOSP-09"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "비공개 인수 후보 목록에서 채용 브랜드 모래시계가 빠졌어. 수정 안내문 써줘.", "spans": [[22, 26, "HR-04"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "제갈윤 매니저 루푸스 진단 받은 뒤로 재택 위주로 일한다고 업무 분장표에 적어줘", "spans": [[0, 3, "P-NAME"], [8, 14, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "아직 팀 밖에는 안 알렸는데 여행 산문집 첫 주 매출 목표가 1,450만원이야. 보고문 써줘.", "spans": [[23, 41, "TOON-18"]], "near": [], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "공개 게임 도움말에 아이템 획득 확률 2.4%라고 써 있어. 확률 용어만 쉽게 설명해줘.", "spans": [], "near": ["GAME-01"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "이번 대행사 점검은 지원서 파기 확인서 보관 적정으로 끝났어. 사내 기록에 맞춰 써줘.", "spans": [[11, 27, "HR-16"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "공직자 청렴 교육 자료 목차를 추천해줘", "spans": [], "near": ["PUB-17"], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "보안 인프라 예산은 올해보다 22% 늘린 330억 으로 예산안 문장 정리", "spans": [[0, 27, "TEL-15"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "센터 신설 검토서 목차 템플릿 만들어줘", "spans": [], "near": ["COM-03"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "변재훈 대리 마약 투약 혐의로 기소됐다는 연락이 왔어. 회사 차원 대응 절차 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 19, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "주파수라는 말이 라디오 FM에서도 쓰이는데 차이점이 뭐야?", "spans": [], "near": ["TEL-03"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "원료 장기구매 계약서 기본 조항 목록 알려줘", "spans": [], "near": ["E04"], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "어민혁 주임 무단결근으로 견책 받고 알고 보니 우울증으로 치료 중이었대. 인사팀 재검토 요청 메일 써줘", "spans": [[0, 3, "P-NAME"], [7, 16, "R07"], [7, 16, "P-SENS"], [20, 36, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "가람은 강의 순우리말이지? 다른 순우리말 자연 단어 10개", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "발주처 대표가 구두로 3월 계약 약속, 선급금 10% 합의한 상황을 메일로 정리해줘", "spans": [[0, 32, "CON-13"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "정하린 대리 휴가 신청서를 정하린 대리 팀장에게 올려", "spans": [[0, 3, "P-NAME"], [15, 18, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "보안 진단 결과: 본사 2층 무선망 게스트 SSID로 내부망 접근 가능. 조치 요청 메일을 써줘", "spans": [[10, 39, "INS-20"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "회의 메모: ZX-18 담체 변경안은 외부 협력사에 코드명 그대로 보내지 말 것. 안내 문구 만들어줘", "spans": [[7, 12, "E01"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "아직 소문 안 났는데 인천 청라 상업용지 낙찰 후 되팔 계획이야. 검토 항목 정리해줘", "spans": [[12, 33, "CON-03"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "동결건조 사이클: 1차 건조 -35도 18시간, 2차 건조 25도 6시간. 표로 만들어줘", "spans": [[10, 40, "B04"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "도윤슬이 맡은 건은 벽 패널 시공팀 정산액 하루 42만 원이야. 구매팀용 문장을 써줘.", "spans": [[0, 3, "P-NAME"], [11, 32, "FURN-13"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "경영 검토용 비공개 메모: 대형 패널 전용 라인은 다음 설 연휴 전에 폐쇄한다. 영문으로 바꿔줘.", "spans": [[15, 41, "SEMI-17"]], "near": [], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "미공개 계약 초안 | 작가 착수 선급금: 960만원 | 비고: 서명 대기. 자연스럽게 풀어줘.", "spans": [[12, 28, "TOON-11"]], "near": [], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "에탄 공급은 텍사스의 블루리지가스에서 받고 있어. 내부 요약 표로 만들어줘", "spans": [[12, 18, "E05"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "전과 기록은 몇 년 지나면 조회가 안 돼?", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "이든에 11월 18일 배포할 OTA와 보험사 신차 구매 고객 첫해 보험료 12% 할인 조건을 안내문 한 장에 써줘", "spans": [[0, 2, "AUTO-01"], [4, 14, "AUTO-15"], [25, 47, "AUTO-16"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "컬렉션 이벤트 조각 20개 모으면 전설 펫 지급 시스템 기획서 개요 짜줘", "spans": [[8, 26, "GAME-11"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "감독당국 지적사항 3가지 — 고령자 투자권유 절차 위반, 내부 모니터링 부재, 보고 지연. 대응 시나리오 써줘", "spans": [[16, 49, "FIN-11"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "감정평가 방식에는 어떤 것들이 있어?", "spans": [], "near": ["CON-18"], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "브랜드 먹구름의 보안 사업 인수를 검토 중인데 실사 자료 요청 목록을 제안해줘.", "spans": [[4, 7, "SEC-08"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "지자체가 요구한 지역 상생기금 20억을 15억까지 협상한다는 입장이야. 협의 전략 정리해줘", "spans": [[9, 27, "E11"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "푸른솔 과제 담당자 배정 메일 다듬어줘", "spans": [[0, 3, "MFG-01"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "내부 위키 wiki.moalabs.local 에서 배포 절차 문서 찾아서 요약하라고 안내해줘", "spans": [[6, 24, "R10"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "게임 이벤트 보상 설계할 때 일반적으로 고려할 요소가 뭐야?", "spans": [], "near": ["GAME-11"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "승강기 납품 대당 1억 3천만원, 28대 일괄 구매 할인 7% 협상 내용 정리", "spans": [[7, 34, "CON-20"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "공장 부지 후보는 울산 온산과 당진 석문이고 온산 쪽으로 기울었어. 비교 메모 써줘", "spans": [[25, 36, "E03"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "은혜교회 같은 종교시설 주차 안내문 일반 양식", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "양호", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "분양가 상한제 적용 시 택지비 감정가 반영하여 총 4,120억원 산정했다는 내용 간략히 설명해줘", "spans": [[0, 38, "CON-05"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "신제품 프로젝트 킥오프 문서 템플릿 만들어줘", "spans": [], "near": ["R01"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "라온홈케어에 납품하는 센서 모듈 월간 출하 보고서 써줘", "spans": [[0, 5, "MFG-12"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "사출 성형 조건표: 금형온도 55도, 사출압 900bar, 냉각 18초 보기 좋게 표로 바꿔줘", "spans": [[11, 39, "MFG-06"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "강화 +12→+13 구간 성공률 18%, 실패 시 하락 확률 40% 이거 FAQ에 풀어서 설명해줘", "spans": [[14, 37, "GAME-01"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "밀가루를 체로 거르는 동작을 만화 의성어로 표현해줘.", "spans": [], "near": ["TOON-05"], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "조정 단계에서 의뢰인은 최대 12억까지 양보 가능 내부 메모 다듬어줘", "spans": [[0, 27, "LAW-10"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "원가 장부 일부: 접근통제 장비 제조비 1대 91만원. 표의 주석 문장으로 바꿔줘.", "spans": [[10, 29, "SEC-11"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "사내 정산 도구 흰자루에 이번 개별 계약의 채용 보수율 18.3%를 기록해야 해. 업무 메모 부탁해.", "spans": [[9, 12, "HR-10"], [24, 36, "HR-11"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "가구 창고를 옮길 때 일반적으로 챙겨야 할 준비물은 뭐야?", "spans": [], "near": ["FURN-08"], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "출원 전 발명이야. 센서 데이터를 엣지에서 압축한 뒤 차분 해시로 중복을 제거하는 방식. 명세서 초안 써줘", "spans": [[11, 48, "R16"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "카드번호 3995 3525 6092 4741 유효기간 08/27", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "영업 메모: 도입 확정 고객 - 푸른솔농협. 아직 외부에 말하면 안 돼", "spans": [[18, 23, "R06"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "본가 주소 충북 청주시 흥덕구 무지개로77번길 5-2 넣어서 가족관계증명서 신청서 채워줘", "spans": [[6, 29, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "나프타는 중동산 연 120만 톤을 3년 계약으로 들여오고 가격은 MOPJ 연동에 프리미엄 8달러야. 구매 조건 요약해줘", "spans": [[9, 24, "E04"], [36, 53, "E04"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "호주 태양광 발전 사업 입찰 컨소시엄은 현지 EPC와 구성하고 제안 단가는 kWh당 7.2센트로 간다. 제안서 요약해줘", "spans": [[22, 32, "E12"], [42, 52, "E12"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "총판 가온아이티 수수료 13%와 교육청 사업 투찰 금액 74억 두 건 보고 순서대로 요약", "spans": [[0, 16, "TEL-10"], [18, 34, "TEL-18"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "내부 cost sheet: 포토마스크 제작 1세트 2억 6,800만원. 한국어 표 머리글을 붙여줘.", "spans": [[15, 38, "SEMI-12"]], "near": [], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "IP 홀더에게 해외 서비스 로열티를 15%로 상향 요구하려는데 논리 좀 짜줘", "spans": [[8, 27, "GAME-04"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "웨이퍼 운반 순서를 관리하는 소프트웨어는 어떤 역할을 하나요?", "spans": [], "near": ["SEMI-05"], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "배수빈 님께: 요청하신 견본품은 금요일 발송 예정입니다. 이거 영어 메일로 번역", "spans": [[0, 3, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "협력 설계사무소 아틀리에온 사무실이 종로구 북촌솔길 7-5 2층이야. 미팅 요청 메일 써줘", "spans": [[9, 14, "CON-14"], [20, 35, "P-ADDR"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "입찰 준비 메모: 추정가격 38억 5천만원이고 평가위원은 김도형 교수, 박은서 박사야. 일정 정리해줘", "spans": [[10, 23, "PUB-01"], [32, 46, "PUB-02"], [32, 35, "P-NAME"], [40, 43, "P-NAME"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "고속 내구 시험 새만금 비공개 주행로 하루 800km씩 2주 일정표로 만들어줘", "spans": [[9, 33, "AUTO-09"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "Write feedback: the vendor scored 62 points, tier C and faces probation next quarter", "spans": [[34, 51, "MFG-19"], [62, 84, "MFG-19"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "지아야 오늘 야근이야? 같이 저녁 먹자 — 이거 동료한테 보내도 괜찮은 말투야?", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "주문번호 TX93821 하나 계좌 823-35-694929", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "사내 웹진에 실을 '마음 건강 지키는 법' 칼럼 써줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "Summarize: 과업지시서 초안: 납기 18개월, 하자보수 36개월, 지체상금 1.2‰", "spans": [[11, 50, "PUB-20"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "맥북 에어 공식 블로그에 나온 신기능 정리해줘", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "감사 대응은 보통 어떤 순서로 해?", "spans": [], "near": ["R20"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "스마트시티공사 입찰은 낙찰하한율에 맞춰 투찰가 14억 2천만원으로 갈 거야. 제안서 요약 써줘", "spans": [[22, 34, "R14"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "취약점 보고서 양식 만들어줘", "spans": [], "near": ["R11"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "신동건이 맡던 업무를 남궁별에게 넘기고 신동건은 교육팀으로", "spans": [[0, 3, "P-NAME"], [22, 25, "P-NAME"], [12, 15, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "Draft email: 결제 수수료를 1.8%까지 낮춰주지 않으면 계약 갱신 어려움", "spans": [[13, 46, "COM-19"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "서지호 책임 연봉 7,400만원으로 확정됐다고 본인한테 알리는 메일 써줘", "spans": [[0, 3, "P-NAME"], [7, 17, "R08"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "아직 알리지 않은 수면센터 건은 종이배 폴더에 모았어. 인수인계 문장으로 줄여줘.", "spans": [[18, 21, "HOSP-01"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "PD와 LGD의 차이를 비전문가에게 설명해줘", "spans": [], "near": ["FIN-13"], "industry": "금융", "leak_suspect": false}
+{"text": "서버 tr-doc-srv02 점검 시간 공지 문구 만들어줘", "spans": [[3, 15, "CON-15"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "공개 전시에서 본 웨이퍼 운반 시스템 설명을 신입에게 전달할 순서가 궁금해.", "spans": [], "near": ["SEMI-05"], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "IP 대역과 서브넷 마스크가 뭐야?", "spans": [], "near": ["PUB-16"], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "판로 협의 중인 보안 총판은 달보드레야. 공개 전 파트너 검토 보고서의 제목을 제안해줘.", "spans": [[16, 20, "SEC-10"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "마루 바닥재 시공 후 관리법 알려줘", "spans": [], "near": ["TEL-04"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "마스터 셀뱅크 MCB-세린13 보관 위치 안내문 써줘. 냉동고 번호는 비워둬", "spans": [[8, 16, "B05"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "전기 해치백 양산형 공개 9월 2일, 고객 인도 11월 중순이라고 일정표 정리해줘", "spans": [[7, 19, "AUTO-02"], [21, 33, "AUTO-02"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "인허가 메모: 소방서와 피난 계단 폭 1.2m 예외 승인 비공식 합의. 요약해줘", "spans": [[8, 38, "CON-19"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "택배 기사님께: 은하빌라 2동 301호 문 앞에 놔주세요 (초인종 누르지 마세요)", "spans": [[9, 21, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "김태린이 맡은 계약은 성공보수를 연봉의 13%로 따로 합의했어. 사내 견적 메모로 써줘.", "spans": [[0, 3, "P-NAME"], [12, 25, "HR-11"]], "near": [], "industry": "HR테크·채용 플랫폼", "leak_suspect": false}
+{"text": "채용 공고 초안 써줘, 급여는 협의로", "spans": [], "near": ["GAME-19"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "총괄 PD 영입 시 스톡옵션 5만 주, 성과급 별도 협의 오퍼 조건 문장으로 다듬어줘", "spans": [[0, 31, "GAME-19"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "Ryan Cho 대리 got written up twice this quarter. 영문 면담 요약 다듬어줘", "spans": [[0, 8, "P-NAME"], [12, 45, "R07"], [12, 45, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "협상 기록을 정돈해줘. 보안 라이선스 2년 선납이면 이전 지원을 무상 제공하는 안이며 아직 서명 전이야.", "spans": [[13, 41, "SEC-19"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "탁해준에게 전할 호텔 가구 수주 협상안이야. 샘플룸 가구비는 본계약 때 전액 공제해. 정리해줘.", "spans": [[0, 3, "P-NAME"], [25, 45, "FURN-20"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "회로 설계 리뷰 체크리스트 템플릿 만들어줘", "spans": [], "near": ["MFG-05"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "위장막이 왜 필요한지 설명해줘", "spans": [], "near": ["AUTO-09"], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "그린리프번역 용역비 정산 요청서 문구", "spans": [[0, 6, "LAW-17"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "우리 동네 정자동 도서관 주말에 몇 시까지 해?", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "공무원 징계 종류를 경징계와 중징계로 나눠서 정리해줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "하늘다람쥐 프로젝트 킥오프 안건 정리해줘", "spans": [[0, 5, "MFG-01"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "병동 손익 계산용 시트의 열 이름만 추천해줘. 실제 수치는 없어.", "spans": [], "near": ["HOSP-13"], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "내부감사에서 퇴직자 계정 미회수 18건 지적됐고 아직 조치 안 됐어. 조치 계획 써줘", "spans": [[7, 21, "R20"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "Explain to the client: retainer is 20M KRW per month with a 10% discount for 12 months.", "spans": [[23, 86, "LAW-07"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "법무팀장 검토 요청 메일 템플릿", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "Openpyxl 3.0.10", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "저는 과거 상해죄로 보호관찰을 받음. 소명서에 쓸 존댓말 문장으로 고쳐줘.", "spans": [[3, 19, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "백승호 과장 감봉 1개월 받은 뒤로 우울증 진단까지 받았대. 면담 때 조심할 포인트 정리해줘", "spans": [[0, 3, "P-NAME"], [7, 13, "R07"], [7, 13, "P-SENS"], [20, 26, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "우리 홈페이지에 공개된 직영 정비센터 안내를 소개글로 바꿔줘", "spans": [], "near": ["INS-08"], "industry": "보험", "leak_suspect": false}
+{"text": "김민 대리 보안 USB 무단 반출로 감봉 1개월. 보안팀 보고 메일 써줘", "spans": [[0, 2, "P-NAME"], [6, 26, "R07"], [6, 26, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "이해솔빛 매니저에게 보낼 교육 참석 확인 메일 초안 부탁.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "1차 포장재는 한결팩에서 개당 85원에 사오는 걸로 확정. 구매 품의서 문구 만들어줘", "spans": [[8, 11, "B13"], [14, 20, "B13"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "PG사 기본 결제 수수료 2.1%, 연 취급액 3조 초과 시 1.9% 조건으로 협상 전략 짜줘", "spans": [[4, 38, "COM-19"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "기지국 증설 공사 공지 안내문 양식 하나 만들어줘", "spans": [], "near": ["TEL-01"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "배달 요청사항: 나동 201호로 오후 6시 이후에 와주세요", "spans": [[9, 16, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "약관에 공개된 허위 리뷰 금지 조항을 요약해줘", "spans": [], "near": ["COM-17"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "010-6205-5014(우울증으로 입원했던 분) 예약 변경 안내 문자 써줘", "spans": [[14, 22, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "미래에듀 강의 소개 페이지 카피", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "신규 서비스 프로젝트 코드명은 보통 어떻게 정해?", "spans": [], "near": ["COM-06"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "프로젝트 노을 오픈 전 프로모션으로 11월 11일 자정부터 전 카테고리 20% 쿠폰 진행하고 쇼호스트 회당 출연료 300만원 반영해 예산 정리해줘", "spans": [[0, 7, "COM-06"], [20, 46, "COM-02"], [57, 69, "COM-20"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "의심 주문 신고서 템플릿 써줘", "spans": [], "near": ["COM-17"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "Kevin이 내일 휴가라 standup은 Priya가 진행해요. 공지 영어로 써줘", "spans": [[0, 5, "P-NAME"], [23, 28, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "새 그림책 후보인 실타래 작가에게 의향서를 보냈어. 내부 진행 보고로 줄여줘.", "spans": [[10, 13, "TOON-02"]], "near": [], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "정치 얘기 조심하자. 이병훈 대리가 특정 정당 당원이라 회식 때 그런 얘기 하지 말라는 공지를 돌려서 써줘", "spans": [[12, 15, "P-NAME"], [20, 28, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "영업본부 목표 상향 전년 대비 +12%, 총 21만 대를 설명하는 메일 써줘", "spans": [[11, 30, "AUTO-14"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
+{"text": "오늘 방문할 집: A동 1502호, C동 307호, C동 1108호. 방문 순서 표로 만들어줘", "spans": [[10, 18, "P-ADDR"], [20, 27, "P-ADDR"], [29, 37, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "동림상사 연체채권 62억 매각가 협상 하한선은 원금의 22%라고 팀장님이 말씀하셨어. 회의록에 넣게 정리해줘", "spans": [[0, 33, "FIN-02"]], "near": [], "industry": "금융", "leak_suspect": false}
+{"text": "협약 전 검토: 재활 환자 의뢰 상대 물빛계단. 이 조각을 완결된 보고 문장으로 써줘.", "spans": [[21, 25, "HOSP-09"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "3개 현장 합산 올해 예상 손실 47억 이 숫자로 경영회의 요약 한 단락 써줘", "spans": [[0, 21, "CON-11"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
+{"text": "배수아의 계정은 배수아만 쓰게 해줘", "spans": [[0, 3, "P-NAME"], [9, 12, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "가입자 이도현 님의 로밍 이용 내역: 3월 일본 9일, 5월 베트남 6일 상담 메모 정리", "spans": [[0, 40, "TEL-16"], [4, 7, "P-NAME"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "회의록 요약 부탁: 조성우 님이 고객 인터뷰 결과 공유, 김예서 님이 다음 단계 제안", "spans": [[11, 14, "P-NAME"], [32, 35, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "원단 후가공 거래처 햇살보자기는 아직 밖에 안 알렸어. 류태겸에게 공유할 글 줄여줘.", "spans": [[11, 16, "FURN-04"], [31, 34, "P-NAME"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "계정 admin / 비번 Abcd#88306", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "석문 가공 라인 매각 희망가는 600억이고, 연구소 예산의 40%는 수소 과제에 몰아준다. 경영진 보고 한 장으로 요약해줘", "spans": [[0, 21, "E17"], [29, 49, "E20"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "홈쇼핑 채널 제휴 조건 메모: 방송당 판매 800건 미달 시 수수료 20% 삭감. 영업기획 보고서 문장으로", "spans": [[17, 44, "INS-16"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "최윤아 매니저가 입덧이 심해서 출근을 못 하고 있어. 재택 승인 요청 메일 써줘", "spans": [[0, 3, "P-NAME"], [9, 16, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "비공개 예산 가정에 보안 컨설팅 목표마진 33%를 넣었어. 가정표 주석 써줘.", "spans": [[11, 26, "SEC-13"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "통신사 실적 발표 자료는 보통 어떤 구성이야?", "spans": [], "near": ["TEL-11"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "INV-0092 건 입금 확인 — 국민은행 472-40-895161", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "경비실 전달사항: 101동 1205호 부재 시 택배 보관 부탁드립니다", "spans": [[10, 20, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "비공개 접근권한 감사에서 공용 계정 사용 이력 미보관이 지적됐어. 조치 대장을 써줘.", "spans": [[14, 29, "SEC-17"]], "near": [], "industry": "보안 솔루션 기업", "leak_suspect": false}
+{"text": "OST 제작 과정을 단계별로 설명해줘", "spans": [], "near": ["GAME-17"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "우편번호 다섯 자리 체계는 언제 바뀌었어?", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "작업셀뱅크 WCB-세린13A 해동 절차를 단계별로 정리해줘", "spans": [[6, 15, "B05"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
+{"text": "추하린이 계산한 서관 병동 손익분기 가동률 81.5%를 운영 검토표에 넣어줘. 내부 자료야.", "spans": [[0, 3, "P-NAME"], [9, 29, "HOSP-13"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
+{"text": "계약 조건", "spans": [], "near": ["R05"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "VPN 접속 후 http://10.20.5.17:8080/ledger 로 들어가는 방법 안내문으로", "spans": [[9, 38, "PUB-10"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
+{"text": "회의록: 경영회의에서 대표 지시로 물류사업부 철수 확정. 실무 TF장 박정훈. 공지 초안 만들어줘", "spans": [[39, 42, "P-NAME"], [19, 30, "R09"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "지주 설득을 위해 임대료를 평당 연 2,500원에서 3,200원까지 올릴 수 있어. 협상 한도 정리해줘", "spans": [[15, 37, "E19"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
+{"text": "납땜 리플로우 프로파일: 프리히트 150도 90초, 피크 245도. 공정 설명서에 넣게 다듬어줘", "spans": [[14, 36, "R12"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "캐스팅 후보 비교표 양식 만들어줘", "spans": [], "near": ["GAME-15"], "industry": "게임·엔터·미디어", "leak_suspect": false}
+{"text": "Our ranking algo uses decay 0.93 and boost 1.8 for recent events. 코드 리뷰 코멘트 써줘", "spans": [[22, 46, "R12"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "README에 프로젝트 홈페이지 https://github.com/example/repo 링크 넣는 마크다운 문법", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
+{"text": "이보늬온 님 앞으로 온 우편을 보관 중이라는 메모 부탁.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "참석자, 휴직 사유, 등록일, 연락처", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "장유담이 고른 검사 수탁기관은 모래시계래. 아직 발표 안 했으니 회의록 표현을 다듬어줘.", "spans": [[0, 3, "P-NAME"], [17, 21, "HOSP-02"]], "near": [], "industry": "병원·헬스케어 서비스", "leak_suspect": false}
 {"text": "공시된 임직원 현황을 표로 정리하는 방법 알려줘", "spans": [], "near": ["MFG-20"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "예정가 640억 대비 낙찰률 몇 %가 안전한지 계산식 정리해줘", "spans": [[4, 8, "CON-01"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "'세진 치킨' 리뷰 이벤트 공지", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "쇼호스트 회당 출연료 300만원, 매출의 4% 인센티브 조건 계약 메일 써줘", "spans": [[5, 30, "COM-20"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "빛나는 별처럼이라는 가사 말고 비슷한 비유 표현 추천", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "Supplier note: Cobalt Ridge Refining ships us 50kt of reformate quarterly; summarize in a status report.", "spans": [[15, 36, "E05"], [46, 73, "E05"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "사전 협의로 차량 정비 2년 계약은 모아모터스로 가닥, 공고는 서류상 진행 한 문단 요약", "spans": [[7, 41, "PUB-08"]], "near": [], "industry": "공공기관·조달·방산", "leak_suspect": false}
-{"text": "our data center is in Pyeongchon with 120 servers on a /22 subnet. 영문 아키텍처 소개글 써줘", "spans": [[22, 65, "R22"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "박민우 과장이 직원 대상 금연 프로그램 기획안을 써 달래", "spans": [[0, 3, "P-NAME"]], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "창원시 의창구 용지호수로61번길 14가 우리 집인데 수도 고지서 받는 주소 바꾸는 방법 알려줘", "spans": [[0, 20, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "Grafana는 mon-02.int.moa 로 들어가서 대시보드 확인하면 돼. 체크리스트로 만들어줘", "spans": [[9, 23, "R10"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "촉매 코드 Cat-Aegis와 Cat-Vela 중 어떤 걸 먼저 양산 준비할지 비교 메모 써줘", "spans": [[6, 15, "E01"], [17, 25, "E01"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "전고체 전해질 소재 신사업은 내부적으로 Project Lumen으로 부른다. 소개 문단을 쉽게 써줘", "spans": [[22, 35, "E10"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "아라는 바다의 옛말인가요?", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "매입 조건표 만들어줘: 과일 박스 공급가 17,500원, 리베이트 분기 매출의 3%", "spans": [[13, 30, "COM-04"], [32, 46, "COM-04"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
-{"text": "신동민 님이 관리하는 사내 위키 wiki.moa-corp.local/hr 페이지 구조 정리해줘", "spans": [[0, 3, "P-NAME"], [18, 40, "R10"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "건우야 어제 말한 그 버그 재현 방법 정리해서 보내줘 — 이 메시지 정리", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "준호랑 은지 둘이 같은 작업을 하고 있었네. 역할 나누는 메시지 써줘", "spans": [[0, 2, "P-NAME"], [4, 6, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "청사진PLM에서 ECN 올리는 방법 매뉴얼로 바꿔줘", "spans": [[0, 6, "MFG-07"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "라이선스 계약서 표준 양식 하나 만들어줘", "spans": [], "near": ["GAME-04"], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "성우 녹음 단가표 만들자. 주연 시간당 18만원, 조연 시간당 11만원", "spans": [[15, 39, "GAME-05"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "이사한 집 주소가 서울 관악구 은행나무로12번길 7인데 전입신고 할 때 뭐 챙겨야 돼?", "spans": [[10, 28, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "Format this tester list: Sora Han, 010-9021-4467, Eun Lee, 010-6650-1982", "spans": [[25, 33, "P-NAME"], [50, 57, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "배은지 대리 그 사건으로 대기발령 났어. 고객사 담당자 변경 안내 써줘", "spans": [[0, 3, "P-NAME"], [7, 21, "R07"], [7, 21, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "업무상 질병으로 인정받는 기준을 알려줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
-{"text": "랙 배치에서 핫아일 콜드아일 개념 설명해줘", "spans": [], "near": ["TEL-07"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "하임제약에 아시아 권리를 주는 조건은 선급금 120억에 마일스톤 최대 900억이야. 텀시트 요약해줘", "spans": [[21, 43, "B06"]], "near": [], "industry": "제약·바이오·의료", "leak_suspect": false}
-{"text": "에밀리 헤일 선임 연구원 논평 요약해줘 — 신규 측정 방법 관련", "spans": [[0, 6, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "금형 설계 메모: 게이트를 측면 서브 게이트로 하고 냉각 채널은 코어 하부 U자형. 정리해줘", "spans": [[10, 45, "MFG-11"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "여름 님이 이번에 리더로 승진했어요! 축하 메시지", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "방송 편성표 변경안 월요 프라임 20시 드라마를 22시로 이동 공유 메일 작성해줘", "spans": [[11, 34, "GAME-14"]], "near": [], "industry": "게임·엔터·미디어", "leak_suspect": false}
-{"text": "분양 계약 안내 문자 템플릿 하나 만들어줘 (이름, 호수는 빈칸)", "spans": [], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "중동 가스전 지분 입찰에 총 4.2억 달러를 제시하고 상대 반응을 보며 4.8억까지 올릴 수 있어. 입찰 전략 정리해줘", "spans": [[14, 23, "E12"], [40, 46, "E12"]], "near": [], "industry": "화학·에너지", "leak_suspect": false}
-{"text": "경영회의 안건 양식 만들어줘", "spans": [], "near": ["R18"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "공급망 다변화가 왜 중요한지 설명해줘", "spans": [], "near": ["MFG-16"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
-{"text": "정 대리 수술 후유증으로 진통제를 달고 살고 밤엔 잠을 못 잔대. 업무 경감 요청서 써줘", "spans": [[0, 1, "P-NAME"], [5, 24, "P-SENS"], [25, 35, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "남지훈 과장이 맡은 PF 대출 한도 1,200억, 금리 6.8% 조건 요약", "spans": [[0, 3, "P-NAME"], [11, 35, "CON-04"]], "near": [], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "모의해킹 결과 메모: 설계사 앱 API에서 인증 토큰 만료 검증이 누락됐다고 나왔어. 개선 계획 써줘", "spans": [[12, 39, "INS-20"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "와이어링 하네스 대당 18만원 → 16만 5천원으로 재협상 안 정리해줘", "spans": [[9, 26, "AUTO-04"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "외주 PCB 업체 세림정밀과 공급 단가 협의 일정 잡는 메일 써줘", "spans": [[10, 14, "R17"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "입주자 모집공고문에 반드시 들어가는 항목 리스트 알려줘", "spans": [], "near": ["CON-05"], "industry": "건설·부동산", "leak_suspect": false}
-{"text": "Our partner contact, Isabella Rossi, asked about the Q4 roadmap. 답장 초안 영어로", "spans": [[21, 35, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "연봉 계약서 양식 만들어줘", "spans": [], "near": ["R08"], "industry": "모아랩스", "leak_suspect": false}
-{"text": "배터리 모듈 교체 수리 원가 부품 480만원, 공임 원가 36만원을 정리해줘", "spans": [[16, 36, "AUTO-19"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "고객 주소 데이터 비식별화할 때 시군구까지만 남기는 게 맞아?", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
-{"text": "충당금 적립률 가정이 정상 0.45%, 요주의 9%, 고정 32%로 확정이야. 회의 자료 문장으로", "spans": [[12, 36, "FIN-13"]], "near": [], "industry": "금융", "leak_suspect": false}
-{"text": "한새렌터카 500대 납품과 국내 18만 대, 북미 7만 대, 유럽 5만 대 판매 목표를 같이 보고서에 넣어줘", "spans": [[0, 5, "AUTO-12"], [15, 41, "AUTO-14"]], "near": [], "industry": "자동차·모빌리티", "leak_suspect": false}
-{"text": "박준서 대리 노조 가입 원서 쓰는 걸 봤어. 이걸 팀장한테 말해야 하나?", "spans": [[0, 3, "P-NAME"], [7, 23, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "베타 오픈 예정: 내년 2월 둘째 주 보도자료에 넣을 일정 문구 다듬어줘", "spans": [[0, 20, "R02"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
-{"text": "속초 중앙시장 닭강정 줄 덜 서는 시간대", "spans": [], "near": ["P-ADDR"], "industry": "개인정보", "leak_suspect": false}
-{"text": "'지수네 반찬가게' 배달앱 소개문 써줘", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
-{"text": "프로젝트 코드명은 보통 어떻게 짓는 게 좋아?", "spans": [], "near": ["TEL-02"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "AUD-25-064 감사조서 번호 체계 설명 문서 작성", "spans": [[0, 10, "LAW-05"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
-{"text": "공공 사업 파트너는 수수료 5%로 상한 이 내용 FAQ 답변으로 써줘", "spans": [[0, 21, "TEL-10"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "설계사 앱 백엔드 달빛게이트 로그 포맷을 표로 정리해줘", "spans": [[10, 15, "INS-09"]], "near": [], "industry": "보험", "leak_suspect": false}
-{"text": "윤아 님은 노조 가입해서 이번 교섭 대표로 나간대. 이걸 팀 분위기 안 해치게 어떻게 말하지?", "spans": [[0, 2, "P-NAME"], [6, 27, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
-{"text": "주파수 경매는 일반적으로 어떤 방식으로 진행돼?", "spans": [], "near": ["TEL-03"], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
-{"text": "1순위 목표 대역은 3.7GHz, 2순위가 4.7GHz라고 정리된 표 서식만 맞춰줘", "spans": [[0, 30, "TEL-03"]], "near": [], "industry": "통신·클라우드·IT서비스", "leak_suspect": false}
+{"text": "모래시계 라인 증설 SMT 라인 2기 증설에 38억 투자 안과 생산직 120명 희망퇴직 접수 건을 한 보고서에 정리해줘", "spans": [[0, 4, "MFG-01"], [11, 31, "MFG-08"], [35, 51, "MFG-20"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "질병 사유 퇴직자가 3년간 11명이었어. 익명 통계로 리포트 문단 써줘", "spans": [], "near": ["P-SENS"], "industry": "개인정보", "leak_suspect": false}
+{"text": "서연베이커리 인스타 공지: 이번 주 일요일 휴무", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "제 절도죄 벌금형 전력이 있음을 소명서에 적어야 해. 첫 문장을 써줘.", "spans": [[2, 16, "P-SENS"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "정의로운 사회에 대한 토론 주제 추천", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "Microsoft Excel Compatible / Openpyxl 3.1.5", "spans": [], "near": ["R10"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "현대자동차 요금제 비교표 만들어줘", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "Please summarize: 세미나는 부산 해운대구 마린솔길 31 3층에서 열립니다. 주차는 지하 2층.", "spans": [[23, 41, "P-ADDR"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "Solvency memo: internal ratio 176% after reinsurance, buffer 26pp over regulatory floor. 영어 요약 만들어줘", "spans": [[15, 87, "INS-04"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "우진건설 올해 매출 3,200억, 영업손실 140억 자문 보고서 현황 부분에 써줘", "spans": [[0, 28, "LAW-09"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "보람 님 오늘 컨디션 안 좋아서 조퇴했어요. 대신 회의 들어갈 사람 구하는 메시지", "spans": [[0, 2, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "구름 사진 캡션 아이디어", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "회의록 작성 요령을 알려줘", "spans": [], "near": ["R18"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "공시된 제휴 계약 건 중 공개된 부분만 요약해줘", "spans": [], "near": ["COM-05"], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "의뢰인께 보내는 진행 상황 안내문 양식", "spans": [], "near": ["P-NAME"], "industry": "개인정보", "leak_suspect": false}
+{"text": "KC 인증 절차는 대략 어떻게 돼?", "spans": [], "near": ["MFG-13"], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "펫보험 요율은 견종별 위험계수 소형 0.8, 대형 1.5, 연령 7세 이상 1.9배로 설계됐어. 표로 만들어줘", "spans": [[8, 46, "INS-01"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "금형 제작 노하우: 파팅라인을 외관 곡선 하단으로 숨겨서 후가공 없애는 방식을 매뉴얼에 넣을 문장으로", "spans": [[11, 42, "MFG-11"]], "near": [], "industry": "제조·전자 하드웨어", "leak_suspect": false}
+{"text": "최해봄결 대리 감봉 6주 징계 기록을 한 줄로 옮겨줘.", "spans": [[0, 4, "P-NAME"], [8, 16, "R07"], [8, 16, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "공장 슬롯 거래를 연결해 준 곳이 달빛우체통이야. 아직 외부 공개 전이라 내부 보고만 써줘.", "spans": [[19, 24, "SEMI-10"]], "near": [], "industry": "반도체·디스플레이", "leak_suspect": false}
+{"text": "인플루언서 방송 1회 800만원 고정 + 판매 수수료 10% 제안서 정리해줘", "spans": [[6, 33, "COM-20"]], "near": [], "industry": "이커머스·유통", "leak_suspect": false}
+{"text": "쿠팡 요금제 비교표 만들어줘", "spans": [], "near": ["R06"], "industry": "모아랩스", "leak_suspect": false}
+{"text": "강해솔이 제작비를 사내 장부 앱 밤톨에 올렸대. 확인 회신을 써줘.", "spans": [[0, 3, "P-NAME"], [18, 20, "FURN-07"]], "near": [], "industry": "인테리어·가구", "leak_suspect": false}
+{"text": "Draft a management letter: inventory count differences of 7억 at the Busan plant.", "spans": [[27, 79, "LAW-06"]], "near": [], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "희망퇴직 신청서 양식 하나 만들어줘", "spans": [], "near": ["FIN-17"], "industry": "금융", "leak_suspect": false}
+{"text": "공개된 대법원 판결 내용을 쉬운 말로 요약해줘", "spans": [], "near": ["LAW-03"], "industry": "법률·회계·컨설팅", "leak_suspect": false}
+{"text": "당뇨 고객 심사 기준이 당화혈색소 7.5 초과 시 인수 거절, 6.5~7.5는 부담보 2년로 정해졌어. 요약 부탁", "spans": [[13, 50, "INS-02"]], "near": [], "industry": "보험", "leak_suspect": false}
+{"text": "임하람이 마지막 반전 파일을 내부 보관함 뒷마당에 넣었어. 접근 신청문 써줘.", "spans": [[0, 3, "P-NAME"], [23, 26, "TOON-09"]], "near": [], "industry": "웹툰·출판 콘텐츠", "leak_suspect": false}
+{"text": "이정민 사원 정직 처분 받고 경찰 조사 중(횡령 혐의). 팀장 보고용 메모 정리", "spans": [[0, 3, "P-NAME"], [7, 12, "R07"], [7, 30, "P-SENS"]], "near": [], "industry": "모아랩스", "leak_suspect": false}
+{"text": "홍누리봄 씨 질문에 감사부터 하고 안내 링크를 주고 싶어.", "spans": [[0, 4, "P-NAME"]], "near": [], "industry": "개인정보", "leak_suspect": false}
+{"text": "재무 실사와 법률 실사의 차이를 알려줘", "spans": [], "near": ["LAW-18"], "industry": "법률·회계·컨설팅", "leak_suspect": false}

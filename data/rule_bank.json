@@ -1134,6 +1134,166 @@
   "description": "비공개 중장기 시장점유율·수익 목표"
  },
  {
+  "id": "FURN-01",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "신작 가구 개발명",
+  "description": "출시 전 가구 컬렉션에 붙인 내부 코드명"
+ },
+ {
+  "id": "FURN-02",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "숨은 무늬목 공급사",
+  "description": "외부에 알리지 않은 무늬목 조달 업체명"
+ },
+ {
+  "id": "FURN-03",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "철물 조달처명",
+  "description": "비공개 경첩과 서랍 레일 공급 업체명"
+ },
+ {
+  "id": "FURN-04",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "패브릭 위탁처명",
+  "description": "공개하지 않은 소파 원단 가공 협력사명"
+ },
+ {
+  "id": "FURN-05",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "인수 검토 브랜드명",
+  "description": "인수 대상으로 내부 검토 중인 가구 브랜드명"
+ },
+ {
+  "id": "FURN-06",
+  "industry": "인테리어·가구",
+  "grade": "S",
+  "action": "대체",
+  "label": "배치 설계 도구명",
+  "description": "사내에서만 사용하는 공간 배치 시스템명"
+ },
+ {
+  "id": "FURN-07",
+  "industry": "인테리어·가구",
+  "grade": "S",
+  "action": "대체",
+  "label": "원가 관리 도구명",
+  "description": "가구 제작비를 관리하는 비공개 시스템명"
+ },
+ {
+  "id": "FURN-08",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "창고 이전 작전명",
+  "description": "물류 창고 이전 사업에 붙인 내부 코드명"
+ },
+ {
+  "id": "FURN-09",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "전시장 조성 코드",
+  "description": "공개 전 전시장 신설 사업의 내부 코드명"
+ },
+ {
+  "id": "FURN-10",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "대체",
+  "label": "미공개 디자인 동업자",
+  "description": "신작을 공동 설계하는 비공개 스튜디오명"
+ },
+ {
+  "id": "FURN-11",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "가구별 제조 원가",
+  "description": "외부에 공개하지 않은 가구 단위당 제작 원가"
+ },
+ {
+  "id": "FURN-12",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "일반화",
+  "label": "무늬목 매입 단가",
+  "description": "내부 발주에 적용한 무늬목 매입 단가"
+ },
+ {
+  "id": "FURN-13",
+  "industry": "인테리어·가구",
+  "grade": "S",
+  "action": "일반화",
+  "label": "시공 외주 정산액",
+  "description": "비공개 시공 협력팀에 지급하는 작업별 정산액"
+ },
+ {
+  "id": "FURN-14",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "매장별 손익분기점",
+  "description": "내부에서 산정한 전시장별 월 손익분기 매출"
+ },
+ {
+  "id": "FURN-15",
+  "industry": "인테리어·가구",
+  "grade": "S",
+  "action": "일반화",
+  "label": "자재 구매 예산",
+  "description": "확정된 미공개 분기별 가구 자재 구매 예산"
+ },
+ {
+  "id": "FURN-16",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "전시장 폐점 결정",
+  "description": "외부 발표 전 전시장 운영 종료 결정과 시점"
+ },
+ {
+  "id": "FURN-17",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "목공 외주 심사 기록",
+  "description": "비공개 목공 협력팀 선정 심사의 판정과 사유"
+ },
+ {
+  "id": "FURN-18",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "전시장 임차 협상안",
+  "description": "공개 전 전시장 임대차 협상의 특약 조건"
+ },
+ {
+  "id": "FURN-19",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "공방 생산 배정",
+  "description": "내부 확정한 공방별 가구 물량과 제작 배정"
+ },
+ {
+  "id": "FURN-20",
+  "industry": "인테리어·가구",
+  "grade": "C",
+  "action": "삭제",
+  "label": "상업공간 수주 조건",
+  "description": "공개하지 않은 상업공간 가구 납품 협상 조건"
+ },
+ {
   "id": "GAME-01",
   "industry": "게임·엔터·미디어",
   "grade": "C",
@@ -1284,6 +1444,326 @@
   "action": "삭제",
   "label": "어뷰징·핵 탐지 기준",
   "description": "부정 이용·불법 프로그램 탐지 로직과 제재 임계값"
+ },
+ {
+  "id": "HOSP-01",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "태그",
+  "label": "신설 센터 암호명",
+  "description": "발표 전 신설 진료센터를 가리키는 내부 명칭"
+ },
+ {
+  "id": "HOSP-02",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "대체",
+  "label": "위탁 검사기관명",
+  "description": "계약 공개 전 검체 검사를 맡길 기관의 이름"
+ },
+ {
+  "id": "HOSP-03",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "S",
+  "action": "대체",
+  "label": "병상 배정 도구명",
+  "description": "외부에 알리지 않은 병상 배정 시스템의 이름"
+ },
+ {
+  "id": "HOSP-04",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "인수 검토 병원명",
+  "description": "외부 발표 없이 인수를 검토 중인 병원의 이름"
+ },
+ {
+  "id": "HOSP-05",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "대체",
+  "label": "검진 제휴사명",
+  "description": "공개 전 단체 검진 계약을 협의하는 업체의 이름"
+ },
+ {
+  "id": "HOSP-06",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "S",
+  "action": "태그",
+  "label": "청구 점검 도구명",
+  "description": "비공개 진료비 청구 점검 시스템의 명칭"
+ },
+ {
+  "id": "HOSP-07",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "대체",
+  "label": "멸균 수탁사명",
+  "description": "공개되지 않은 수술기구 멸균 수탁업체의 이름"
+ },
+ {
+  "id": "HOSP-08",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "태그",
+  "label": "방문진료 사업명",
+  "description": "출범 발표 전 방문진료 사업의 내부 코드명"
+ },
+ {
+  "id": "HOSP-09",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "대체",
+  "label": "재활 의뢰 협력처명",
+  "description": "비공개로 환자 의뢰를 협의 중인 재활기관의 이름"
+ },
+ {
+  "id": "HOSP-10",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "S",
+  "action": "태그",
+  "label": "수술실 편성 도구명",
+  "description": "외부 미공개 수술실 편성 시스템의 이름"
+ },
+ {
+  "id": "HOSP-11",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "검체 위탁 단가",
+  "description": "검체 검사 위탁 계약의 비공개 건당 지급액"
+ },
+ {
+  "id": "HOSP-12",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "검진 계약 할인율",
+  "description": "단체 검진 계약별 비공개 할인 비율"
+ },
+ {
+  "id": "HOSP-13",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "병동 운영 손익선",
+  "description": "병동 운영의 내부 손익분기 병상가동률"
+ },
+ {
+  "id": "HOSP-14",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "S",
+  "action": "일반화",
+  "label": "간호인력 충원 목표",
+  "description": "발표 전 병동별 간호인력 채용 목표 인원"
+ },
+ {
+  "id": "HOSP-15",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "영상장비 임차료",
+  "description": "영상진단 장비 계약의 비공개 월 임차 금액"
+ },
+ {
+  "id": "HOSP-16",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "인증 사전심사 이력",
+  "description": "외부 미공개 의료기관 인증 사전심사의 판정 내역"
+ },
+ {
+  "id": "HOSP-17",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "진료거점 폐쇄 결정",
+  "description": "발표 전 진료거점 폐쇄에 관한 내부 결정"
+ },
+ {
+  "id": "HOSP-18",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "의료진 영입 조건",
+  "description": "채용 발표 전 의료진에게 제안한 개별 보장 조건"
+ },
+ {
+  "id": "HOSP-19",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "C",
+  "action": "삭제",
+  "label": "급식업체 협상 조건",
+  "description": "환자식 공급 계약의 미공개 협상 요구사항"
+ },
+ {
+  "id": "HOSP-20",
+  "industry": "병원·헬스케어 서비스",
+  "grade": "S",
+  "action": "일반화",
+  "label": "진료기록 점검 이력",
+  "description": "외부 미공개 진료기록 보관 점검의 조치 내역"
+ },
+ {
+  "id": "HR-01",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "채용사업 암호명",
+  "description": "공개 전 채용 중개 사업에 붙인 내부 이름"
+ },
+ {
+  "id": "HR-02",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "평판조회 수탁사명",
+  "description": "공개하지 않은 평판조회 위탁 업체 이름"
+ },
+ {
+  "id": "HR-03",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "후보추천 도구명",
+  "description": "사내에서만 쓰는 후보자 추천 도구 이름"
+ },
+ {
+  "id": "HR-04",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "브랜드 인수 대상명",
+  "description": "인수 협상 중인 채용 관련 브랜드 이름"
+ },
+ {
+  "id": "HR-05",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "S",
+  "action": "대체",
+  "label": "미공개 채용 의뢰사",
+  "description": "채용 대행을 맡긴 사실이 비공개인 기업 이름"
+ },
+ {
+  "id": "HR-06",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "S",
+  "action": "대체",
+  "label": "면접 대행 협력사",
+  "description": "비공개로 면접 진행을 위탁하는 업체 이름"
+ },
+ {
+  "id": "HR-07",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "후보군 내부 별칭",
+  "description": "외부에 숨기는 인재 묶음의 내부 별칭"
+ },
+ {
+  "id": "HR-08",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "지원서 정리 시스템",
+  "description": "지원서 분류에 쓰는 사내 전용 시스템 이름"
+ },
+ {
+  "id": "HR-09",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "S",
+  "action": "대체",
+  "label": "소싱 제휴처명",
+  "description": "후보자 소개를 받는 비공개 제휴처 이름"
+ },
+ {
+  "id": "HR-10",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "대체",
+  "label": "채용 정산 도구명",
+  "description": "채용 수수료 정산용 내부 도구 이름"
+ },
+ {
+  "id": "HR-11",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "성공보수 개별 요율",
+  "description": "개별 고객과 비공개로 합의한 채용 성공보수율"
+ },
+ {
+  "id": "HR-12",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "조회 건당 매입가",
+  "description": "평판조회 업체에 지급하는 건당 내부 원가"
+ },
+ {
+  "id": "HR-13",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "S",
+  "action": "일반화",
+  "label": "유료 전환 내부 목표",
+  "description": "구직자 상품의 공개 전 유료 전환 목표 비율"
+ },
+ {
+  "id": "HR-14",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "채용 환급 합의",
+  "description": "채용 조기 종료 시 적용하는 비공개 환급 조건"
+ },
+ {
+  "id": "HR-15",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "공고 심사 이력",
+  "description": "개별 채용 공고의 비공개 심사 결과와 사유"
+ },
+ {
+  "id": "HR-16",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "대행사 점검 이력",
+  "description": "채용 운영 대행사에 대한 내부 점검 결과"
+ },
+ {
+  "id": "HR-17",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "직군 중개 철수안",
+  "description": "공개 전 특정 직군의 채용 중개 철수 결정"
+ },
+ {
+  "id": "HR-18",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "S",
+  "action": "일반화",
+  "label": "면접 운영 배정액",
+  "description": "고객별 채용 면접 운영에 배정한 내부 예산"
+ },
+ {
+  "id": "HR-19",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "소싱 독점 약정",
+  "description": "후보자 소싱 제휴의 비공개 독점 범위와 기간"
+ },
+ {
+  "id": "HR-20",
+  "industry": "HR테크·채용 플랫폼",
+  "grade": "C",
+  "action": "삭제",
+  "label": "추천 노출 배분값",
+  "description": "유료 공고에 적용하는 비공개 추천 노출 배분율"
  },
  {
   "id": "INS-01",
@@ -1918,6 +2398,326 @@
   "description": "공개 전 제안요청서(RFP)·규격서 초안과 평가 기준"
  },
  {
+  "id": "SEC-01",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "차기 방화벽 코드명",
+  "description": "출시 전 방화벽 사업에 붙인 내부 이름."
+ },
+ {
+  "id": "SEC-02",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "관제 전환 작전명",
+  "description": "고객 관제 환경 전환 작업의 내부 이름."
+ },
+ {
+  "id": "SEC-03",
+  "industry": "보안 솔루션 기업",
+  "grade": "S",
+  "action": "대체",
+  "label": "보안칩 조달사명",
+  "description": "공개 전 보안칩 공급 계약 상대의 이름."
+ },
+ {
+  "id": "SEC-04",
+  "industry": "보안 솔루션 기업",
+  "grade": "S",
+  "action": "대체",
+  "label": "침해대응 협력사명",
+  "description": "공개하지 않은 침해대응 재위탁 업체 이름."
+ },
+ {
+  "id": "SEC-05",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "증거 보관 시스템명",
+  "description": "사내 침해 증거 보관 시스템의 고유 이름."
+ },
+ {
+  "id": "SEC-06",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "인증서 관리망 명칭",
+  "description": "사내 인증서 발급 관리망의 내부 이름."
+ },
+ {
+  "id": "SEC-07",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "비공개 관제 고객명",
+  "description": "대외 공개를 허락받지 않은 관제 고객 이름."
+ },
+ {
+  "id": "SEC-08",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "인수 검토 보안 브랜드",
+  "description": "인수를 검토 중인 보안 제품 브랜드 이름."
+ },
+ {
+  "id": "SEC-09",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "대체",
+  "label": "격리망 내부 명칭",
+  "description": "악성 파일 취급용 사내 격리망의 고유 이름."
+ },
+ {
+  "id": "SEC-10",
+  "industry": "보안 솔루션 기업",
+  "grade": "S",
+  "action": "대체",
+  "label": "보안 유통 협상사명",
+  "description": "공표 전 보안 제품 유통 협상 상대 이름."
+ },
+ {
+  "id": "SEC-11",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "보안 장비 제조원가",
+  "description": "비공개 보안 장비의 대당 제조원가 금액."
+ },
+ {
+  "id": "SEC-12",
+  "industry": "보안 솔루션 기업",
+  "grade": "S",
+  "action": "일반화",
+  "label": "관제 재위탁 단가",
+  "description": "관제 외주 인력 계약의 비공개 시간당 대가."
+ },
+ {
+  "id": "SEC-13",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "보안 사업 목표마진",
+  "description": "내부에서 정한 보안 사업별 목표 이익률."
+ },
+ {
+  "id": "SEC-14",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "탐지 규칙 운영 기준",
+  "description": "실서비스 탐지 규칙을 비활성화하는 내부 기준."
+ },
+ {
+  "id": "SEC-15",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "보안 입찰 하한액",
+  "description": "보안 사업 입찰에서 승인한 최저 제안 금액."
+ },
+ {
+  "id": "SEC-16",
+  "industry": "보안 솔루션 기업",
+  "grade": "S",
+  "action": "일반화",
+  "label": "관제 교대 인력 배치",
+  "description": "비공개 관제 근무조별 실제 투입 인원 수."
+ },
+ {
+  "id": "SEC-17",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "내부 보안 감사 이력",
+  "description": "공개하지 않은 사내 접근권한 감사의 지적 사실."
+ },
+ {
+  "id": "SEC-18",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "관제 거점 폐쇄 계획",
+  "description": "공표 전 관제 사무소 폐쇄나 통합 결정."
+ },
+ {
+  "id": "SEC-19",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "보안 라이선스 협상조건",
+  "description": "미체결 보안 라이선스 계약의 양보 및 지급 조건."
+ },
+ {
+  "id": "SEC-20",
+  "industry": "보안 솔루션 기업",
+  "grade": "C",
+  "action": "삭제",
+  "label": "내부 키 교체 주기",
+  "description": "운영 환경 암호키 종류별 비공개 교체 간격."
+ },
+ {
+  "id": "SEMI-01",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "대체",
+  "label": "팹 증설 암호명",
+  "description": "발표 전 반도체 공장 증설 사업의 내부 이름"
+ },
+ {
+  "id": "SEMI-02",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "패널 선주문 고객명",
+  "description": "공개되지 않은 패널 선주문 계약 고객의 이름"
+ },
+ {
+  "id": "SEMI-03",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "대체",
+  "label": "식각액 조달처명",
+  "description": "외부에 알리지 않은 식각액 공급 업체 이름"
+ },
+ {
+  "id": "SEMI-04",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "대체",
+  "label": "마스크 제작사명",
+  "description": "비공개 포토마스크 제작 위탁 업체 이름"
+ },
+ {
+  "id": "SEMI-05",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "태그",
+  "label": "웨이퍼 배차 도구명",
+  "description": "사내 웨이퍼 운반 순서 배정 시스템의 고유 이름"
+ },
+ {
+  "id": "SEMI-06",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "대체",
+  "label": "장비 매각 작전명",
+  "description": "발표 전 반도체 장비 매각 프로젝트의 코드명"
+ },
+ {
+  "id": "SEMI-07",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "기판 인수 후보명",
+  "description": "인수를 검토 중인 비상장 기판 업체의 이름"
+ },
+ {
+  "id": "SEMI-08",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "대체",
+  "label": "약액 보관소 별칭",
+  "description": "반도체 약액 보관 구역에 붙인 사내 전용 별칭"
+ },
+ {
+  "id": "SEMI-09",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "후공정 외주사명",
+  "description": "아직 공개하지 않은 패키징 외주 계약 업체 이름"
+ },
+ {
+  "id": "SEMI-10",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "대체",
+  "label": "생산슬롯 중개사명",
+  "description": "비공개 생산 슬롯 거래를 중개하는 업체 이름"
+ },
+ {
+  "id": "SEMI-11",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "원판 매입 단가",
+  "description": "사내 계약에 따른 실리콘 웨이퍼 장당 매입 금액"
+ },
+ {
+  "id": "SEMI-12",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "마스크 발주 원가",
+  "description": "외부 미공개 포토마스크 세트별 제작 발주 금액"
+ },
+ {
+  "id": "SEMI-13",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "일반화",
+  "label": "고객별 예약 물량",
+  "description": "고객에게 배정한 비공개 웨이퍼 월 생산 예약량"
+ },
+ {
+  "id": "SEMI-14",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "일반화",
+  "label": "노광기 상각 추정액",
+  "description": "사내 예산에 반영한 노광 장비 감가상각 예상 금액"
+ },
+ {
+  "id": "SEMI-15",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "일반화",
+  "label": "공정가스 구매 예산",
+  "description": "공개 전 공정용 가스 구매에 책정한 내부 예산"
+ },
+ {
+  "id": "SEMI-16",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "클린룸 출입 감사",
+  "description": "미공개 클린룸 출입 절차 감사의 판정과 지적 이력"
+ },
+ {
+  "id": "SEMI-17",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "패널 라인 폐쇄안",
+  "description": "발표 전 패널 생산 라인 폐쇄 결정과 실행 시점"
+ },
+ {
+  "id": "SEMI-18",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "증착기 계약 협상",
+  "description": "진행 중인 증착기 매입 협상의 결제 및 인수 조건"
+ },
+ {
+  "id": "SEMI-19",
+  "industry": "반도체·디스플레이",
+  "grade": "S",
+  "action": "일반화",
+  "label": "레지스트 비축량",
+  "description": "사내 집계한 포토레지스트 창고별 실제 재고 수량"
+ },
+ {
+  "id": "SEMI-20",
+  "industry": "반도체·디스플레이",
+  "grade": "C",
+  "action": "삭제",
+  "label": "검사장비 투자 한도",
+  "description": "외부에 공개하지 않은 검사 장비 도입 승인 예산"
+ },
+ {
   "id": "TEL-01",
   "industry": "통신·클라우드·IT서비스",
   "grade": "C",
@@ -2076,6 +2876,166 @@
   "action": "일반화",
   "label": "장비 도입 단가",
   "description": "벤더 협상 중인 장비 도입 단가와 조건"
+ },
+ {
+  "id": "TOON-01",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "태그",
+  "label": "신작 작업명",
+  "description": "발표 전 웹툰과 도서에 붙인 내부 작업명"
+ },
+ {
+  "id": "TOON-02",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "대체",
+  "label": "접촉 중인 작가 필명",
+  "description": "계약 협의 중이며 공개되지 않은 작가의 필명"
+ },
+ {
+  "id": "TOON-03",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "대체",
+  "label": "외주 채색사명",
+  "description": "외부에 밝히지 않은 웹툰 채색 위탁 업체명"
+ },
+ {
+  "id": "TOON-04",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "대체",
+  "label": "번역 위탁사명",
+  "description": "외부에 밝히지 않은 번역 위탁 업체명"
+ },
+ {
+  "id": "TOON-05",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "태그",
+  "label": "원고 심사 도구명",
+  "description": "편집부에서만 사용하는 원고 심사 시스템 이름"
+ },
+ {
+  "id": "TOON-06",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "대체",
+  "label": "해외 판권 협상사명",
+  "description": "공개 전 해외 판권 구매 협상 상대의 이름"
+ },
+ {
+  "id": "TOON-07",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "태그",
+  "label": "인수 검토 출판상표",
+  "description": "인수 후보로 검토 중인 출판 브랜드 이름"
+ },
+ {
+  "id": "TOON-08",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "S",
+  "action": "대체",
+  "label": "선인쇄 위탁사명",
+  "description": "출간 전 시험 인쇄를 맡기는 비공개 인쇄소 이름"
+ },
+ {
+  "id": "TOON-09",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "태그",
+  "label": "결말 보관함명",
+  "description": "미공개 결말 파일을 보관하는 내부 저장소 이름"
+ },
+ {
+  "id": "TOON-10",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "대체",
+  "label": "영상화 교섭사명",
+  "description": "원작 영상화 계약을 교섭 중인 비공개 제작사 이름"
+ },
+ {
+  "id": "TOON-11",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "작가 선급금",
+  "description": "개별 작가에게 제시하거나 지급한 미공개 선급금"
+ },
+ {
+  "id": "TOON-12",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "회차 제작 원가",
+  "description": "미공개 웹툰 회차별 제작비와 공정별 원가"
+ },
+ {
+  "id": "TOON-13",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "판권 배분 조건",
+  "description": "비공개 해외 판권 계약의 수익 배분율과 보장금"
+ },
+ {
+  "id": "TOON-14",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "S",
+  "action": "일반화",
+  "label": "초판 발주 부수",
+  "description": "발표 전 단행본 초판의 확정 또는 예정 발주 부수"
+ },
+ {
+  "id": "TOON-15",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "원고 심사 판정",
+  "description": "미공개 투고 원고의 채택 및 보류 판정과 사유"
+ },
+ {
+  "id": "TOON-16",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "미공개 결말",
+  "description": "발표 전 작품의 최종 반전과 인물의 최후"
+ },
+ {
+  "id": "TOON-17",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "연재권 독점 조건",
+  "description": "비공개 연재 계약의 독점 기간과 매체 제한"
+ },
+ {
+  "id": "TOON-18",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "S",
+  "action": "일반화",
+  "label": "출간 목표 매출",
+  "description": "공개하지 않은 도서별 출간 후 매출 목표"
+ },
+ {
+  "id": "TOON-19",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "출판 계열 폐쇄안",
+  "description": "공표 전 출판 레이블의 폐쇄 계획과 확정 시점"
+ },
+ {
+  "id": "TOON-20",
+  "industry": "웹툰·출판 콘텐츠",
+  "grade": "C",
+  "action": "삭제",
+  "label": "전자책 공급 조건",
+  "description": "미공개 전자책 유통 계약의 정산율과 지급 유예 조건"
  },
  {
   "id": "P-NAME",

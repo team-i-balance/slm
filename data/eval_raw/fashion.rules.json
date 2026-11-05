@@ -1,0 +1,12 @@
+{"company": "라온뷰 패션앤뷰티(가상)", "rules": [
+{"id": "LB01", "split": "heldout", "grade": "C", "action": "대체", "label": "시즌 컬렉션 코드명", "description": "출시 전 시즌 컬렉션·신제품 라인의 내부 코드명"},
+{"id": "LB02", "split": "heldout", "grade": "S", "action": "대체", "label": "OEM 제조 협력사명", "description": "생산을 맡기는 비공개 제조 협력사의 이름"},
+{"id": "LB03", "split": "heldout", "grade": "C", "action": "대체", "label": "재고·물류 시스템명", "description": "재고와 물류를 관리하는 내부 시스템 이름"},
+{"id": "LB04", "split": "heldout", "grade": "S", "action": "대체", "label": "인수 검토 브랜드명", "description": "인수 협상 중인 경쟁 패션·뷰티 브랜드 이름"},
+{"id": "LB05", "split": "heldout", "grade": "C", "action": "대체", "label": "독점 핵심 원료명", "description": "특허 출원 전 독점 사용하는 핵심 원료의 내부명"},
+{"id": "LB06", "split": "heldout", "grade": "S", "action": "일반화", "label": "제품별 제조 원가율", "description": "개별 제품의 제조 원가율 수치"},
+{"id": "LB07", "split": "heldout", "grade": "C", "action": "일반화", "label": "시즌 재고 소진율", "description": "시즌 상품의 비공개 재고 소진율 수치"},
+{"id": "LB08", "split": "heldout", "grade": "S", "action": "일반화", "label": "신제품 출시 일정·물량", "description": "공개 전 신제품 출시일과 초도 물량"},
+{"id": "LB09", "split": "heldout", "grade": "C", "action": "삭제", "label": "품질 클레임·리콜 사안", "description": "공개되지 않은 제품 클레임·리콜 내용"},
+{"id": "LB10", "split": "heldout", "grade": "S", "action": "일반화", "label": "할인 행사 할인율 한도", "description": "행사 기간 적용하는 비공개 최대 할인율"}
+]}

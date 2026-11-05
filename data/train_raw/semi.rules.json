@@ -1,0 +1,22 @@
+{"company":"이랑결소자(가상 회사, 반도체 위탁생산 및 디스플레이 패널 제조)","rules":[
+{"id":"SEMI-01","industry":"반도체·디스플레이","grade":"C","action":"대체","label":"팹 증설 암호명","description":"발표 전 반도체 공장 증설 사업의 내부 이름"},
+{"id":"SEMI-02","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"패널 선주문 고객명","description":"공개되지 않은 패널 선주문 계약 고객의 이름"},
+{"id":"SEMI-03","industry":"반도체·디스플레이","grade":"S","action":"대체","label":"식각액 조달처명","description":"외부에 알리지 않은 식각액 공급 업체 이름"},
+{"id":"SEMI-04","industry":"반도체·디스플레이","grade":"S","action":"대체","label":"마스크 제작사명","description":"비공개 포토마스크 제작 위탁 업체 이름"},
+{"id":"SEMI-05","industry":"반도체·디스플레이","grade":"S","action":"태그","label":"웨이퍼 배차 도구명","description":"사내 웨이퍼 운반 순서 배정 시스템의 고유 이름"},
+{"id":"SEMI-06","industry":"반도체·디스플레이","grade":"C","action":"대체","label":"장비 매각 작전명","description":"발표 전 반도체 장비 매각 프로젝트의 코드명"},
+{"id":"SEMI-07","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"기판 인수 후보명","description":"인수를 검토 중인 비상장 기판 업체의 이름"},
+{"id":"SEMI-08","industry":"반도체·디스플레이","grade":"S","action":"대체","label":"약액 보관소 별칭","description":"반도체 약액 보관 구역에 붙인 사내 전용 별칭"},
+{"id":"SEMI-09","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"후공정 외주사명","description":"아직 공개하지 않은 패키징 외주 계약 업체 이름"},
+{"id":"SEMI-10","industry":"반도체·디스플레이","grade":"S","action":"대체","label":"생산슬롯 중개사명","description":"비공개 생산 슬롯 거래를 중개하는 업체 이름"},
+{"id":"SEMI-11","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"원판 매입 단가","description":"사내 계약에 따른 실리콘 웨이퍼 장당 매입 금액"},
+{"id":"SEMI-12","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"마스크 발주 원가","description":"외부 미공개 포토마스크 세트별 제작 발주 금액"},
+{"id":"SEMI-13","industry":"반도체·디스플레이","grade":"C","action":"일반화","label":"고객별 예약 물량","description":"고객에게 배정한 비공개 웨이퍼 월 생산 예약량"},
+{"id":"SEMI-14","industry":"반도체·디스플레이","grade":"S","action":"일반화","label":"노광기 상각 추정액","description":"사내 예산에 반영한 노광 장비 감가상각 예상 금액"},
+{"id":"SEMI-15","industry":"반도체·디스플레이","grade":"S","action":"일반화","label":"공정가스 구매 예산","description":"공개 전 공정용 가스 구매에 책정한 내부 예산"},
+{"id":"SEMI-16","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"클린룸 출입 감사","description":"미공개 클린룸 출입 절차 감사의 판정과 지적 이력"},
+{"id":"SEMI-17","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"패널 라인 폐쇄안","description":"발표 전 패널 생산 라인 폐쇄 결정과 실행 시점"},
+{"id":"SEMI-18","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"증착기 계약 협상","description":"진행 중인 증착기 매입 협상의 결제 및 인수 조건"},
+{"id":"SEMI-19","industry":"반도체·디스플레이","grade":"S","action":"일반화","label":"레지스트 비축량","description":"사내 집계한 포토레지스트 창고별 실제 재고 수량"},
+{"id":"SEMI-20","industry":"반도체·디스플레이","grade":"C","action":"삭제","label":"검사장비 투자 한도","description":"외부에 공개하지 않은 검사 장비 도입 승인 예산"}
+]}
