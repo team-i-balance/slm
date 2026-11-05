@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>입력정보 점검 테스트</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1b1f24; --sub: #5b6470; --line: #e3e6ea;
+    --accent: #2f5bea; --o: #1f8a4c; --o-bg: #e7f6ee; --s: #b26a00; --s-bg: #fff3df;
+    --c: #c0392b; --c-bg: #fdecea; --tok: #eef2ff; --tok-ink: #2f3fa0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --card: #1a1e24; --ink: #e8ebef; --sub: #9aa3ae; --line: #2b3139;
+      --accent: #7b9bff; --o: #5fd394; --o-bg: #14301f; --s: #f0b04f; --s-bg: #33270f;
+      --c: #ff7b6e; --c-bg: #3a1714; --tok: #22284a; --tok-ink: #b8c4ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif; }
+  header { padding: 20px 24px 8px; max-width: 980px; margin: 0 auto; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  h1 { font-size: 20px; margin: 0; flex: 1; min-width: 220px; }
+  .server { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--sub); }
+  .server input { width: 210px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--sub); display: inline-block; }
+  .dot.ok { background: var(--o); } .dot.bad { background: var(--c); }
+  main { max-width: 980px; margin: 0 auto; padding: 8px 24px 48px; }
+  .tabs { display: flex; gap: 4px; margin: 8px 0 16px; border-bottom: 1px solid var(--line); }
+  .tab { padding: 10px 16px; border: 0; background: none; color: var(--sub); font: inherit; cursor: pointer; border-bottom: 2px solid transparent; }
+  .tab.on { color: var(--ink); border-color: var(--accent); font-weight: 600; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin-bottom: 14px; }
+  .card h2 { font-size: 15px; margin: 0 0 10px; }
+  textarea, input[type=text] { width: 100%; font: inherit; color: var(--ink); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  textarea { min-height: 96px; resize: vertical; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+  button.b { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--card); color: var(--ink); cursor: pointer; }
+  button.b.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.b:disabled { opacity: .45; cursor: default; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line);
+    background: var(--bg); color: var(--sub); cursor: pointer; }
+  .grade { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; padding: 4px 12px; border-radius: 999px; }
+  .grade.O { color: var(--o); background: var(--o-bg); } .grade.S { color: var(--s); background: var(--s-bg); }
+  .grade.C { color: var(--c); background: var(--c-bg); }
+  .masked { white-space: pre-wrap; background: var(--bg); border-radius: 8px; padding: 12px; border: 1px solid var(--line); }
+  .tok { background: var(--tok); color: var(--tok-ink); border-radius: 4px; padding: 0 3px; font-weight: 600; }
+  .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 12px 0; }
+  .meta div { background: var(--bg); border-radius: 8px; padding: 8px 10px; font-size: 13px; color: var(--sub); }
+  .meta b { display: block; color: var(--ink); font-size: 15px; }
+  .banner { padding: 12px 14px; border-radius: 8px; margin-top: 12px; }
+  .banner.C { background: var(--c-bg); color: var(--c); } .banner.S { background: var(--s-bg); color: var(--s); }
+  .banner.O { background: var(--o-bg); color: var(--o); }
+  a { color: var(--accent); }
+  .hidden { display: none; }
+  .muted { color: var(--sub); font-size: 13px; }
+  pre.raw { font-size: 12px; background: var(--bg); padding: 10px; border-radius: 8px; overflow-x: auto; margin: 8px 0 0; }
+  details summary { cursor: pointer; color: var(--sub); font-size: 13px; margin-top: 10px; }
+  .err { color: var(--c); margin-top: 10px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>입력정보 사전 점검 · 백엔드 + SLM 테스트</h1>
+  <div class="server"><span class="dot" id="dot"></span><input type="text" id="api" value="http://localhost:8765"><button class="b" id="ping">연결 확인</button></div>
+</header>
+<main>
+  <div class="tabs">
+    <button class="tab on" data-tab="text">텍스트 검사</button>
+    <button class="tab" data-tab="file">엑셀 파일 검사</button>
+  </div>
+
+  <section id="tab-text">
+    <div class="card">
+      <h2>1. AI에 보낼 문장</h2>
+      <div class="chips" id="samples"></div>
+      <textarea id="text" placeholder="AI에 보내려는 문장을 입력하세요" style="margin-top:10px"></textarea>
+      <div class="row">
+        <button class="b primary" id="run">검사하기</button>
+        <label class="muted"><input type="checkbox" id="rulesOnly"> 규칙만(SLM 끄기)</label>
+        <span class="muted" id="lat"></span>
+      </div>
+      <div class="err" id="err"></div>
+    </div>
+
+    <div class="card hidden" id="result">
+      <h2>2. 점검 결과 <span class="grade" id="grade"></span></h2>
+      <div class="masked" id="masked"></div>
+      <div class="meta">
+        <div>탐지 유형<b id="types"></b></div>
+        <div>탐지 건수<b id="count"></b></div>
+        <div>탐지 신뢰도<b id="conf"></b></div>
+        <div>재검사 잔여<b id="remain"></b></div>
+      </div>
+      <div class="banner" id="banner"></div>
+      <div class="row" id="actions">
+        <button class="b primary" data-act="send_transformed">변환문 전송</button>
+        <button class="b" data-act="send_as_is">원문 그대로 전송</button>
+        <button class="b" data-act="revert_original" data-reason="false_positive">되돌리기(오탐)</button>
+        <button class="b" data-act="revert_original" data-reason="business_need">되돌리기(업무상 필요)</button>
+        <button class="b" data-act="cancel">취소</button>
+      </div>
+      <details><summary>서버 응답 원본</summary><pre class="raw" id="raw1"></pre></details>
+    </div>
+
+    <div class="card hidden" id="decided">
+      <h2>3. 전송 결정 → 로그 기록</h2>
+      <div class="meta">
+        <div>보낸 행동<b id="dAction"></b></div>
+        <div>로그 큐<b id="dQueue"></b></div>
+        <div>복원 가능<b id="dRestore"></b></div>
+      </div>
+      <div class="muted">AI에게 실제로 전달되는 문장</div>
+      <div class="masked" id="outgoing"></div>
+      <details><summary>서버 응답 원본</summary><pre class="raw" id="raw2"></pre></details>
+    </div>
+
+    <div class="card hidden" id="restoreCard">
+      <h2>4. AI 답변 복원</h2>
+      <div class="muted">AI가 가명 토큰이 들어간 답을 돌려줬다고 가정합니다. 고쳐서 써 봐도 됩니다.</div>
+      <textarea id="reply" style="margin-top:8px"></textarea>
+      <div class="row"><button class="b primary" id="restore">복원하기</button></div>
+      <div class="masked hidden" id="restored" style="margin-top:10px"></div>
+      <details><summary>서버 응답 원본</summary><pre class="raw" id="raw3"></pre></details>
+    </div>
+  </section>
+
+  <section id="tab-file" class="hidden">
+    <div class="card">
+      <h2>엑셀(.xlsx) 업로드</h2>
+      <div class="muted">셀·시트 이름·메모·문서 속성·파일 이름까지 규칙 엔진 + SLM으로 검사합니다. 하나라도 C면 파일 전체가 차단됩니다.</div>
+      <div class="row">
+        <input type="file" id="file" accept=".xlsx">
+        <button class="b primary" id="upload">검사하기</button>
+        <span class="muted" id="flat"></span>
+      </div>
+      <div class="row muted">샘플(가상 데이터): <a href="samples/pii_only.xlsx" download>이름·주소만 있는 파일</a> · <a href="samples/confidential.xlsx" download>실적 수치가 있는 파일</a></div>
+      <div class="err" id="ferr"></div>
+    </div>
+    <div class="card hidden" id="fresult">
+      <h2>결과 <span class="grade" id="fgrade"></span></h2>
+      <div class="banner" id="fbanner"></div>
+      <div class="meta" id="fmeta"></div>
+      <div class="muted">현재 백엔드는 보호본을 서버 메모리에 10분 보관하고, 파일 다운로드 API는 아직 없습니다.</div>
+      <details><summary>서버 응답 원본</summary><pre class="raw" id="raw4"></pre></details>
+    </div>
+  </section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const api = () => $("api").value.replace(/\/$/, "");
+const GRADE = { public_O: ["O", "공개 O"], sensitive_S: ["S", "민감 S"], confidential_C: ["C", "기밀 C"] };
+const TYPE_KO = { NAME: "이름", ADDRESS: "주소", SENSITIVE: "민감정보", CONFIDENTIAL: "기밀(C)", INTERNAL: "사내정보(S)",
+  PHONE: "전화번호", EMAIL: "이메일", BUSINESS_NUMBER: "사업자번호", API_KEY: "API키", ACCESS_TOKEN: "토큰" };
+const QUEUE_KO = { pre_warning: "사전 경고 로그", detection_improve: "탐지 개선 큐", violation_candidate: "위반 후보 큐", real_violation: "실제 위반 큐" };
+const SAMPLES = [
+  ["이름·주소·전화", "김민지 고객님 배송지 서울시 마포구 월드컵북로4길 17, 3층으로 변경 안내문 써줘. 연락처 010-1234-5678"],
+  ["미공개 실적", "3분기 잠정 매출 1,240억, 영업이익 87억인데 IR 문구 다듬어줘"],
+  ["징계(민감정보)", "박서윤 대리 근태 불량으로 경고 징계 내렸어. 통보 메일 써줘"],
+  ["코드명+일정", "블루웨일은 11월 넷째 주 출시 예정이야. 출시 체크리스트 만들어줘"],
+  ["계약 단가(S 규칙)", "누리소프트와 계약 금액 연 3억 2천으로 합의했어. 계약 요약 메일 써줘"],
+  ["건강 정보", "옆 팀 정하늘 선임이 요즘 공황장애로 치료받고 있대. 업무 조정 요청 메일 써줘"],
+  ["API 키", "이 코드 왜 안 돼? api_key=sk-TESTKEY1234567890abcdef 로 호출했어"],
+  ["함정: 일반 단어", "오로라 사진 여행 코스 추천해줘"],
+  ["함정: 공개 정보", "작년에 공시한 매출 980억 기준으로 업계 평균이랑 비교해줘"],
+];
+let work = null, lastMasked = "";
+
+function esc(s) { return s.replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c])); }
+function highlight(s) { return esc(s).replace(/\[[^\[\]\n]+_\d+\]/g, m => `<span class="tok">${m}</span>`); }
+function show(id, on = true) { $(id).classList.toggle("hidden", !on); }
+async function call(path, opts) {
+  const t0 = performance.now();
+  const r = await fetch(api() + path, opts);
+  const body = await r.json().catch(() => ({}));
+  return { ok: r.ok, status: r.status, body, ms: Math.round(performance.now() - t0) };
+}
+
+async function ping() {
+  try { const r = await call("/health"); $("dot").className = "dot " + (r.ok ? "ok" : "bad"); }
+  catch { $("dot").className = "dot bad"; }
+}
+$("ping").onclick = ping; ping();
+
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x === t));
+  show("tab-text", t.dataset.tab === "text"); show("tab-file", t.dataset.tab === "file");
+});
+SAMPLES.forEach(([label, text]) => {
+  const c = document.createElement("span"); c.className = "chip"; c.textContent = label;
+  c.onclick = () => { $("text").value = text; }; $("samples").appendChild(c);
+});
+$("text").value = SAMPLES[0][1];
+
+$("run").onclick = async () => {
+  $("err").textContent = ""; show("decided", false); show("restoreCard", false);
+  $("run").disabled = true; $("lat").textContent = "검사 중… (첫 요청은 모델을 불러오느라 몇 초 걸립니다)";
+  try {
+    const r = await call("/process", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: $("text").value, rules_only: $("rulesOnly").checked }) });
+    $("lat").textContent = `${r.ms}ms`;
+    if (!r.ok) { $("err").textContent = `오류 ${r.status}: ${JSON.stringify(r.body.detail ?? r.body)}`; show("result", false); return; }
+    const d = r.body; work = d.work_id; lastMasked = d.masked_text;
+    const [g, gl] = GRADE[d.grade] || ["", d.grade];
+    $("grade").className = "grade " + g; $("grade").textContent = gl;
+    $("masked").innerHTML = highlight(d.masked_text);
+    $("types").textContent = d.detected_types.map(t => TYPE_KO[t] || t).join(", ") || "없음";
+    $("count").textContent = d.detected_count; $("conf").textContent = d.detection_confidence; $("remain").textContent = d.remaining_count;
+    const msg = { O: "민감한 정보가 없어 그대로 전송할 수 있습니다.",
+      S: "민감 정보를 가명으로 바꾼 변환문을 보낼 수 있습니다. 항목은 AI 답변에서 원래대로 복원됩니다.",
+      C: "기밀 정보가 있어 외부 AI 전송이 차단됩니다. 사내 AI 이용 안내(시연용 UI)." }[g] || "";
+    $("banner").className = "banner " + g; $("banner").textContent = msg;
+    document.querySelectorAll("#actions button").forEach(b => {
+      const a = b.dataset.act;
+      b.disabled = g === "C" ? !(a === "cancel" || a === "revert_original") : false;
+    });
+    $("raw1").textContent = JSON.stringify(d, null, 2); show("result");
+  } catch (e) { $("err").textContent = "서버에 연결할 수 없습니다: " + e.message; }
+  finally { $("run").disabled = false; }
+};
+
+document.querySelectorAll("#actions button").forEach(b => b.onclick = async () => {
+  if (!work) return;
+  const body = { work_id: work, action: b.dataset.act };
+  if (b.dataset.reason) body.reason = b.dataset.reason;
+  const r = await call("/process/decide", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  if (!r.ok) { $("err").textContent = `오류 ${r.status}: ${JSON.stringify(r.body.detail ?? r.body)}`; return; }
+  const d = r.body;
+  $("dAction").textContent = b.textContent; $("dQueue").textContent = QUEUE_KO[d.event.queue] || d.event.queue;
+  $("dRestore").textContent = d.restore_available ? "예" : "아니오";
+  $("outgoing").innerHTML = d.outgoing_text == null ? "<span class='muted'>(전송 안 함)</span>" : highlight(d.outgoing_text);
+  $("raw2").textContent = JSON.stringify(d, null, 2); show("decided");
+  document.querySelectorAll("#actions button").forEach(x => x.disabled = true);
+  if (d.restore_available) {
+    $("reply").value = `[AI 답변 예시] 요청하신 내용 정리했습니다.\n원문 확인: ${lastMasked}`;
+    show("restored", false); show("restoreCard");
+  }
+});
+
+$("restore").onclick = async () => {
+  const r = await call("/process/restore", { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ work_id: work, text: $("reply").value }) });
+  if (!r.ok) { $("err").textContent = `오류 ${r.status}: ${JSON.stringify(r.body.detail ?? r.body)}`; return; }
+  $("restored").textContent = r.body.text; show("restored");
+  $("raw3").textContent = JSON.stringify(r.body, null, 2);
+};
+
+$("upload").onclick = async () => {
+  $("ferr").textContent = ""; const f = $("file").files[0];
+  if (!f) { $("ferr").textContent = "파일을 선택하세요."; return; }
+  const fd = new FormData(); fd.append("file", f);
+  $("upload").disabled = true; $("flat").textContent = "검사 중…";
+  try {
+    const r = await call("/files/sanitize", { method: "POST", body: fd });
+    $("flat").textContent = `${r.ms}ms`;
+    const d = r.body; const [g, gl] = GRADE[d.grade] || ["", d.grade ?? "판정 없음"];
+    $("fgrade").className = "grade " + g; $("fgrade").textContent = gl;
+    const msg = { READY: "검사를 통과한 보호본이 서버에 보관됐습니다.", BLOCKED: "기밀(C) 정보가 있어 파일 전체가 차단됐습니다.",
+      FAILED: "처리에 실패했습니다: " + (d.reason || "") }[d.status] || d.status;
+    $("fbanner").className = "banner " + (d.status === "READY" ? (g || "O") : "C"); $("fbanner").textContent = `${d.status} · ${msg}`;
+    const s = d.summary || {};
+    $("fmeta").innerHTML = [["변환된 셀", s.changed_cells], ["삭제된 메모", s.removed_comments], ["삭제된 시트", s.removed_sheets],
+      ["보관 만료", d.expires_at ? new Date(d.expires_at).toLocaleTimeString() : "-"]]
+      .map(([k, v]) => `<div>${k}<b>${v ?? "-"}</b></div>`).join("");
+    $("raw4").textContent = JSON.stringify(d, null, 2); show("fresult");
+  } catch (e) { $("ferr").textContent = "서버에 연결할 수 없습니다: " + e.message; }
+  finally { $("upload").disabled = false; }
+};
+</script>
+</body>
+</html>
