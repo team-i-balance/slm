@@ -1,0 +1,101 @@
+{
+ "company": "누리로지스(가상)",
+ "rules": [
+  {
+   "id": "L01",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 센터 부지",
+   "description": "발표 전 신규 물류센터·허브의 후보지와 매입·계약 부지 위치"
+  },
+  {
+   "id": "L02",
+   "split": "heldout",
+   "grade": "S",
+   "action": "일반화",
+   "label": "화주별 계약 운임",
+   "description": "특정 화주사와 계약한 박스당·kg당 운임, 보관료, 할증 금액"
+  },
+  {
+   "id": "L03",
+   "split": "heldout",
+   "grade": "S",
+   "action": "일반화",
+   "label": "배송 SLA 위약 조건",
+   "description": "화주 계약상 배송 기준 미달 시 운임 차감·배상·위약금 조건"
+  },
+  {
+   "id": "L04",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "배차·경로 로직",
+   "description": "배차 엔진의 가중치, 기사 배정 규칙, 경로 산정 기준"
+  },
+  {
+   "id": "L05",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "거점 통폐합 계획",
+   "description": "발표 전 터미널·캠프·센터의 폐쇄, 이전, 통합 계획"
+  },
+  {
+   "id": "L06",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "화주사 물량 전망",
+   "description": "주요 화주사의 시즌·분기·연간 예상 출고 물량 수치"
+  },
+  {
+   "id": "L07",
+   "split": "heldout",
+   "grade": "S",
+   "action": "일반화",
+   "label": "하청 운송 단가",
+   "description": "위탁 기사·하청 운송사·용차에 지급하는 건당·회차 단가"
+  },
+  {
+   "id": "L08",
+   "split": "heldout",
+   "grade": "C",
+   "action": "태그",
+   "label": "자동화 설비 도입",
+   "description": "미공개 소터·AGV·로봇 등 창고 자동화 설비 도입 계획과 규모"
+  },
+  {
+   "id": "L09",
+   "split": "heldout",
+   "grade": "C",
+   "action": "태그",
+   "label": "거점 코드명",
+   "description": "신규 센터·허브를 가리키는 내부 코드명"
+  },
+  {
+   "id": "L10",
+   "split": "heldout",
+   "grade": "S",
+   "action": "일반화",
+   "label": "간선 운행 시간표",
+   "description": "터미널 간 간선 차량의 출발·도착 시각과 노선 순서"
+  },
+  {
+   "id": "L11",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "센터 처리 용량",
+   "description": "센터·허브별 처리 능력, 보관 용량, 가동률 수치"
+  },
+  {
+   "id": "L12",
+   "split": "heldout",
+   "grade": "C",
+   "action": "삭제",
+   "label": "고가화물 운송 정보",
+   "description": "귀금속·반도체·의약품 등 고가 화물의 운송 일정과 경로"
+  }
+ ]
+}
