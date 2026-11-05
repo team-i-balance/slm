@@ -72,6 +72,15 @@ for h, core in health:
         txt = f.format(p=phone(), h=h, k=rng.randint(10000, 99999))
         pos(txt, [[core, "P-SENS"]])
 
+# 6. 은행명·주문/거래 식별자·가명 토큰 주변 (고객사·주소 아님)
+banks = ["신한", "국민", "우리", "하나", "농협", "기업", "카카오뱅크", "토스뱅크", "SC제일", "부산은행"]
+ords = ["ABC", "ORD-20431", "PO-7781", "INV-0092", "TX93821", "주문 A-1123", "No.4471", "REQ-55", "KR-0091-22", "Z9"]
+bfmt = ["주문번호 {o} {b} 계좌 [계좌번호_1]", "주문번호 {o} {b} 계좌 {a}", "{b} 계좌 {a}로 환불 부탁드립니다 (주문 {o})",
+        "환불 계좌: {b} [계좌번호_1], 주문 {o}", "{o} 건 입금 확인 — {b}은행 {a}", "거래번호 {o} / {b} / [계좌번호_2]"]
+for i, f in enumerate(bfmt):
+    for k in range(4):
+        neg(f.format(o=ords[(i + k * 3) % len(ords)], b=banks[(i * 2 + k) % len(banks)], a=acct()), ["R06"])
+
 seen, rows = set(), []
 for d in out:
     if d["text"] not in seen:
