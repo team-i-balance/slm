@@ -1,0 +1,43 @@
+# 기밀 구간 탐지 SLM
+
+목표: 사내 서버(맥북 M5급 CPU)에서 문장당 100ms 이하, 모델 300MB 이하.
+SLM은 기밀 정보만 맡는다 (개인정보는 `../piiguard` 규칙 엔진 담당).
+규칙 = "무엇을 기밀로 보는지" 설명. 새 규칙은 재학습 없이 적용되는 것이 목표.
+
+- `data/rules.json` — 가상 회사 모아랩스 규칙 30개 (train 22 / heldout 8: 학습 금지)
+- `data/eval.jsonl` — 평가 104문장, 정답 구간 90개, 기밀 없는 문장 30개(함정 포함)
+- `evaluate.py` — 재현율(학습 규칙/처음 보는 규칙), 정밀도, 오탐 문장률, 지연
+
+```bash
+uv venv --python 3.11 .venv && uv pip install --python .venv/bin/python torch gliner sentencepiece protobuf tiktoken python-mecab-ko accelerate
+.venv/bin/python evaluate.py --model gliner --threshold 0.25          # 기성 모델
+.venv/bin/python build_dataset.py                                     # data/train_raw → train/dev.jsonl
+.venv/bin/python train.py --out models/v1 --steps 1200                # 미세조정 (M5 MPS 약 40분)
+.venv/bin/python evaluate.py --model gliner --name models/v1/final --threshold 0.3
+```
+
+## 기준 측정 (2026-11-05, 학습 없음, CPU)
+
+| 설정 | 재현율 | 학습 규칙 | 처음 보는 규칙 | 정밀도 | 오탐 문장률 | p50 |
+|---|---|---|---|---|---|---|
+| 단어 일치 기준선 | 23.3% | 22.1% | 27.3% | 17.5% | 46.7% | 0ms |
+| gliner_multi-v2.1, 이름, 임계 0.4 | 20.0% | 22.1% | 13.6% | 64.3% | 6.7% | 72ms |
+| gliner_multi-v2.1, 이름, 임계 0.25 | 37.8% | 42.6% | 22.7% | 56.5% | 13.3% | 72ms |
+| gliner_multi-v2.1, 이름+설명 | 0% | 0% | 0% | - | 0% | 300ms |
+
+해석
+- 기성 GLiNER는 '사람/회사' 같은 개체명용이라, "영업이익 87억" 같은 **의미형 기밀 구절을 거의 못 잡음** → 미세조정 필수
+- 설명을 라벨로 넣으면 0% — 긴 라벨로 학습된 적이 없음. 설명을 쓰려면 그렇게 학습시켜야 함
+- 속도는 이미 목표 이내 (규칙 30개 동시 72ms)
+- 2.89억 파라미터 중 **1.92억(66%)이 25만 단어 임베딩** → 한국어·영어 어휘만 남기면 약 1.2억, INT8로 약 120MB 예상
+
+## 학습 데이터 v1 (2026-11-05)
+
+`data/GUIDE.md` 기준으로 서브에이전트 7개가 업종별로 생성 → `data/check_raw.py` 검사 → `build_dataset.py` 병합.
+
+- 규칙 257개: 모아랩스 학습 규칙 22개 + 12개 업종 × 20개 (제조, 자동차, 금융, 보험, 제약, 화학·에너지, 게임, 이커머스, 건설, 공공·방산, 통신, 법률)
+  - 개인정보성 규칙 5개(COM-18, CON-08, CON-17, GAME-13, PUB-15)는 규칙 엔진 담당이라 제외, 해당 문장은 통째로 버림
+- 문장 3,230 (양성 2,186 / 음성 1,044) → `train.jsonl` 3,069, `dev.jsonl` 161. 평가셋과 겹치는 문장 0
+- heldout 개념 누수 의심 0, 글자 3-gram 유사도 0.6 넘는 거의-중복 0.6%
+- 구간 길이 중앙값 20자, 95% 40자, 최대 84자 → mecab 분리 시 GLiNER 기본 max_width(12단어)를 넘는 구간이 생김. 학습 때 처리 필요
+- 형식: `{"text", "spans": [[start, end, rule_id]], "near": [...], "industry"}`, 규칙은 `rule_bank.json`

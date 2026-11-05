@@ -1,0 +1,164 @@
+{
+ "rules": [
+  {
+   "id": "MFG-01",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 제품 코드명",
+   "description": "출시 전 신제품 개발에 쓰는 내부 코드명과 프로젝트 이름"
+  },
+  {
+   "id": "MFG-02",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "일반화",
+   "label": "미공개 양산 일정",
+   "description": "발표 전 신제품의 시생산·양산 개시일과 출하 일정"
+  },
+  {
+   "id": "MFG-03",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "부품 공급 단가",
+   "description": "공급사와 협의한 부품 단가, 할인율, 결제 조건"
+  },
+  {
+   "id": "MFG-04",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "대체",
+   "label": "비공개 협력 공급사",
+   "description": "외부에 알리지 않은 핵심 부품·소재 공급사 이름"
+  },
+  {
+   "id": "MFG-05",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 보드 설계 구성",
+   "description": "출시 전 제품의 회로·보드 구조와 부품 선정 내용"
+  },
+  {
+   "id": "MFG-06",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "비공개 공정 레시피",
+   "description": "SMT·도장·열처리 등 공정의 비공개 조건값과 순서"
+  },
+  {
+   "id": "MFG-07",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "태그",
+   "label": "사내 시스템명",
+   "description": "외부에 알리지 않는 사내 생산·설계·품질 시스템의 이름"
+  },
+  {
+   "id": "MFG-08",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "설비 투자 계획",
+   "description": "발표 전 설비 증설·신규 도입의 규모와 예산"
+  },
+  {
+   "id": "MFG-09",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "제품 원가 구조",
+   "description": "제품별 BOM 원가와 원가 구성 비율, 목표 원가"
+  },
+  {
+   "id": "MFG-10",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "출원 전 발명 내용",
+   "description": "특허 출원 전인 자사 발명의 구성과 아이디어"
+  },
+  {
+   "id": "MFG-11",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "금형 설계 노하우",
+   "description": "자사 금형의 게이트·냉각·구조 설계 노하우와 사양"
+  },
+  {
+   "id": "MFG-12",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "대체",
+   "label": "비공개 OEM 고객사",
+   "description": "외부에 알리지 않은 OEM·납품 고객사의 이름"
+  },
+  {
+   "id": "MFG-13",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "일반화",
+   "label": "인증 시험 계획",
+   "description": "출시 전 제품의 인증 신청·시험 일정과 진행 계획"
+  },
+  {
+   "id": "MFG-14",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "내부 서버 접속 정보",
+   "description": "사내 서버 주소, 호스트명, 계정 규칙 등 접속 정보"
+  },
+  {
+   "id": "MFG-15",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "생산 물량 계획",
+   "description": "연간·분기별 생산 물량과 생산 능력 확대 계획"
+  },
+  {
+   "id": "MFG-16",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "원자재 확보 전략",
+   "description": "핵심 부품·원자재의 비축 수량과 조달 분산 전략"
+  },
+  {
+   "id": "MFG-17",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "공장 배치·보안구역",
+   "description": "공장 설비 배치와 보안구역 위치, 출입 통제 방식"
+  },
+  {
+   "id": "MFG-18",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "신소재 배합 비율",
+   "description": "자체 개발한 소재·코팅·접착제의 배합 비율과 첨가제"
+  },
+  {
+   "id": "MFG-19",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "협력사 평가 결과",
+   "description": "협력사 평가 점수·등급과 그에 따른 거래 조정 계획"
+  },
+  {
+   "id": "MFG-20",
+   "industry": "제조·전자 하드웨어",
+   "grade": "C",
+   "action": "삭제",
+   "label": "인력 감축·조직개편",
+   "description": "발표 전 인력 감축, 희망퇴직, 조직 개편 및 전환배치 계획"
+  }
+ ]
+}

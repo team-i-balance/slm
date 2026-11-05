@@ -1,0 +1,165 @@
+{
+ "company": "누리방위조달원(가상 공공기관, 조달·방위사업)",
+ "rules": [
+  {
+   "id": "PUB-01",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "사업 예정가격",
+   "description": "공고 전 사업의 추정가격, 예정가격, 기초금액"
+  },
+  {
+   "id": "PUB-02",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "평가위원 명단",
+   "description": "제안서·기술 평가위원의 이름, 소속, 선정 결과"
+  },
+  {
+   "id": "PUB-03",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "평가 점수·순위",
+   "description": "개별 업체 평가 점수와 심사 순위, 가격 점수"
+  },
+  {
+   "id": "PUB-04",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 사업 코드명",
+   "description": "공고 전 사업·사업단에 붙인 내부 코드명"
+  },
+  {
+   "id": "PUB-05",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "군 부대·시설 위치",
+   "description": "군 부대·방산 시설의 위치, 배치, 병력 규모"
+  },
+  {
+   "id": "PUB-06",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "무기체계 획득 계획",
+   "description": "미공개 소요 수량, 획득 시기, 예산 규모 등 획득 계획"
+  },
+  {
+   "id": "PUB-07",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보안구역 출입 통제",
+   "description": "보안시설 출입 절차, 비밀번호 주기, 통제 구역 설정"
+  },
+  {
+   "id": "PUB-08",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "수의계약 사전 내정",
+   "description": "공개 전 수의계약·업체 선정에 대한 사전 내정 정보"
+  },
+  {
+   "id": "PUB-09",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "삭제",
+   "label": "감사 지적 사항",
+   "description": "공개 전 내부·외부 감사 지적 내용과 처분 의견"
+  },
+  {
+   "id": "PUB-10",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 시스템명·주소",
+   "description": "행정·조달 내부 시스템 이름과 내부망 접속 경로"
+  },
+  {
+   "id": "PUB-11",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "삭제",
+   "label": "인사 발령 사전 정보",
+   "description": "공고 전 승진·전보·인사 발령 대상과 시기"
+  },
+  {
+   "id": "PUB-12",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "예산 편성 내시안",
+   "description": "확정 전 예산 편성 초안과 부처 협의 중인 금액"
+  },
+  {
+   "id": "PUB-13",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "협상 우선순위·선정 결과",
+   "description": "공고 전 협상 대상 선정 결과와 업체 우선순위"
+  },
+  {
+   "id": "PUB-14",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 협력 방산업체",
+   "description": "거래 사실이 공개되지 않은 협력 방산·정보통신 업체명"
+  },
+  {
+   "id": "PUB-15",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "대체",
+   "label": "민원인 개인정보",
+   "description": "민원인·신청인의 이름, 연락처, 주소 등 개인정보"
+  },
+  {
+   "id": "PUB-16",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "일반화",
+   "label": "내부망 구성·IP",
+   "description": "망 구성도, IP 대역, 방화벽 규칙"
+  },
+  {
+   "id": "PUB-17",
+   "industry": "공공기관·조달·방산",
+   "grade": "S",
+   "action": "삭제",
+   "label": "징계·수사 대상 직원",
+   "description": "징계 심의·수사 의뢰 중인 직원 이름과 사유"
+  },
+  {
+   "id": "PUB-18",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "국외 도입 협상 조건",
+   "description": "해외 업체와의 도입·구매 협상 조건과 금액"
+  },
+  {
+   "id": "PUB-19",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "암호·보안 자재 관리",
+   "description": "암호자재 일련번호, 보관 위치, 교체 일정"
+  },
+  {
+   "id": "PUB-20",
+   "industry": "공공기관·조달·방산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "사전규격 초안",
+   "description": "공개 전 제안요청서(RFP)·규격서 초안과 평가 기준"
+  }
+ ]
+}

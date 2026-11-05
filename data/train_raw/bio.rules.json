@@ -1,0 +1,165 @@
+{
+ "company": "세린바이오젠(가상 회사, 신약 개발·바이오의약품 제조)",
+ "rules": [
+  {
+   "id": "B01",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 후보물질 코드명",
+   "description": "아직 외부에 공개하지 않은 신약 후보물질의 내부 코드명"
+  },
+  {
+   "id": "B02",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "임상시험 설계안",
+   "description": "확정 전 임상 용량군·피험자 수·평가변수 등 시험 설계 내용"
+  },
+  {
+   "id": "B03",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "허가 신청 전략",
+   "description": "허가 신청 시점, 신속심사·조건부허가 활용 등 규제 승인 전략"
+  },
+  {
+   "id": "B04",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "제조 공정 조건",
+   "description": "배양·정제 단계의 비공개 공정 파라미터와 운전 조건"
+  },
+  {
+   "id": "B05",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "태그",
+   "label": "내부 세포주·균주명",
+   "description": "자체 구축한 생산용 세포주나 균주의 내부 관리명"
+  },
+  {
+   "id": "B06",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "기술이전 협상 조건",
+   "description": "라이선스 아웃 협상의 선급금, 마일스톤, 로열티율"
+  },
+  {
+   "id": "B07",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 위탁생산사",
+   "description": "위탁생산(CDMO) 계약 사실과 업체명, 물량·단가"
+  },
+  {
+   "id": "B08",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "파이프라인 우선순위",
+   "description": "개발 중단·보류·우선순위 조정 등 파이프라인 운영 결정"
+  },
+  {
+   "id": "B09",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "약가 협상 목표",
+   "description": "보험 급여 등재 시 목표 약가와 협상 전략"
+  },
+  {
+   "id": "B10",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "태그",
+   "label": "의료 소프트웨어 내부명",
+   "description": "미출시 의료용 소프트웨어·알고리즘의 내부 프로젝트명"
+  },
+  {
+   "id": "B11",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "특허 분쟁 대응 전략",
+   "description": "특허 회피 설계와 소송·무효심판 대응 방침"
+  },
+  {
+   "id": "B12",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "규제기관 사전상담 내용",
+   "description": "식약처·FDA 사전상담에서 오간 질의와 피드백 내용"
+  },
+  {
+   "id": "B13",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "대체",
+   "label": "원료 공급처와 단가",
+   "description": "비공개 원료의약품 공급업체명과 구매 단가"
+  },
+  {
+   "id": "B14",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "일반화",
+   "label": "임상 수행 기관 선정",
+   "description": "임상시험을 맡길 CRO와 참여 병원 선정 내용"
+  },
+  {
+   "id": "B15",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "생산시설 증설 계획",
+   "description": "GMP 생산시설의 증설 규모, 부지, 투자금액"
+  },
+  {
+   "id": "B16",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "출시 영업 전략",
+   "description": "미공개 신약의 출시 전 영업 인력·목표 병원 계획"
+  },
+  {
+   "id": "B17",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 임상 데이터 시스템명",
+   "description": "사내 임상 데이터 관리 시스템과 플랫폼의 내부 이름"
+  },
+  {
+   "id": "B18",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "오픈이노베이션 투자 검토",
+   "description": "스타트업 지분투자·공동개발 검토 대상과 조건"
+  },
+  {
+   "id": "B19",
+   "industry": "제약·바이오·의료",
+   "grade": "S",
+   "action": "일반화",
+   "label": "연구개발 예산 배분",
+   "description": "부서·과제별 연구개발비 배정 금액과 비율"
+  },
+  {
+   "id": "B20",
+   "industry": "제약·바이오·의료",
+   "grade": "C",
+   "action": "삭제",
+   "label": "적응증 확장 계획",
+   "description": "미공개 추가 적응증 개발 방향과 시점"
+  }
+ ]
+}

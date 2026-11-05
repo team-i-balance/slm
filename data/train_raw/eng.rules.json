@@ -1,0 +1,165 @@
+{
+ "company": "한울에너켐(가상 회사, 석유화학·정밀화학·신재생에너지)",
+ "rules": [
+  {
+   "id": "E01",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 촉매 코드명",
+   "description": "상용화 전 신규 촉매·소재의 내부 코드명"
+  },
+  {
+   "id": "E02",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "공정 운전 노하우",
+   "description": "반응기 온도·압력·체류시간 등 비공개 운전 조건 설정값"
+  },
+  {
+   "id": "E03",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "플랜트 증설 계획",
+   "description": "미발표 플랜트 신설·증설의 규모, 부지, 투자금액"
+  },
+  {
+   "id": "E04",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "일반화",
+   "label": "원료 장기구매 조건",
+   "description": "나프타·에틸렌 등 원료의 장기 구매 물량과 가격 연동식"
+  },
+  {
+   "id": "E05",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 원료 공급사",
+   "description": "거래 사실을 밝히지 않은 원료 공급업체와 물량"
+  },
+  {
+   "id": "E06",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "기술 라이선스 협상",
+   "description": "공정 기술 도입·제공 협상의 상대, 로열티, 범위"
+  },
+  {
+   "id": "E07",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "탄소배출권 거래 전략",
+   "description": "배출권 매입·매각의 물량, 시점, 목표 가격"
+  },
+  {
+   "id": "E08",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "일반화",
+   "label": "정기보수 일정과 범위",
+   "description": "공장 셧다운 시기, 기간, 보수 대상 설비"
+  },
+  {
+   "id": "E09",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "전력구매계약 조건",
+   "description": "PPA·REC 장기계약의 단가, 물량, 기간"
+  },
+  {
+   "id": "E10",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "태그",
+   "label": "미공개 신사업 프로젝트명",
+   "description": "수소·배터리 소재 등 신사업의 내부 프로젝트 이름"
+  },
+  {
+   "id": "E11",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "인허가 협의 전략",
+   "description": "환경영향평가·지자체 인허가 협의의 대응 방침과 쟁점"
+  },
+  {
+   "id": "E12",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "해외 사업 입찰 가격",
+   "description": "해외 광구·발전 사업 입찰의 제안가와 입찰 전략"
+  },
+  {
+   "id": "E13",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 도면·문서 번호",
+   "description": "공정 도면(P&ID)과 설계 문서의 내부 관리번호"
+  },
+  {
+   "id": "E14",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 제어·생산 시스템명",
+   "description": "공장 제어·생산관리 시스템의 내부 이름"
+  },
+  {
+   "id": "E15",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "원료 헤지 포지션",
+   "description": "유가·환율 헤지 비율, 계약 규모, 만기"
+  },
+  {
+   "id": "E16",
+   "industry": "화학·에너지",
+   "grade": "S",
+   "action": "일반화",
+   "label": "고객사 공급 단가",
+   "description": "특정 고객사에 납품하는 제품의 단가와 물량"
+  },
+  {
+   "id": "E17",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "비핵심 설비 매각 협상",
+   "description": "설비·사업부 매각 대상, 희망가, 협상 상태"
+  },
+  {
+   "id": "E18",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "제품 배합 레시피",
+   "description": "첨가제 종류와 배합 비율 등 비공개 배합 설계"
+  },
+  {
+   "id": "E19",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "신재생 후보 부지",
+   "description": "발전소를 지을 후보 부지의 위치, 임대 조건, 확보 상태"
+  },
+  {
+   "id": "E20",
+   "industry": "화학·에너지",
+   "grade": "C",
+   "action": "삭제",
+   "label": "연구개발 투자 방향",
+   "description": "미공개 R&D 과제의 우선순위와 투자 규모"
+  }
+ ]
+}

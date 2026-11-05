@@ -1,0 +1,164 @@
+{
+ "rules": [
+  {
+   "id": "LAW-01",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "대체",
+   "label": "의뢰인 이름·의뢰 사실",
+   "description": "누가 어떤 사안으로 의뢰했는지(의뢰인 이름과 의뢰 사실)"
+  },
+  {
+   "id": "LAW-02",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "자문 중인 거래 내용",
+   "description": "자문 중인 M&A·투자 거래의 대상, 구조, 가격"
+  },
+  {
+   "id": "LAW-03",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "소송 전략",
+   "description": "진행 중인 사건의 대응 전략과 승소 평가"
+  },
+  {
+   "id": "LAW-04",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "태그",
+   "label": "사건 코드명",
+   "description": "진행 중인 사건·딜의 내부 코드명"
+  },
+  {
+   "id": "LAW-05",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "대체",
+   "label": "사건·문서 관리번호",
+   "description": "펌 내부 사건 관리번호와 법원 사건번호"
+  },
+  {
+   "id": "LAW-06",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "감사 중 발견 회계 이슈",
+   "description": "감사·자문 중 발견한 고객사의 회계 오류와 의심 사항"
+  },
+  {
+   "id": "LAW-07",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "일반화",
+   "label": "고객별 자문료·보수 조건",
+   "description": "특정 의뢰인과 합의한 착수금, 성공보수, 시간당 보수"
+  },
+  {
+   "id": "LAW-08",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "세무조사 대응 내용",
+   "description": "고객사에 진행 중인 세무조사의 쟁점과 대응 계획"
+  },
+  {
+   "id": "LAW-09",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "고객사 미공개 재무 수치",
+   "description": "의뢰인 회사의 공시되지 않은 재무·실적 수치"
+  },
+  {
+   "id": "LAW-10",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "합의금·화해 조건",
+   "description": "협상 중인 합의금, 화해 조건과 양보 한도"
+  },
+  {
+   "id": "LAW-11",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "수주 전 제안 전략",
+   "description": "수주 전 제안서의 핵심 접근법, 제안 금액, 차별화 전략"
+  },
+  {
+   "id": "LAW-12",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "대체",
+   "label": "의뢰인 재산·상속 내역",
+   "description": "의뢰인 개인의 재산 목록, 상속·증여 내역"
+  },
+  {
+   "id": "LAW-13",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "고객사 상장 준비 상황",
+   "description": "비공개 상장 준비 일정, 공모 규모, 밸류에이션"
+  },
+  {
+   "id": "LAW-14",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "규제당국 조사 대응",
+   "description": "고객사가 받는 당국 조사의 내용과 대응 계획"
+  },
+  {
+   "id": "LAW-15",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "일반화",
+   "label": "펌 내부 보수·분배 체계",
+   "description": "파트너·직원의 보수, 이익 분배, 승진 기준"
+  },
+  {
+   "id": "LAW-16",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "대체",
+   "label": "펌 내부 시스템명",
+   "description": "문서관리·조회·청구 등 사내 시스템의 내부 명칭"
+  },
+  {
+   "id": "LAW-17",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "대체",
+   "label": "외부 전문가·협력업체명",
+   "description": "사건에 참여하는 비공개 외부 전문가·협력업체의 이름"
+  },
+  {
+   "id": "LAW-18",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "실사 결과",
+   "description": "인수·투자 실사에서 확인한 대상 회사의 문제점"
+  },
+  {
+   "id": "LAW-19",
+   "industry": "법률·회계·컨설팅",
+   "grade": "S",
+   "action": "일반화",
+   "label": "미체결 계약 핵심 조건",
+   "description": "협상 중인 계약서의 수량, 요율, 책임 한도 등 핵심 조건"
+  },
+  {
+   "id": "LAW-20",
+   "industry": "법률·회계·컨설팅",
+   "grade": "C",
+   "action": "삭제",
+   "label": "영업 타깃 리스트",
+   "description": "신규 수임을 위해 접촉하려는 잠재 고객과 영업 계획"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "company": "태림이앤씨(가상 건설·부동산 개발사)",
+ "rules": [
+  {
+   "id": "CON-01",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "낙찰 예정가·예가",
+   "description": "발주처가 공개하지 않은 예정가격과 낙찰 예상 금액"
+  },
+  {
+   "id": "CON-02",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "입찰 투찰 전략",
+   "description": "경쟁사 대응과 투찰률 결정에 쓰는 내부 입찰 전략"
+  },
+  {
+   "id": "CON-03",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 부지 매입 협의",
+   "description": "공개 전 개발 예정 부지의 매입 대상과 협의 조건"
+  },
+  {
+   "id": "CON-04",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "PF 대출 조건",
+   "description": "프로젝트파이낸싱 대출의 한도, 금리, 약정 조건"
+  },
+  {
+   "id": "CON-05",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "분양가 산정안",
+   "description": "공고 전 단지 분양가와 층별·타입별 가격 책정안"
+  },
+  {
+   "id": "CON-06",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "일반화",
+   "label": "하도급 단가",
+   "description": "협력사와 체결한 공종별 하도급 계약 금액과 단가"
+  },
+  {
+   "id": "CON-07",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "삭제",
+   "label": "협력업체 평가 등급",
+   "description": "협력업체별 내부 평가 점수와 등급, 거래 제한 여부"
+  },
+  {
+   "id": "CON-08",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "대체",
+   "label": "조합원 명단·동호수",
+   "description": "재건축·재개발 조합원의 개인정보와 배정 동호수"
+  },
+  {
+   "id": "CON-09",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 단지·사업 코드명",
+   "description": "발표 전 개발사업·단지에 붙인 내부 코드명"
+  },
+  {
+   "id": "CON-10",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "시공 원가 내역",
+   "description": "현장 직접공사비, 자재·노무비 등 상세 원가 구성"
+  },
+  {
+   "id": "CON-11",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "현장 손익·실행률",
+   "description": "현장별 예상 손익, 실행률, 적자 전망"
+  },
+  {
+   "id": "CON-12",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보안시설 도면·배치",
+   "description": "데이터센터·군 시설 등 보안구역 설계도면과 배치"
+  },
+  {
+   "id": "CON-13",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 수주 협의",
+   "description": "정식 발표 전 발주처와 협의 중인 수주 건과 조건"
+  },
+  {
+   "id": "CON-14",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 협력 설계사무소",
+   "description": "외부에 알리지 않은 협력 설계·감리 사무소 이름"
+  },
+  {
+   "id": "CON-15",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 시스템명·주소",
+   "description": "사내 BIM·공사관리 시스템의 이름과 접속 경로"
+  },
+  {
+   "id": "CON-16",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "삭제",
+   "label": "현장소장 인사평가",
+   "description": "현장소장·직원 개인의 평가 등급과 인사 조치"
+  },
+  {
+   "id": "CON-17",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "대체",
+   "label": "분양 계약자 개인정보",
+   "description": "청약 당첨자·분양 계약자의 이름, 연락처, 동호수"
+  },
+  {
+   "id": "CON-18",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "토지 감정평가액",
+   "description": "공개 전 토지·건물 감정평가 결과와 평가 기준"
+  },
+  {
+   "id": "CON-19",
+   "industry": "건설·부동산",
+   "grade": "C",
+   "action": "삭제",
+   "label": "인허가 사전 협의",
+   "description": "공개 전 지자체·기관과의 인허가 사전 협의 내용"
+  },
+  {
+   "id": "CON-20",
+   "industry": "건설·부동산",
+   "grade": "S",
+   "action": "일반화",
+   "label": "자재 공급 단가",
+   "description": "레미콘·철근 등 주요 자재의 공급 계약 단가와 물량"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "rules": [
+  {
+   "id": "AUTO-01",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 차종 코드명",
+   "description": "출시 전 신차·프로그램의 내부 코드명과 프로젝트 이름"
+  },
+  {
+   "id": "AUTO-02",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "일반화",
+   "label": "미공개 신차 출시 일정",
+   "description": "발표 전 신차의 공개·사전계약·출고 일정"
+  },
+  {
+   "id": "AUTO-03",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "주행 보조 로직 설계",
+   "description": "자체 개발한 주행 보조·제어 소프트웨어의 설계 구조"
+  },
+  {
+   "id": "AUTO-04",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "부품 납품 단가",
+   "description": "협력사 부품 납품 단가, 연간 인하율, 결제 조건"
+  },
+  {
+   "id": "AUTO-05",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "대체",
+   "label": "비공개 부품 협력사",
+   "description": "외부에 알리지 않은 핵심 부품 협력사의 이름"
+  },
+  {
+   "id": "AUTO-06",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "충전·정비 제휴 협상",
+   "description": "진행 중인 충전 인프라·정비망 제휴 협상의 상대와 조건"
+  },
+  {
+   "id": "AUTO-07",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "딜러 마진·인센티브",
+   "description": "딜러 마진율과 판매 인센티브, 지원금 지급 조건"
+  },
+  {
+   "id": "AUTO-08",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "배터리 셀 구매계약",
+   "description": "배터리 셀 장기 구매의 물량, 기준가, 연동·위약 조건"
+  },
+  {
+   "id": "AUTO-09",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "일반화",
+   "label": "비공개 시험주행 계획",
+   "description": "위장 시제차의 비공개 시험 장소와 시험 일정"
+  },
+  {
+   "id": "AUTO-10",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "태그",
+   "label": "사내 시스템명",
+   "description": "외부에 알리지 않는 사내 딜러·설계·구매·OTA 시스템 이름"
+  },
+  {
+   "id": "AUTO-11",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "플랫폼 개발 투자",
+   "description": "발표 전 차세대 플랫폼·연구소 투자 규모와 예산 배분"
+  },
+  {
+   "id": "AUTO-12",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "대체",
+   "label": "비공개 플릿 고객사",
+   "description": "외부에 알리지 않은 렌터카·물류·택시 등 대량 구매 고객사 이름"
+  },
+  {
+   "id": "AUTO-13",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "출원 전 기술 아이디어",
+   "description": "특허 출원 전인 자사 차량·부품 발명의 구성과 아이디어"
+  },
+  {
+   "id": "AUTO-14",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "지역별 판매 목표",
+   "description": "지역·차종·딜러 그룹별 연간·월간 판매 목표 대수"
+  },
+  {
+   "id": "AUTO-15",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "일반화",
+   "label": "미공개 OTA 배포 계획",
+   "description": "공개 전 OTA 업데이트의 배포 일정과 포함 기능"
+  },
+  {
+   "id": "AUTO-16",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보험 제휴 요율 조건",
+   "description": "자사 차량 연계 보험 제휴의 요율, 수수료, 독점 조건"
+  },
+  {
+   "id": "AUTO-17",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 디자인 특징",
+   "description": "공개 전 신차의 외장·실내 디자인 요소와 신규 색상"
+  },
+  {
+   "id": "AUTO-18",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "공장 증설 계획",
+   "description": "발표 전 생산 라인 신설·개조·해외 공장 건설 계획"
+  },
+  {
+   "id": "AUTO-19",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "정비 원가·공임 마진",
+   "description": "서비스센터의 정비 공임·부품 원가와 마진, 보증수리 정산 단가"
+  },
+  {
+   "id": "AUTO-20",
+   "industry": "자동차·모빌리티",
+   "grade": "C",
+   "action": "삭제",
+   "label": "원자재 구매·헤지 전략",
+   "description": "리튬·니켈 등 원자재의 구매 비율, 헤지 방식, 비축 방침"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "rules": [
+  {
+   "id": "INS-01",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보험료 산출 가정",
+   "description": "비공개 예정이율·위험률 등 보험료 산출 기준"
+  },
+  {
+   "id": "INS-02",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "인수심사 기준",
+   "description": "가입 승낙·거절·할증을 정하는 비공개 심사 기준"
+  },
+  {
+   "id": "INS-03",
+   "industry": "보험",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 상품 코드명",
+   "description": "출시 전 보험상품·서비스의 내부 코드명"
+  },
+  {
+   "id": "INS-04",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "지급여력 산정 수치",
+   "description": "내부 산정 지급여력비율과 자본 시나리오 수치"
+  },
+  {
+   "id": "INS-05",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보험금 심사 내부 기준",
+   "description": "지급 거절·삭감을 정하는 비공개 손해사정 기준"
+  },
+  {
+   "id": "INS-06",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "재보험 계약 조건",
+   "description": "출재 비율, 재보험사, 요율 등 재보험 조건"
+  },
+  {
+   "id": "INS-07",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보험사기 탐지 룰",
+   "description": "사기 의심 청구를 걸러내는 비공개 탐지 기준"
+  },
+  {
+   "id": "INS-08",
+   "industry": "보험",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 제휴 의료기관",
+   "description": "공개하지 않은 제휴 병원·정비업체 이름"
+  },
+  {
+   "id": "INS-09",
+   "industry": "보험",
+   "grade": "S",
+   "action": "태그",
+   "label": "내부 시스템명",
+   "description": "사내 계약·청구·심사 시스템의 내부 명칭"
+  },
+  {
+   "id": "INS-10",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미공개 손해율 실적",
+   "description": "공시 전 손해율, 합산비율, 수입보험료 숫자"
+  },
+  {
+   "id": "INS-11",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "자산운용 포트폴리오",
+   "description": "채권·대체투자 비중과 투자 대상 내역"
+  },
+  {
+   "id": "INS-12",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "대형 손해 지급 예정액",
+   "description": "대형 사고 건의 지급 예상 보험금과 준비금"
+  },
+  {
+   "id": "INS-13",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "설계사 수수료 체계",
+   "description": "비공개 모집 수수료율과 시책 지급 기준"
+  },
+  {
+   "id": "INS-14",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "감독 검사 지적사항",
+   "description": "금융당국 검사에서 받은 비공개 지적·제재 내용"
+  },
+  {
+   "id": "INS-15",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "인수합병·제휴 협상",
+   "description": "진행 중인 인수, 매각, 지분투자 대상과 조건"
+  },
+  {
+   "id": "INS-16",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "방카 제휴 조건",
+   "description": "은행·판매채널과 협의 중인 수수료·제휴 조건"
+  },
+  {
+   "id": "INS-17",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "조직개편·인력 계획",
+   "description": "발표 전 조직 통폐합, 인력 감축 규모와 대상"
+  },
+  {
+   "id": "INS-18",
+   "industry": "보험",
+   "grade": "S",
+   "action": "일반화",
+   "label": "미공개 출시 일정",
+   "description": "발표 전 보험상품의 출시·판매 개시 시점"
+  },
+  {
+   "id": "INS-19",
+   "industry": "보험",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 대리점 제휴사",
+   "description": "공개하지 않은 법인보험대리점·제휴사 이름"
+  },
+  {
+   "id": "INS-20",
+   "industry": "보험",
+   "grade": "C",
+   "action": "삭제",
+   "label": "보안 취약점 점검 결과",
+   "description": "내부 보안 점검에서 확인된 취약 부위와 조치"
+  }
+ ]
+}

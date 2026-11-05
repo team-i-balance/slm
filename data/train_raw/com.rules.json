@@ -1,0 +1,165 @@
+{
+ "company": "모두마켓(가상 회사, 온라인 종합 쇼핑몰·물류)",
+ "rules": [
+  {
+   "id": "COM-01",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "입점 수수료율",
+   "description": "입점 판매자·브랜드별 비공개 판매 수수료율과 감면 조건"
+  },
+  {
+   "id": "COM-02",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "미공개 프로모션 기획",
+   "description": "발표 전 대규모 세일·쿠폰 행사의 일정, 규모, 구성"
+  },
+  {
+   "id": "COM-03",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "비공개 물류센터 계획",
+   "description": "신규 물류센터·풀필먼트 센터의 입지, 규모, 가동 시점"
+  },
+  {
+   "id": "COM-04",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "상품 매입 단가",
+   "description": "공급사별 매입 원가, 공급가, 리베이트 조건"
+  },
+  {
+   "id": "COM-05",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "독점 납품·제휴 계약 조건",
+   "description": "독점 판매권, 최소 구매 수량, 계약 기간 등 비공개 제휴 조건"
+  },
+  {
+   "id": "COM-06",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "태그",
+   "label": "미공개 프로젝트 코드명",
+   "description": "발표 전 신규 서비스·사업의 내부 코드명"
+  },
+  {
+   "id": "COM-07",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "상품별 판매 실적",
+   "description": "비공개 SKU·브랜드·카테고리별 판매량, 매출, 재고 수치"
+  },
+  {
+   "id": "COM-08",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "회원 등급·혜택 내부 기준",
+   "description": "비공개 회원 등급 산정 방식, 등급별 혜택 한도, 적립률"
+  },
+  {
+   "id": "COM-09",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "배송 파트너 운임 계약",
+   "description": "택배·배송 협력사와의 운임, 물량 조건, 정산 방식"
+  },
+  {
+   "id": "COM-10",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "미출시 PB 상품 기획",
+   "description": "출시 전 자체브랜드(PB) 상품의 구성, 원가, 제조사, 출시 계획"
+  },
+  {
+   "id": "COM-11",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "검색·추천 알고리즘 가중치",
+   "description": "상품 검색 랭킹과 추천 노출에 쓰이는 내부 가중치와 광고 단가"
+  },
+  {
+   "id": "COM-12",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "태그",
+   "label": "내부 시스템명",
+   "description": "사내 주문·재고·정산·물류 시스템과 툴의 내부 이름"
+  },
+  {
+   "id": "COM-13",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "대체",
+   "label": "비공개 해외 소싱처",
+   "description": "외부에 알리지 않은 해외 직소싱 공급처·제조사·구매대행 거래처 이름"
+  },
+  {
+   "id": "COM-14",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "반품·환불 내부 예외 기준",
+   "description": "반품·환불 승인 시 CS가 쓰는 비공개 예외 허용 범위와 한도"
+  },
+  {
+   "id": "COM-15",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "판매자 정산 특약",
+   "description": "판매자·파트너별 정산 주기, 지급 유예, 공제 조건의 개별 특약"
+  },
+  {
+   "id": "COM-16",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "오프라인 매장 출점 계획",
+   "description": "발표 전 오프라인 매장·팝업·플래그십 스토어의 위치, 규모, 일정"
+  },
+  {
+   "id": "COM-17",
+   "industry": "이커머스·유통",
+   "grade": "C",
+   "action": "삭제",
+   "label": "부정구매·어뷰징 탐지 기준",
+   "description": "부정 주문, 쿠폰 악용, 리뷰 조작 등의 탐지 규칙과 제재 임계값"
+  },
+  {
+   "id": "COM-18",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "대체",
+   "label": "개별 고객 구매 이력",
+   "description": "특정 고객의 이름, 연락처, 구매 내역 등 개인 식별 가능한 주문 정보"
+  },
+  {
+   "id": "COM-19",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "PG·결제사 수수료 협상",
+   "description": "PG사·간편결제사·카드사와의 비공개 수수료율과 협상 조건"
+  },
+  {
+   "id": "COM-20",
+   "industry": "이커머스·유통",
+   "grade": "S",
+   "action": "일반화",
+   "label": "라이브커머스 출연자 섭외비",
+   "description": "쇼호스트·인플루언서 방송 출연료와 수익 배분 조건"
+  }
+ ]
+}
