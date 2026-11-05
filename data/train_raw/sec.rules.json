@@ -1,0 +1,22 @@
+{"company":"담울시큐어(가상 회사, 기업용 접근통제와 보안 관제 서비스를 제공)","rules":[
+{"id":"SEC-01","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"차기 방화벽 코드명","description":"출시 전 방화벽 사업에 붙인 내부 이름."},
+{"id":"SEC-02","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"관제 전환 작전명","description":"고객 관제 환경 전환 작업의 내부 이름."},
+{"id":"SEC-03","industry":"보안 솔루션 기업","grade":"S","action":"대체","label":"보안칩 조달사명","description":"공개 전 보안칩 공급 계약 상대의 이름."},
+{"id":"SEC-04","industry":"보안 솔루션 기업","grade":"S","action":"대체","label":"침해대응 협력사명","description":"공개하지 않은 침해대응 재위탁 업체 이름."},
+{"id":"SEC-05","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"증거 보관 시스템명","description":"사내 침해 증거 보관 시스템의 고유 이름."},
+{"id":"SEC-06","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"인증서 관리망 명칭","description":"사내 인증서 발급 관리망의 내부 이름."},
+{"id":"SEC-07","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"비공개 관제 고객명","description":"대외 공개를 허락받지 않은 관제 고객 이름."},
+{"id":"SEC-08","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"인수 검토 보안 브랜드","description":"인수를 검토 중인 보안 제품 브랜드 이름."},
+{"id":"SEC-09","industry":"보안 솔루션 기업","grade":"C","action":"대체","label":"격리망 내부 명칭","description":"악성 파일 취급용 사내 격리망의 고유 이름."},
+{"id":"SEC-10","industry":"보안 솔루션 기업","grade":"S","action":"대체","label":"보안 유통 협상사명","description":"공표 전 보안 제품 유통 협상 상대 이름."},
+{"id":"SEC-11","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"보안 장비 제조원가","description":"비공개 보안 장비의 대당 제조원가 금액."},
+{"id":"SEC-12","industry":"보안 솔루션 기업","grade":"S","action":"일반화","label":"관제 재위탁 단가","description":"관제 외주 인력 계약의 비공개 시간당 대가."},
+{"id":"SEC-13","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"보안 사업 목표마진","description":"내부에서 정한 보안 사업별 목표 이익률."},
+{"id":"SEC-14","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"탐지 규칙 운영 기준","description":"실서비스 탐지 규칙을 비활성화하는 내부 기준."},
+{"id":"SEC-15","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"보안 입찰 하한액","description":"보안 사업 입찰에서 승인한 최저 제안 금액."},
+{"id":"SEC-16","industry":"보안 솔루션 기업","grade":"S","action":"일반화","label":"관제 교대 인력 배치","description":"비공개 관제 근무조별 실제 투입 인원 수."},
+{"id":"SEC-17","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"내부 보안 감사 이력","description":"공개하지 않은 사내 접근권한 감사의 지적 사실."},
+{"id":"SEC-18","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"관제 거점 폐쇄 계획","description":"공표 전 관제 사무소 폐쇄나 통합 결정."},
+{"id":"SEC-19","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"보안 라이선스 협상조건","description":"미체결 보안 라이선스 계약의 양보 및 지급 조건."},
+{"id":"SEC-20","industry":"보안 솔루션 기업","grade":"C","action":"삭제","label":"내부 키 교체 주기","description":"운영 환경 암호키 종류별 비공개 교체 간격."}
+]}

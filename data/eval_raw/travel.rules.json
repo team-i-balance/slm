@@ -1,0 +1,12 @@
+{"company": "구름길 항공여행(가상)", "rules": [
+{"id": "LT01", "split": "heldout", "grade": "C", "action": "대체", "label": "신규 상품 코드명", "description": "출시 전 신규 노선·여행상품 프로젝트의 내부 코드명"},
+{"id": "LT02", "split": "heldout", "grade": "S", "action": "대체", "label": "독점 계약 호텔명", "description": "객실 블록 독점 계약을 맺은 호텔·리조트 이름"},
+{"id": "LT03", "split": "heldout", "grade": "C", "action": "대체", "label": "예약 시스템 내부명", "description": "좌석·객실 재고를 관리하는 내부 시스템 이름"},
+{"id": "LT04", "split": "heldout", "grade": "S", "action": "대체", "label": "인수 검토 여행사명", "description": "인수 협상 중인 여행사·호텔 체인의 이름"},
+{"id": "LT05", "split": "heldout", "grade": "C", "action": "대체", "label": "VIP 등급 내부명", "description": "비공개 최상위 고객 등급 프로그램의 내부 이름"},
+{"id": "LT06", "split": "heldout", "grade": "S", "action": "일반화", "label": "좌석 판매 단가 정책", "description": "노선별 이코노미 좌석 최저 판매가 정책"},
+{"id": "LT07", "split": "heldout", "grade": "C", "action": "일반화", "label": "호텔 객실 점유율", "description": "호텔별 비공개 객실 점유율 수치"},
+{"id": "LT08", "split": "heldout", "grade": "S", "action": "일반화", "label": "신규 취항 후보 노선", "description": "취항을 검토 중인 비공개 신규 노선"},
+{"id": "LT09", "split": "heldout", "grade": "C", "action": "삭제", "label": "기체 결함·결항 원인", "description": "특정 기체의 비공개 정비 결함과 결항 원인"},
+{"id": "LT10", "split": "heldout", "grade": "S", "action": "일반화", "label": "여행사 수수료율", "description": "대형 여행사에 주는 비공개 판매 수수료율"}
+]}

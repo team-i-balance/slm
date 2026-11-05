@@ -1,0 +1,293 @@
+{"text": "이름", "spans": [], "near": ["P-NAME"]}
+{"text": "성명", "spans": [], "near": ["P-NAME"]}
+{"text": "담당자", "spans": [], "near": ["P-NAME"]}
+{"text": "담당자명", "spans": [], "near": ["P-NAME"]}
+{"text": "고객명", "spans": [], "near": ["P-NAME"]}
+{"text": "작성자", "spans": [], "near": ["P-NAME"]}
+{"text": "성함", "spans": [], "near": ["P-NAME"]}
+{"text": "대표자", "spans": [], "near": ["P-NAME"]}
+{"text": "신청인", "spans": [], "near": ["P-NAME"]}
+{"text": "수신인", "spans": [], "near": ["P-NAME"]}
+{"text": "참석자", "spans": [], "near": ["P-NAME"]}
+{"text": "직원명", "spans": [], "near": ["P-NAME"]}
+{"text": "사원명", "spans": [], "near": ["P-NAME"]}
+{"text": "피보험자", "spans": [], "near": ["P-NAME"]}
+{"text": "보호자", "spans": [], "near": ["P-NAME"]}
+{"text": "Name", "spans": [], "near": ["P-NAME"]}
+{"text": "Full Name", "spans": [], "near": ["P-NAME"]}
+{"text": "Owner", "spans": [], "near": ["P-NAME"]}
+{"text": "담당 영업", "spans": [], "near": ["P-NAME"]}
+{"text": "책임자", "spans": [], "near": ["P-NAME"]}
+{"text": "주소", "spans": [], "near": ["P-ADDR"]}
+{"text": "방문 주소", "spans": [], "near": ["P-ADDR"]}
+{"text": "배송지", "spans": [], "near": ["P-ADDR"]}
+{"text": "거주지", "spans": [], "near": ["P-ADDR"]}
+{"text": "주소지", "spans": [], "near": ["P-ADDR"]}
+{"text": "사업장 소재지", "spans": [], "near": ["P-ADDR"]}
+{"text": "근무지", "spans": [], "near": ["P-ADDR"]}
+{"text": "도로명주소", "spans": [], "near": ["P-ADDR"]}
+{"text": "우편번호", "spans": [], "near": ["P-ADDR"]}
+{"text": "Address", "spans": [], "near": ["P-ADDR"]}
+{"text": "소재지", "spans": [], "near": ["P-ADDR"]}
+{"text": "수령지", "spans": [], "near": ["P-ADDR"]}
+{"text": "병력", "spans": [], "near": ["P-SENS"]}
+{"text": "징계 이력", "spans": [], "near": ["P-SENS"]}
+{"text": "건강 상태", "spans": [], "near": ["P-SENS"]}
+{"text": "종교", "spans": [], "near": ["P-SENS"]}
+{"text": "비고(건강)", "spans": [], "near": ["P-SENS"]}
+{"text": "상벌 사항", "spans": [], "near": ["P-SENS"]}
+{"text": "휴직 사유", "spans": [], "near": ["P-SENS"]}
+{"text": "특이사항", "spans": [], "near": ["P-SENS"]}
+{"text": "진단명", "spans": [], "near": ["P-SENS"]}
+{"text": "거래처", "spans": [], "near": ["R06"]}
+{"text": "고객사", "spans": [], "near": ["R06"]}
+{"text": "거래처명", "spans": [], "near": ["R06"]}
+{"text": "업체명", "spans": [], "near": ["R06"]}
+{"text": "회사명", "spans": [], "near": ["R06"]}
+{"text": "Vendor", "spans": [], "near": ["R06"]}
+{"text": "Customer", "spans": [], "near": ["R06"]}
+{"text": "파트너사", "spans": [], "near": ["R06"]}
+{"text": "계약 조건", "spans": [], "near": ["R05"]}
+{"text": "계약 금액", "spans": [], "near": ["R05"]}
+{"text": "단가", "spans": [], "near": ["R05"]}
+{"text": "결제 조건", "spans": [], "near": ["R05"]}
+{"text": "할인율", "spans": [], "near": ["R05"]}
+{"text": "계약 기간", "spans": [], "near": ["R05"]}
+{"text": "Price", "spans": [], "near": ["R05"]}
+{"text": "공급가", "spans": [], "near": ["R05"]}
+{"text": "협력사", "spans": [], "near": ["R17"]}
+{"text": "공급 단가", "spans": [], "near": ["R17"]}
+{"text": "월 공급량", "spans": [], "near": ["R17"]}
+{"text": "납품처", "spans": [], "near": ["R17"]}
+{"text": "책임자 | 계약 금액 | 성함 | 수신인 | 상태", "spans": [], "near": ["P-NAME"]}
+{"text": "대표자 / 이메일 / 도로명주소 / 고객명 / 직원명", "spans": [], "near": ["P-NAME"]}
+{"text": "신청인\t소재지\t직원명\t계약 기간\t대표자\tName", "spans": [], "near": ["P-NAME"]}
+{"text": "대표자 / 계약 금액 / 성함 / 우편번호 / 작성자 / Owner / 상벌 사항", "spans": [], "near": ["P-NAME"]}
+{"text": "금액 | Name | 특이사항 | 거주지", "spans": [], "near": ["P-NAME"]}
+{"text": "주소지 / Customer / 사원명 / 신청인 / 대표자 / 근무지 / 연락처", "spans": [], "near": ["P-NAME"]}
+{"text": "월 공급량\t공급 단가\tVendor\t휴직 사유\t수령지", "spans": [], "near": ["P-NAME"]}
+{"text": "참석자, 휴직 사유, 등록일, 연락처", "spans": [], "near": ["P-NAME"]}
+{"text": "비고(건강), 수신인, Name, 부서, 할인율, 방문 주소", "spans": [], "near": ["P-NAME"]}
+{"text": "번호, 할인율, 작성자, 수신인", "spans": [], "near": ["P-NAME"]}
+{"text": "업체명, 연락처, 공급 단가, 신청인, 직원명", "spans": [], "near": ["P-NAME"]}
+{"text": "신청인, 대표자, 특이사항, 협력사, 비고(건강), 계약 조건", "spans": [], "near": ["P-NAME"]}
+{"text": "월 공급량 | 회사명 | 방문 주소", "spans": [], "near": ["P-NAME"]}
+{"text": "대표자 / 도로명주소 / 비고(건강) / Full Name / 수령지 / 계약 금액", "spans": [], "near": ["P-NAME"]}
+{"text": "참석자 / 방문 주소 / 협력사 / 단가 / 종교 / Owner", "spans": [], "near": ["P-NAME"]}
+{"text": "종교\t할인율\t회사명\t파트너사\tAddress\t책임자\t참석자", "spans": [], "near": ["P-NAME"]}
+{"text": "Address, 성명, 번호, 거주지", "spans": [], "near": ["P-NAME"]}
+{"text": "이름, 담당 영업, 할인율, 상태, Customer", "spans": [], "near": ["P-NAME"]}
+{"text": "부서 / 성함 / 공급 단가 / 계약 금액", "spans": [], "near": ["P-NAME"]}
+{"text": "계약 금액 | 피보험자 | No. | 단가 | 대표자 | 주소지", "spans": [], "near": ["P-NAME"]}
+{"text": "공급가 | 주소 | 보호자 | 거래처명", "spans": [], "near": ["P-NAME"]}
+{"text": "이름 | 책임자 | 상태", "spans": [], "near": ["P-NAME"]}
+{"text": "담당자명, 수신인, 근무지, 파트너사, 책임자", "spans": [], "near": ["P-NAME"]}
+{"text": "Vendor / 납품처 / Name / 보호자 / 번호", "spans": [], "near": ["P-NAME"]}
+{"text": "No., 특이사항, 참석자, 담당 영업, 피보험자, 거래처명", "spans": [], "near": ["P-NAME"]}
+{"text": "Microsoft Excel Compatible / Openpyxl 3.1.5", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Excel Compatible / Openpyxl 3.1.2", "spans": [], "near": ["R10"]}
+{"text": "openpyxl", "spans": [], "near": ["R10"]}
+{"text": "Openpyxl 3.0.10", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Excel", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Office Excel", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Office Word", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Macintosh Excel", "spans": [], "near": ["R10"]}
+{"text": "LibreOffice/7.6.4.1$MacOSX_AARCH64", "spans": [], "near": ["R10"]}
+{"text": "LibreOffice Calc", "spans": [], "near": ["R10"]}
+{"text": "Apache POI", "spans": [], "near": ["R10"]}
+{"text": "XlsxWriter 3.2.0", "spans": [], "near": ["R10"]}
+{"text": "python-docx", "spans": [], "near": ["R10"]}
+{"text": "python-pptx 0.6.23", "spans": [], "near": ["R10"]}
+{"text": "Google Sheets", "spans": [], "near": ["R10"]}
+{"text": "Numbers 14.1", "spans": [], "near": ["R10"]}
+{"text": "WPS Spreadsheets", "spans": [], "near": ["R10"]}
+{"text": "한컴오피스 한셀 2022", "spans": [], "near": ["R10"]}
+{"text": "Hancom Office Hanword", "spans": [], "near": ["R10"]}
+{"text": "Microsoft Excel 16.0", "spans": [], "near": ["R10"]}
+{"text": "Calc 24.2", "spans": [], "near": ["R10"]}
+{"text": "pandas 2.2.3", "spans": [], "near": ["R10"]}
+{"text": "Sheet1", "spans": [], "near": ["R10"]}
+{"text": "Worksheet", "spans": [], "near": ["R10"]}
+{"text": "시트1", "spans": [], "near": ["R10"]}
+{"text": "Calibri", "spans": [], "near": ["R10"]}
+{"text": "맑은 고딕", "spans": [], "near": ["R10"]}
+{"text": "Arial", "spans": [], "near": ["R10"]}
+{"text": "Office Theme", "spans": [], "near": ["R10"]}
+{"text": "Normal.dotm", "spans": [], "near": ["R10"]}
+{"text": "Default", "spans": [], "near": ["R10"]}
+{"text": "x14ac", "spans": [], "near": ["R10"]}
+{"text": "http://schemas.openxmlformats.org/spreadsheetml/2006/main", "spans": [], "near": ["R10"]}
+{"text": "Application: Microsoft Excel Compatible / Openpyxl 3.1.5", "spans": [], "near": ["R10"]}
+{"text": "AppVersion 3.1", "spans": [], "near": ["R10"]}
+{"text": "dc:creator openpyxl", "spans": [], "near": ["R10"]}
+{"text": "Producer: macOS 버전 15.1 Quartz PDFContext", "spans": [], "near": ["R10"]}
+{"text": "Created with Aspose.Cells for .NET 24.1", "spans": [], "near": ["R10"]}
+{"text": "TableStyleMedium9", "spans": [], "near": ["R10"]}
+{"text": "General", "spans": [], "near": ["R10"]}
+{"text": "yyyy-mm-dd", "spans": [], "near": ["R10"]}
+{"text": "#,##0", "spans": [], "near": ["R10"]}
+{"text": "0.00%", "spans": [], "near": ["R10"]}
+{"text": "[이름_2] 님께 회신 메일 정중하게 써줘", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_3] 님께 회신 메일 정중하게 써줘", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_3] 팀장이 요청한 보고서 목차 잡아줘", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_1] 팀장이 요청한 보고서 목차 잡아줘", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_3], [이름_4] 두 분 미팅 잡아주세요", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_1], [이름_4] 두 분 미팅 잡아주세요", "spans": [], "near": ["P-NAME"]}
+{"text": "담당자 [이름_2] 매니저에게 일정 공유 부탁", "spans": [], "near": ["P-NAME"]}
+{"text": "담당자 [이름_1] 매니저에게 일정 공유 부탁", "spans": [], "near": ["P-NAME"]}
+{"text": "[주소_2]로 샘플 보내드릴게요. 안내 문자 문구 만들어줘", "spans": [], "near": ["P-ADDR"]}
+{"text": "[주소_1]로 샘플 보내드릴게요. 안내 문자 문구 만들어줘", "spans": [], "near": ["P-ADDR"]}
+{"text": "배송지: [주소_2] / 수령인: [이름_2]", "spans": [], "near": ["P-ADDR"]}
+{"text": "배송지: [주소_1] / 수령인: [이름_1]", "spans": [], "near": ["P-ADDR"]}
+{"text": "배송지: [주소_2] / 수령인: [이름_3]", "spans": [], "near": ["P-ADDR"]}
+{"text": "[주소_2] 근처 회의실 예약 메일 써줘", "spans": [], "near": ["P-ADDR"]}
+{"text": "[주소_1] 근처 회의실 예약 메일 써줘", "spans": [], "near": ["P-ADDR"]}
+{"text": "고객 주소 [주소_1], 연락처 [전화번호_1] 확인했습니다", "spans": [], "near": ["P-ADDR"]}
+{"text": "고객 주소 [주소_2], 연락처 [전화번호_1] 확인했습니다", "spans": [], "near": ["P-ADDR"]}
+{"text": "[민감정보_1] 내렸어. 공지문 톤 다듬어줘", "spans": [], "near": ["P-SENS"]}
+{"text": "[민감정보_2] 내렸어. 공지문 톤 다듬어줘", "spans": [], "near": ["P-SENS"]}
+{"text": "[이름_1] 씨 [민감정보_1] 상태라 업무 조정 필요", "spans": [], "near": ["P-SENS"]}
+{"text": "[이름_2] 씨 [민감정보_1] 상태라 업무 조정 필요", "spans": [], "near": ["P-SENS"]}
+{"text": "[이름_1] 씨 [민감정보_2] 상태라 업무 조정 필요", "spans": [], "near": ["P-SENS"]}
+{"text": "[민감정보_1] 관련 면담 기록 요약해줘", "spans": [], "near": ["P-SENS"]}
+{"text": "[기밀_1] 건 진행 상황 정리해서 표로 만들어줘", "spans": [], "near": ["R18"]}
+{"text": "[기밀_2] 건 진행 상황 정리해서 표로 만들어줘", "spans": [], "near": ["R18"]}
+{"text": "[기밀_1] 수치는 빼고 보고서 문장만 다듬어줘", "spans": [], "near": ["R03"]}
+{"text": "[기밀_2] 수치는 빼고 보고서 문장만 다듬어줘", "spans": [], "near": ["R03"]}
+{"text": "[사내정보_1] 접속이 안 된다는 문의 답변 써줘", "spans": [], "near": ["R10"]}
+{"text": "[이름_1]([생년월일_1]) 고객 문의: 환불 절차 안내 부탁", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_3]([생년월일_1]) 고객 문의: 환불 절차 안내 부탁", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_2]([생년월일_1]) 고객 문의: 환불 절차 안내 부탁", "spans": [], "near": ["P-NAME"]}
+{"text": "입금 계좌 [계좌번호_1]로 변경 요청 메일 회신 써줘", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_1]: 내일 회의 몇 시죠?\n[이름_2]: 10시요", "spans": [], "near": ["P-NAME"]}
+{"text": "[이메일_1]로 견적서 보내달라고 하네요", "spans": [], "near": ["P-NAME"]}
+{"text": "사업자번호 [사업자번호_1] 거래처 등록 서류 체크리스트 줘", "spans": [], "near": ["R06"]}
+{"text": "[기밀_2], [기밀_3] 두 항목은 가려진 상태로 공유됨", "spans": [], "near": ["R21"]}
+{"text": "[기밀_1], [기밀_3] 두 항목은 가려진 상태로 공유됨", "spans": [], "near": ["R21"]}
+{"text": "[이름_1]", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_2]", "spans": [], "near": ["P-NAME"]}
+{"text": "[이름_3]", "spans": [], "near": ["P-NAME"]}
+{"text": "[주소_1]", "spans": [], "near": ["P-ADDR"]}
+{"text": "[주소_2]", "spans": [], "near": ["P-ADDR"]}
+{"text": "[민감정보_1]", "spans": [], "near": ["P-SENS"]}
+{"text": "[민감정보_2]", "spans": [], "near": ["P-SENS"]}
+{"text": "[기밀_1]", "spans": [], "near": ["R10"]}
+{"text": "[기밀_2]", "spans": [], "near": ["R10"]}
+{"text": "[사내정보_1]", "spans": [], "near": ["R10"]}
+{"text": "[전화번호_1]", "spans": [], "near": ["R10"]}
+{"text": "[이메일_1]", "spans": [], "near": ["R10"]}
+{"text": "[계좌번호_1]", "spans": [], "near": ["R10"]}
+{"text": "[식별번호_1]", "spans": [], "near": ["R10"]}
+{"text": "[사업자번호_1]", "spans": [], "near": ["R10"]}
+{"text": "[생년월일_1]", "spans": [], "near": ["R10"]}
+{"text": "[이름_1] 팀장이 서하람 대리한테 넘긴 건이야", "spans": [["서하람", "P-NAME"]]}
+{"text": "[주소_1] 말고 대전시 유성구 대학로 291 연구동 4층으로 보내줘", "spans": [["대전시 유성구 대학로 291 연구동 4층", "P-ADDR"]]}
+{"text": "[이름_2] 씨와 구태오 씨 둘 다 다음 주 휴가", "spans": [["구태오", "P-NAME"]]}
+{"text": "[민감정보_1] 이후 류은채 사원이 우울증 상담 받는 중", "spans": [["류은채", "P-NAME"], ["우울증 상담 받는 중", "P-SENS"]]}
+{"text": "[기밀_1] 다음 단계로 노바틱스 지분 40% 인수 협상 진행", "spans": [["노바틱스 지분 40% 인수 협상", "R04"]]}
+{"text": "수신 [이메일_1], 참조 맹지오 책임", "spans": [["맹지오", "P-NAME"]]}
+{"text": "[이름_3] 부장 연봉 8,200만원으로 조정, 공지 문구 써줘", "spans": [["연봉 8,200만원", "R08"]]}
+{"text": "[주소_2]에서 경기도 김포시 고촌읍 아라육로 152번길 8로 이사", "spans": [["경기도 김포시 고촌읍 아라육로 152번길 8", "P-ADDR"]]}
+{"text": "[이름_1] 님 후임은 Olivia Grant 매니저입니다", "spans": [["Olivia Grant", "P-NAME"]]}
+{"text": "[사내정보_1] 대신 git.corp-hanul.local:8443 으로 접속", "spans": [["git.corp-hanul.local:8443", "R10"]]}
+{"text": "[이름_2]가 금요일에 맹장 수술 받는대", "spans": [["맹장 수술 받는대", "P-SENS"]]}
+{"text": "[기밀_2] 건, 다음 달 3일 리브라 앱 출시로 확정", "spans": [["다음 달 3일 리브라 앱 출시", "R02"]]}
+{"text": "한별정공", "spans": [["한별정공", "R06"]]}
+{"text": "누리온소재", "spans": [["누리온소재", "R06"]]}
+{"text": "새벽빛로지스", "spans": [["새벽빛로지스", "R17"]]}
+{"text": "마루결전자", "spans": [["마루결전자", "R06"]]}
+{"text": "도담하이텍", "spans": [["도담하이텍", "R17"]]}
+{"text": "솔빛케미칼", "spans": [["솔빛케미칼", "R06"]]}
+{"text": "아라테크놀로지", "spans": [["아라테크놀로지", "R17"]]}
+{"text": "청람기연", "spans": [["청람기연", "R17"]]}
+{"text": "모아솔루션즈", "spans": [["모아솔루션즈", "R17"]]}
+{"text": "하랑식품", "spans": [["하랑식품", "R17"]]}
+{"text": "대은메디칼", "spans": [["대은메디칼", "R06"]]}
+{"text": "윤슬바이오", "spans": [["윤슬바이오", "R06"]]}
+{"text": "Celvara Inc.", "spans": [["Celvara Inc.", "R17"]]}
+{"text": "Northmere Ltd", "spans": [["Northmere Ltd", "R06"]]}
+{"text": "Orbis Tech", "spans": [["Orbis Tech", "R06"]]}
+{"text": "(주)", "spans": [], "near": ["R06"]}
+{"text": "주식회사", "spans": [], "near": ["R06"]}
+{"text": "거래처 없음", "spans": [], "near": ["R06"]}
+{"text": "미정", "spans": [], "near": ["R06"]}
+{"text": "-", "spans": [], "near": ["R06"]}
+{"text": "N/A", "spans": [], "near": ["R06"]}
+{"text": "해당 없음", "spans": [], "near": ["R06"]}
+{"text": "합계", "spans": [], "near": ["R06"]}
+{"text": "소계", "spans": [], "near": ["R06"]}
+{"text": "TOTAL", "spans": [], "near": ["R06"]}
+{"text": "신규 등록 예정", "spans": [], "near": ["R06"]}
+{"text": "기타", "spans": [], "near": ["R06"]}
+{"text": "개인", "spans": [], "near": ["R06"]}
+{"text": "법인", "spans": [], "near": ["R06"]}
+{"text": "본사", "spans": [], "near": ["R06"]}
+{"text": "개당 2,140원", "spans": [["개당 2,140원", "R17"]]}
+{"text": "단가 kg당 4,120원", "spans": [["단가 kg당 4,120원", "R13"]]}
+{"text": "장당 870원, 월 5만 장", "spans": [["장당 870원, 월 5만 장", "R05"]]}
+{"text": "금형 2벌 9,600만원", "spans": [["금형 2벌 9,600만원", "R05"]]}
+{"text": "연간 공급 계약 18억", "spans": [["연간 공급 계약 18억", "R05"]]}
+{"text": "월 정액 1,350만원", "spans": [["월 정액 1,350만원", "R05"]]}
+{"text": "연 유지보수 2억 7천", "spans": [["연 유지보수 2억 7천", "R13"]]}
+{"text": "선급금 30%, 잔금 납품 후 60일", "spans": [["선급금 30%, 잔금 납품 후 60일", "R17"]]}
+{"text": "할인율 12%", "spans": [["할인율 12%", "R05"]]}
+{"text": "기본 단가 대비 8% 인하", "spans": [["기본 단가 대비 8% 인하", "R05"]]}
+{"text": "최소 발주 1만 2천 개", "spans": [["최소 발주 1만 2천 개", "R05"]]}
+{"text": "건당 수수료 3.2%", "spans": [["건당 수수료 3.2%", "R17"]]}
+{"text": "시간당 9만 5천원", "spans": [["시간당 9만 5천원", "R13"]]}
+{"text": "라이선스 1식 6,400만원", "spans": [["라이선스 1식 6,400만원", "R05"]]}
+{"text": "운임 톤당 38,000원", "spans": [["운임 톤당 38,000원", "R13"]]}
+{"text": "개발비 2억 1천만원 일시 지급", "spans": [["개발비 2억 1천만원 일시 지급", "R05"]]}
+{"text": "MOQ 3,000 EA, USD 4.85/EA", "spans": [["MOQ 3,000 EA, USD 4.85/EA", "R17"]]}
+{"text": "단가 1,920원 → 1,780원", "spans": [["단가 1,920원 → 1,780원", "R05"]]}
+{"text": "3년 약정 총 54억", "spans": [["3년 약정 총 54억", "R05"]]}
+{"text": "분기 리베이트 2.5%", "spans": [["분기 리베이트 2.5%", "R13"]]}
+{"text": "월 3만 개, 개당 640원", "spans": [["월 3만 개, 개당 640원", "R17"]]}
+{"text": "회당 납품 1,200세트", "spans": [["회당 납품 1,200세트", "R05"]]}
+{"text": "장비 임대 월 870만원", "spans": [["장비 임대 월 870만원", "R13"]]}
+{"text": "계약금 1억, 중도금 2억", "spans": [["계약금 1억, 중도금 2억", "R13"]]}
+{"text": "결제 조건 월말 마감 90일 어음", "spans": [["결제 조건 월말 마감 90일 어음", "R13"]]}
+{"text": "카톤당 12,300원", "spans": [["카톤당 12,300원", "R13"]]}
+{"text": "연 단가 동결, 물량 20% 증량", "spans": [["연 단가 동결, 물량 20% 증량", "R05"]]}
+{"text": "협의 중", "spans": [], "near": ["R05"]}
+{"text": "계약 완료", "spans": [], "near": ["R05"]}
+{"text": "갱신 예정", "spans": [], "near": ["R05"]}
+{"text": "표준 계약서 적용", "spans": [], "near": ["R05"]}
+{"text": "조건 별도 첨부", "spans": [], "near": ["R05"]}
+{"text": "견적 요청", "spans": [], "near": ["R05"]}
+{"text": "단가표 참조", "spans": [], "near": ["R05"]}
+{"text": "부가세 별도", "spans": [], "near": ["R05"]}
+{"text": "VAT 포함", "spans": [], "near": ["R05"]}
+{"text": "검토 필요", "spans": [], "near": ["R05"]}
+{"text": "윤다결", "spans": [["윤다결", "P-NAME"]]}
+{"text": "제갈하온", "spans": [["제갈하온", "P-NAME"]]}
+{"text": "Maya Lindqvist", "spans": [["Maya Lindqvist", "P-NAME"]]}
+{"text": "피수아 과장", "spans": [["피수아", "P-NAME"]]}
+{"text": "탁로운", "spans": [["탁로운", "P-NAME"]]}
+{"text": "Ethan Cho 매니저", "spans": [["Ethan Cho", "P-NAME"]]}
+{"text": "어서진", "spans": [["어서진", "P-NAME"]]}
+{"text": "봉새별 대리", "spans": [["봉새별", "P-NAME"]]}
+{"text": "남궁린", "spans": [["남궁린", "P-NAME"]]}
+{"text": "채온유", "spans": [["채온유", "P-NAME"]]}
+{"text": "광주시 북구 첨단과기로 123, 2층", "spans": [["광주시 북구 첨단과기로 123, 2층", "P-ADDR"]]}
+{"text": "충북 청주시 흥덕구 오송생명2로 187", "spans": [["충북 청주시 흥덕구 오송생명2로 187", "P-ADDR"]]}
+{"text": "서울 성동구 아차산로 17길 48, B동 1102호", "spans": [["서울 성동구 아차산로 17길 48, B동 1102호", "P-ADDR"]]}
+{"text": "울산광역시 남구 삼산로 274 5층", "spans": [["울산광역시 남구 삼산로 274 5층", "P-ADDR"]]}
+{"text": "제주시 첨단로 213-4", "spans": [["제주시 첨단로 213-4", "P-ADDR"]]}
+{"text": "경남 창원시 성산구 공단로 471번길 12", "spans": [["경남 창원시 성산구 공단로 471번길 12", "P-ADDR"]]}
+{"text": "정직 2개월", "spans": [["정직 2개월", "P-SENS"], ["정직 2개월", "R07"]]}
+{"text": "견책", "spans": [["견책", "P-SENS"], ["견책", "R07"]]}
+{"text": "감봉 3개월 징계", "spans": [["감봉 3개월 징계", "P-SENS"], ["감봉 3개월 징계", "R07"]]}
+{"text": "당뇨 치료 중", "spans": [["당뇨 치료 중", "P-SENS"]]}
+{"text": "허리 수술 후 재활", "spans": [["허리 수술 후 재활", "P-SENS"]]}
+{"text": "공황장애로 병가", "spans": [["공황장애로 병가", "P-SENS"]]}
+{"text": "출산휴가 중", "spans": [["출산휴가 중", "P-SENS"]]}
+{"text": "알코올 의존 치료", "spans": [["알코올 의존 치료", "P-SENS"]]}
+{"text": "양호", "spans": [], "near": ["P-SENS"]}
+{"text": "이상 없음", "spans": [], "near": ["P-SENS"]}
+{"text": "정상 근무", "spans": [], "near": ["P-SENS"]}
+{"text": "해당 사항 없음", "spans": [], "near": ["P-SENS"]}
+{"text": "재직", "spans": [], "near": ["P-SENS"]}
+{"text": "휴가", "spans": [], "near": ["P-SENS"]}
+{"text": "출근", "spans": [], "near": ["P-SENS"]}
+{"text": "건강검진 대상", "spans": [], "near": ["P-SENS"]}

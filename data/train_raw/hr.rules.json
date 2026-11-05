@@ -1,0 +1,22 @@
+{"company":"여울다리인재(가상 회사, 기업 채용 운영과 후보자 연결 플랫폼)","rules":[
+{"id":"HR-01","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"채용사업 암호명","description":"공개 전 채용 중개 사업에 붙인 내부 이름"},
+{"id":"HR-02","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"평판조회 수탁사명","description":"공개하지 않은 평판조회 위탁 업체 이름"},
+{"id":"HR-03","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"후보추천 도구명","description":"사내에서만 쓰는 후보자 추천 도구 이름"},
+{"id":"HR-04","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"브랜드 인수 대상명","description":"인수 협상 중인 채용 관련 브랜드 이름"},
+{"id":"HR-05","industry":"HR테크·채용 플랫폼","grade":"S","action":"대체","label":"미공개 채용 의뢰사","description":"채용 대행을 맡긴 사실이 비공개인 기업 이름"},
+{"id":"HR-06","industry":"HR테크·채용 플랫폼","grade":"S","action":"대체","label":"면접 대행 협력사","description":"비공개로 면접 진행을 위탁하는 업체 이름"},
+{"id":"HR-07","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"후보군 내부 별칭","description":"외부에 숨기는 인재 묶음의 내부 별칭"},
+{"id":"HR-08","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"지원서 정리 시스템","description":"지원서 분류에 쓰는 사내 전용 시스템 이름"},
+{"id":"HR-09","industry":"HR테크·채용 플랫폼","grade":"S","action":"대체","label":"소싱 제휴처명","description":"후보자 소개를 받는 비공개 제휴처 이름"},
+{"id":"HR-10","industry":"HR테크·채용 플랫폼","grade":"C","action":"대체","label":"채용 정산 도구명","description":"채용 수수료 정산용 내부 도구 이름"},
+{"id":"HR-11","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"성공보수 개별 요율","description":"개별 고객과 비공개로 합의한 채용 성공보수율"},
+{"id":"HR-12","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"조회 건당 매입가","description":"평판조회 업체에 지급하는 건당 내부 원가"},
+{"id":"HR-13","industry":"HR테크·채용 플랫폼","grade":"S","action":"일반화","label":"유료 전환 내부 목표","description":"구직자 상품의 공개 전 유료 전환 목표 비율"},
+{"id":"HR-14","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"채용 환급 합의","description":"채용 조기 종료 시 적용하는 비공개 환급 조건"},
+{"id":"HR-15","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"공고 심사 이력","description":"개별 채용 공고의 비공개 심사 결과와 사유"},
+{"id":"HR-16","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"대행사 점검 이력","description":"채용 운영 대행사에 대한 내부 점검 결과"},
+{"id":"HR-17","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"직군 중개 철수안","description":"공개 전 특정 직군의 채용 중개 철수 결정"},
+{"id":"HR-18","industry":"HR테크·채용 플랫폼","grade":"S","action":"일반화","label":"면접 운영 배정액","description":"고객별 채용 면접 운영에 배정한 내부 예산"},
+{"id":"HR-19","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"소싱 독점 약정","description":"후보자 소싱 제휴의 비공개 독점 범위와 기간"},
+{"id":"HR-20","industry":"HR테크·채용 플랫폼","grade":"C","action":"삭제","label":"추천 노출 배분값","description":"유료 공고에 적용하는 비공개 추천 노출 배분율"}
+]}

@@ -1,0 +1,22 @@
+{"company":"모래문장사(가상 회사, 웹툰 제작과 단행본 출판)","rules":[
+{"id":"TOON-01","industry":"웹툰·출판 콘텐츠","grade":"C","action":"태그","label":"신작 작업명","description":"발표 전 웹툰과 도서에 붙인 내부 작업명"},
+{"id":"TOON-02","industry":"웹툰·출판 콘텐츠","grade":"C","action":"대체","label":"접촉 중인 작가 필명","description":"계약 협의 중이며 공개되지 않은 작가의 필명"},
+{"id":"TOON-03","industry":"웹툰·출판 콘텐츠","grade":"C","action":"대체","label":"외주 채색사명","description":"외부에 밝히지 않은 웹툰 채색 위탁 업체명"},
+{"id":"TOON-04","industry":"웹툰·출판 콘텐츠","grade":"C","action":"대체","label":"번역 위탁사명","description":"외부에 밝히지 않은 번역 위탁 업체명"},
+{"id":"TOON-05","industry":"웹툰·출판 콘텐츠","grade":"C","action":"태그","label":"원고 심사 도구명","description":"편집부에서만 사용하는 원고 심사 시스템 이름"},
+{"id":"TOON-06","industry":"웹툰·출판 콘텐츠","grade":"C","action":"대체","label":"해외 판권 협상사명","description":"공개 전 해외 판권 구매 협상 상대의 이름"},
+{"id":"TOON-07","industry":"웹툰·출판 콘텐츠","grade":"C","action":"태그","label":"인수 검토 출판상표","description":"인수 후보로 검토 중인 출판 브랜드 이름"},
+{"id":"TOON-08","industry":"웹툰·출판 콘텐츠","grade":"S","action":"대체","label":"선인쇄 위탁사명","description":"출간 전 시험 인쇄를 맡기는 비공개 인쇄소 이름"},
+{"id":"TOON-09","industry":"웹툰·출판 콘텐츠","grade":"C","action":"태그","label":"결말 보관함명","description":"미공개 결말 파일을 보관하는 내부 저장소 이름"},
+{"id":"TOON-10","industry":"웹툰·출판 콘텐츠","grade":"C","action":"대체","label":"영상화 교섭사명","description":"원작 영상화 계약을 교섭 중인 비공개 제작사 이름"},
+{"id":"TOON-11","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"작가 선급금","description":"개별 작가에게 제시하거나 지급한 미공개 선급금"},
+{"id":"TOON-12","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"회차 제작 원가","description":"미공개 웹툰 회차별 제작비와 공정별 원가"},
+{"id":"TOON-13","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"판권 배분 조건","description":"비공개 해외 판권 계약의 수익 배분율과 보장금"},
+{"id":"TOON-14","industry":"웹툰·출판 콘텐츠","grade":"S","action":"일반화","label":"초판 발주 부수","description":"발표 전 단행본 초판의 확정 또는 예정 발주 부수"},
+{"id":"TOON-15","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"원고 심사 판정","description":"미공개 투고 원고의 채택 및 보류 판정과 사유"},
+{"id":"TOON-16","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"미공개 결말","description":"발표 전 작품의 최종 반전과 인물의 최후"},
+{"id":"TOON-17","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"연재권 독점 조건","description":"비공개 연재 계약의 독점 기간과 매체 제한"},
+{"id":"TOON-18","industry":"웹툰·출판 콘텐츠","grade":"S","action":"일반화","label":"출간 목표 매출","description":"공개하지 않은 도서별 출간 후 매출 목표"},
+{"id":"TOON-19","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"출판 계열 폐쇄안","description":"공표 전 출판 레이블의 폐쇄 계획과 확정 시점"},
+{"id":"TOON-20","industry":"웹툰·출판 콘텐츠","grade":"C","action":"삭제","label":"전자책 공급 조건","description":"미공개 전자책 유통 계약의 정산율과 지급 유예 조건"}
+]}

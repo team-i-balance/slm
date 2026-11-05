@@ -1,0 +1,12 @@
+{"company": "별숲에듀(가상)", "rules": [
+{"id": "LE01", "split": "heldout", "grade": "C", "action": "대체", "label": "신규 콘텐츠 코드명", "description": "출시 전 신규 강의·앱 프로젝트의 내부 코드명"},
+{"id": "LE02", "split": "heldout", "grade": "S", "action": "대체", "label": "독점 제휴 교육기관", "description": "발표 전인 독점 제휴 학교·학원의 이름"},
+{"id": "LE03", "split": "heldout", "grade": "C", "action": "대체", "label": "학습 분석 엔진명", "description": "학습 데이터를 분석하는 자체 AI 엔진의 내부 이름"},
+{"id": "LE04", "split": "heldout", "grade": "S", "action": "대체", "label": "인수 검토 에듀테크사", "description": "인수·지분투자를 협의 중인 에듀테크 기업 이름"},
+{"id": "LE05", "split": "heldout", "grade": "C", "action": "대체", "label": "비공개 문제은행명", "description": "시험 출제에 쓰는 비공개 문제은행의 내부 이름"},
+{"id": "LE06", "split": "heldout", "grade": "S", "action": "일반화", "label": "체험 후 유료 전환율", "description": "무료 체험 뒤 유료로 바뀐 비율 수치"},
+{"id": "LE07", "split": "heldout", "grade": "C", "action": "일반화", "label": "강사 정산율", "description": "외부 강사에게 지급하는 수익 배분 비율"},
+{"id": "LE08", "split": "heldout", "grade": "S", "action": "일반화", "label": "환불률·해지율 수치", "description": "공개하지 않는 환불률과 구독 해지율"},
+{"id": "LE09", "split": "heldout", "grade": "C", "action": "삭제", "label": "교육청 점검 지적 사항", "description": "교육청 점검에서 지적받은 내부 위반 내용"},
+{"id": "LE10", "split": "heldout", "grade": "S", "action": "일반화", "label": "신학기 요금 개편안", "description": "공지 전인 수강료·구독료 개편 계획과 시점"}
+]}

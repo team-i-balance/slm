@@ -1,0 +1,22 @@
+{"company":"여문결공간(가상 회사, 맞춤 가구와 주거 인테리어를 설계·제작하는 기업)","rules":[
+{"id":"FURN-01","industry":"인테리어·가구","grade":"C","action":"대체","label":"신작 가구 개발명","description":"출시 전 가구 컬렉션에 붙인 내부 코드명"},
+{"id":"FURN-02","industry":"인테리어·가구","grade":"C","action":"대체","label":"숨은 무늬목 공급사","description":"외부에 알리지 않은 무늬목 조달 업체명"},
+{"id":"FURN-03","industry":"인테리어·가구","grade":"C","action":"대체","label":"철물 조달처명","description":"비공개 경첩과 서랍 레일 공급 업체명"},
+{"id":"FURN-04","industry":"인테리어·가구","grade":"C","action":"대체","label":"패브릭 위탁처명","description":"공개하지 않은 소파 원단 가공 협력사명"},
+{"id":"FURN-05","industry":"인테리어·가구","grade":"C","action":"삭제","label":"인수 검토 브랜드명","description":"인수 대상으로 내부 검토 중인 가구 브랜드명"},
+{"id":"FURN-06","industry":"인테리어·가구","grade":"S","action":"대체","label":"배치 설계 도구명","description":"사내에서만 사용하는 공간 배치 시스템명"},
+{"id":"FURN-07","industry":"인테리어·가구","grade":"S","action":"대체","label":"원가 관리 도구명","description":"가구 제작비를 관리하는 비공개 시스템명"},
+{"id":"FURN-08","industry":"인테리어·가구","grade":"C","action":"대체","label":"창고 이전 작전명","description":"물류 창고 이전 사업에 붙인 내부 코드명"},
+{"id":"FURN-09","industry":"인테리어·가구","grade":"C","action":"대체","label":"전시장 조성 코드","description":"공개 전 전시장 신설 사업의 내부 코드명"},
+{"id":"FURN-10","industry":"인테리어·가구","grade":"C","action":"대체","label":"미공개 디자인 동업자","description":"신작을 공동 설계하는 비공개 스튜디오명"},
+{"id":"FURN-11","industry":"인테리어·가구","grade":"C","action":"삭제","label":"가구별 제조 원가","description":"외부에 공개하지 않은 가구 단위당 제작 원가"},
+{"id":"FURN-12","industry":"인테리어·가구","grade":"C","action":"일반화","label":"무늬목 매입 단가","description":"내부 발주에 적용한 무늬목 매입 단가"},
+{"id":"FURN-13","industry":"인테리어·가구","grade":"S","action":"일반화","label":"시공 외주 정산액","description":"비공개 시공 협력팀에 지급하는 작업별 정산액"},
+{"id":"FURN-14","industry":"인테리어·가구","grade":"C","action":"삭제","label":"매장별 손익분기점","description":"내부에서 산정한 전시장별 월 손익분기 매출"},
+{"id":"FURN-15","industry":"인테리어·가구","grade":"S","action":"일반화","label":"자재 구매 예산","description":"확정된 미공개 분기별 가구 자재 구매 예산"},
+{"id":"FURN-16","industry":"인테리어·가구","grade":"C","action":"삭제","label":"전시장 폐점 결정","description":"외부 발표 전 전시장 운영 종료 결정과 시점"},
+{"id":"FURN-17","industry":"인테리어·가구","grade":"C","action":"삭제","label":"목공 외주 심사 기록","description":"비공개 목공 협력팀 선정 심사의 판정과 사유"},
+{"id":"FURN-18","industry":"인테리어·가구","grade":"C","action":"삭제","label":"전시장 임차 협상안","description":"공개 전 전시장 임대차 협상의 특약 조건"},
+{"id":"FURN-19","industry":"인테리어·가구","grade":"C","action":"삭제","label":"공방 생산 배정","description":"내부 확정한 공방별 가구 물량과 제작 배정"},
+{"id":"FURN-20","industry":"인테리어·가구","grade":"C","action":"삭제","label":"상업공간 수주 조건","description":"공개하지 않은 상업공간 가구 납품 협상 조건"}
+]}

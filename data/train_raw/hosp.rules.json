@@ -1,0 +1,22 @@
+{"company":"여울담의료서비스(가상 회사, 지역 병원과 건강검진센터 운영)","rules":[
+{"id":"HOSP-01","industry":"병원·헬스케어 서비스","grade":"C","action":"태그","label":"신설 센터 암호명","description":"발표 전 신설 진료센터를 가리키는 내부 명칭"},
+{"id":"HOSP-02","industry":"병원·헬스케어 서비스","grade":"C","action":"대체","label":"위탁 검사기관명","description":"계약 공개 전 검체 검사를 맡길 기관의 이름"},
+{"id":"HOSP-03","industry":"병원·헬스케어 서비스","grade":"S","action":"대체","label":"병상 배정 도구명","description":"외부에 알리지 않은 병상 배정 시스템의 이름"},
+{"id":"HOSP-04","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"인수 검토 병원명","description":"외부 발표 없이 인수를 검토 중인 병원의 이름"},
+{"id":"HOSP-05","industry":"병원·헬스케어 서비스","grade":"C","action":"대체","label":"검진 제휴사명","description":"공개 전 단체 검진 계약을 협의하는 업체의 이름"},
+{"id":"HOSP-06","industry":"병원·헬스케어 서비스","grade":"S","action":"태그","label":"청구 점검 도구명","description":"비공개 진료비 청구 점검 시스템의 명칭"},
+{"id":"HOSP-07","industry":"병원·헬스케어 서비스","grade":"C","action":"대체","label":"멸균 수탁사명","description":"공개되지 않은 수술기구 멸균 수탁업체의 이름"},
+{"id":"HOSP-08","industry":"병원·헬스케어 서비스","grade":"C","action":"태그","label":"방문진료 사업명","description":"출범 발표 전 방문진료 사업의 내부 코드명"},
+{"id":"HOSP-09","industry":"병원·헬스케어 서비스","grade":"C","action":"대체","label":"재활 의뢰 협력처명","description":"비공개로 환자 의뢰를 협의 중인 재활기관의 이름"},
+{"id":"HOSP-10","industry":"병원·헬스케어 서비스","grade":"S","action":"태그","label":"수술실 편성 도구명","description":"외부 미공개 수술실 편성 시스템의 이름"},
+{"id":"HOSP-11","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"검체 위탁 단가","description":"검체 검사 위탁 계약의 비공개 건당 지급액"},
+{"id":"HOSP-12","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"검진 계약 할인율","description":"단체 검진 계약별 비공개 할인 비율"},
+{"id":"HOSP-13","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"병동 운영 손익선","description":"병동 운영의 내부 손익분기 병상가동률"},
+{"id":"HOSP-14","industry":"병원·헬스케어 서비스","grade":"S","action":"일반화","label":"간호인력 충원 목표","description":"발표 전 병동별 간호인력 채용 목표 인원"},
+{"id":"HOSP-15","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"영상장비 임차료","description":"영상진단 장비 계약의 비공개 월 임차 금액"},
+{"id":"HOSP-16","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"인증 사전심사 이력","description":"외부 미공개 의료기관 인증 사전심사의 판정 내역"},
+{"id":"HOSP-17","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"진료거점 폐쇄 결정","description":"발표 전 진료거점 폐쇄에 관한 내부 결정"},
+{"id":"HOSP-18","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"의료진 영입 조건","description":"채용 발표 전 의료진에게 제안한 개별 보장 조건"},
+{"id":"HOSP-19","industry":"병원·헬스케어 서비스","grade":"C","action":"삭제","label":"급식업체 협상 조건","description":"환자식 공급 계약의 미공개 협상 요구사항"},
+{"id":"HOSP-20","industry":"병원·헬스케어 서비스","grade":"S","action":"일반화","label":"진료기록 점검 이력","description":"외부 미공개 진료기록 보관 점검의 조치 내역"}
+]}

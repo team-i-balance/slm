@@ -30,9 +30,9 @@ def load_rules():
     """{정책 이름: 규칙 목록}. 고정 라벨은 모든 정책에 붙는다."""
     fixed = json.loads((DATA / "fixed_labels.json").read_text())["labels"]
     policies = {"moa": json.loads((DATA / "rules.json").read_text())["rules"]}
-    logi = DATA / "eval_raw" / "logi.rules.json"
-    if logi.exists():
-        policies["logi"] = json.loads(logi.read_text())["rules"]
+    # 처음 보는 회사 정책: eval_raw/<set>.rules.json (logi, 업종별 food·edu·… 등)
+    for p in sorted((DATA / "eval_raw").glob("*.rules.json")):
+        policies[p.name.removesuffix(".rules.json")] = json.loads(p.read_text())["rules"]
     policies["pii"] = policies["moa"]
     return {k: v + fixed for k, v in policies.items()}
 
@@ -85,9 +85,12 @@ class KeywordBaseline:
 
 class GlinerModel:
     def __init__(self, name="urchade/gliner_multi-v2.1", desc=False, threshold=0.4, pii_threshold=None,
-                 nested=True, **_):
+                 nested=True, onnx=None, **_):
         from gliner import GLiNER
-        self.m = GLiNER.from_pretrained(name)
+        if onnx:
+            self.m = GLiNER.from_pretrained(name, local_files_only=True, load_onnx_model=True, onnx_model_file=onnx)
+        else:
+            self.m = GLiNER.from_pretrained(name)
         self.th, self.pii_th = threshold, pii_threshold if pii_threshold is not None else threshold
         self.nested = nested
         # train.py 로 학습한 모델은 학습 때 쓴 분리기·라벨 형식을 그대로 따른다
@@ -123,6 +126,7 @@ def overlap(a, b):
 
 def evaluate(model, policies, items):
     rec = defaultdict(lambda: [0, 0])     # 그룹 → [맞음, 전체]
+    by_set = defaultdict(lambda: [0, 0])  # set → 기밀 [맞음, 전체]
     rule_ok = [0, 0]                      # 기밀 구간 규칙 ID 일치
     prec = defaultdict(lambda: [0, 0])    # 기밀/개인정보 → [맞음, 예측 수]
     neg = defaultdict(lambda: [0, 0])     # set → [오탐 문장, 음성 문장]
@@ -142,6 +146,8 @@ def evaluate(model, policies, items):
             rec[group(g[2])][0] += hit
             rec[group(g[2])][1] += 1
             if kind(g[2]) == "기밀":
+                by_set[it["set"]][0] += hit
+                by_set[it["set"]][1] += 1
                 rule_ok[0] += any(overlap(g, p) and p[2] == g[2] for p in preds)
                 rule_ok[1] += 1
             if not hit:
@@ -167,6 +173,8 @@ def evaluate(model, policies, items):
     print(f"기밀 재현율             {pct(*tot(conf))}  ({tot(conf)[0]}/{tot(conf)[1]})   규칙ID 일치 {pct(*rule_ok)}")
     for k in sorted(conf):
         print(f"  ├ {k:16s} {pct(*rec[k])}  ({rec[k][0]}/{rec[k][1]})")
+    if len(by_set) > 1:
+        print("  묶음별 기밀 재현율: " + ", ".join(f"{k} {pct(*v).strip()}({v[0]}/{v[1]})" for k, v in sorted(by_set.items())))
     if pii:
         print(f"개인정보 재현율         {pct(*tot(pii))}  ({tot(pii)[0]}/{tot(pii)[1]})")
         for k in sorted(pii):
@@ -203,13 +211,14 @@ def main():
     ap.add_argument("--flat", action="store_true", help="겹치는 구간 허용 안 함 (v1 평가 방식)")
     ap.add_argument("--eval", default=None, help="평가 파일 (기본: eval_v2.jsonl, 없으면 eval.jsonl)")
     ap.add_argument("--set", default=None, help="moa / logi / pii 중 하나만")
+    ap.add_argument("--onnx", default=None, help="ONNX 파일 이름 (예: model_quantized.onnx). --name 은 그 폴더")
     a = ap.parse_args()
     path = Path(a.eval) if a.eval else (DATA / "eval_v2.jsonl" if (DATA / "eval_v2.jsonl").exists() else DATA / "eval.jsonl")
     policies, items = load_rules(), load_items(path)
     if a.set:
         items = [it for it in items if it["set"] == a.set]
     model = MODELS[a.model](name=a.name, desc=a.desc, threshold=a.threshold, pii_threshold=a.pii_threshold,
-                            nested=not a.flat)
+                            nested=not a.flat, onnx=a.onnx)
     model.predict(items[0]["text"], policies[items[0]["set"]])  # 첫 호출 워밍업은 지연 측정에서 뺀다
     evaluate(model, policies, items)
 
