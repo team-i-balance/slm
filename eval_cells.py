@@ -77,8 +77,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
     ap.add_argument("--xlsx", default="demo/samples/slm_partners.xlsx")
+    ap.add_argument("--raw", action="store_true", help="구간 경계 후처리 끄기")
     a = ap.parse_args()
-    det = SlmDetector(a.model, policy="data/rules.json")
+    det = SlmDetector(a.model, policy="data/rules.json", refine=not a.raw)
     rows = read_xlsx(a.xlsx)
     head, body = rows[0], rows[1:]
     hit = defaultdict(int)

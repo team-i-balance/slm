@@ -85,7 +85,7 @@ class KeywordBaseline:
 
 class GlinerModel:
     def __init__(self, name="urchade/gliner_multi-v2.1", desc=False, threshold=0.4, pii_threshold=None,
-                 nested=True, onnx=None, **_):
+                 nested=True, onnx=None, refine=False, **_):
         from gliner import GLiNER
         if onnx:
             self.m = GLiNER.from_pretrained(name, local_files_only=True, load_onnx_model=True, onnx_model_file=onnx)
@@ -93,6 +93,10 @@ class GlinerModel:
             self.m = GLiNER.from_pretrained(name)
         self.th, self.pii_th = threshold, pii_threshold if pii_threshold is not None else threshold
         self.nested = nested
+        self.refine = None
+        if refine:
+            from splitter import EojeolSplitter
+            self.refine = EojeolSplitter()
         # train.py 로 학습한 모델은 학습 때 쓴 분리기·라벨 형식을 그대로 따른다
         meta = Path(name) / "train_meta.json"
         self.desc = desc
@@ -112,7 +116,11 @@ class GlinerModel:
         for e in ents:
             rid = label2id[e["label"]]
             if e["score"] >= (self.pii_th if rid.startswith("P-") else self.th):
-                out.append((e["start"], e["end"], rid, e["score"]))
+                st, en = e["start"], e["end"]
+                if self.refine:
+                    from detector import refine_span
+                    st, en = refine_span(text, st, en, rid, self.refine)
+                out.append((st, en, rid, e["score"]))
         return out
 
 
@@ -127,6 +135,7 @@ def overlap(a, b):
 def evaluate(model, policies, items):
     rec = defaultdict(lambda: [0, 0])     # 그룹 → [맞음, 전체]
     by_set = defaultdict(lambda: [0, 0])  # set → 기밀 [맞음, 전체]
+    exact = defaultdict(lambda: [0, 0])   # 기밀/개인정보 → [경계까지 같음, 잡은 정답 구간]
     rule_ok = [0, 0]                      # 기밀 구간 규칙 ID 일치
     prec = defaultdict(lambda: [0, 0])    # 기밀/개인정보 → [맞음, 예측 수]
     neg = defaultdict(lambda: [0, 0])     # set → [오탐 문장, 음성 문장]
@@ -144,6 +153,9 @@ def evaluate(model, policies, items):
         for g in it["spans"]:
             hit = any(overlap(g, p) and kind(p[2]) == kind(g[2]) for p in preds)
             rec[group(g[2])][0] += hit
+            if hit:
+                exact[kind(g[2])][0] += any(p[0] == g[0] and p[1] == g[1] and kind(p[2]) == kind(g[2]) for p in preds)
+                exact[kind(g[2])][1] += 1
             rec[group(g[2])][1] += 1
             if kind(g[2]) == "기밀":
                 by_set[it["set"]][0] += hit
@@ -182,6 +194,8 @@ def evaluate(model, policies, items):
     for k in ("기밀", "개인정보"):
         if prec[k][1]:
             print(f"{k} 정밀도{' ' * (16 - 2 * len(k))}{pct(*prec[k])}  ({prec[k][0]}/{prec[k][1]})")
+    print("경계 정확 일치         " + ", ".join(f"{k} {pct(*v).strip()} ({v[0]}/{v[1]})" for k, v in sorted(exact.items()))
+          + "   (잡은 정답 구간 중 시작·끝까지 같은 예측이 있는 비율)")
     allneg = [sum(v[i] for v in neg.values()) for i in (0, 1)]
     detail = ", ".join(f"{k} {pct(*v).strip()}" for k, v in sorted(neg.items()))
     print(f"오탐 문장률             {pct(*allneg)}  ({allneg[0]}/{allneg[1]})   [{detail}]")
@@ -211,6 +225,7 @@ def main():
     ap.add_argument("--flat", action="store_true", help="겹치는 구간 허용 안 함 (v1 평가 방식)")
     ap.add_argument("--eval", default=None, help="평가 파일 (기본: eval_v2.jsonl, 없으면 eval.jsonl)")
     ap.add_argument("--set", default=None, help="moa / logi / pii 중 하나만")
+    ap.add_argument("--refine", action="store_true", help="구간 경계 후처리(detector.refine_span) 적용")
     ap.add_argument("--onnx", default=None, help="ONNX 파일 이름 (예: model_quantized.onnx). --name 은 그 폴더")
     a = ap.parse_args()
     path = Path(a.eval) if a.eval else (DATA / "eval_v2.jsonl" if (DATA / "eval_v2.jsonl").exists() else DATA / "eval.jsonl")
@@ -218,7 +233,7 @@ def main():
     if a.set:
         items = [it for it in items if it["set"] == a.set]
     model = MODELS[a.model](name=a.name, desc=a.desc, threshold=a.threshold, pii_threshold=a.pii_threshold,
-                            nested=not a.flat, onnx=a.onnx)
+                            nested=not a.flat, onnx=a.onnx, refine=a.refine)
     model.predict(items[0]["text"], policies[items[0]["set"]])  # 첫 호출 워밍업은 지연 측정에서 뺀다
     evaluate(model, policies, items)
 

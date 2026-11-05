@@ -17,6 +17,8 @@ import json
 import re
 from pathlib import Path
 
+from splitter import WORD
+
 HERE = Path(__file__).parent
 FIXED_TYPES = {"P-NAME": "NAME", "P-ADDR": "ADDRESS", "P-SENS": "SENSITIVE"}
 # 기준값: 평가셋 v2 에서 고른 값. 개인정보는 놓치지 않기 우선이라 더 낮다
@@ -24,6 +26,71 @@ DEFAULT_THRESHOLDS = {"CONFIDENTIAL": 0.45, "NAME": 0.35, "ADDRESS": 0.35, "SENS
 # 한 번에 넣는 최대 단어 수. 규칙 라벨도 같은 입력에 들어가므로 모델 max_len(384)보다 넉넉히 작게
 CHUNK_WORDS = 200
 SENT_END = re.compile(r"(?<=[.!?。])\s+|\n+")
+
+
+# ---- 구간 경계 후처리: 모델은 어절 조각 단위로 구간을 내므로 앞뒤에 조사·직함·역할어가 딸려 온다
+#   '다온물산과' → '다온물산', '담당 한지우 매니저' → '한지우', '김민수의' → '김민수', '… 판정 받은 고객' → '… 판정 받은'
+ROLE_WORDS = {"담당", "담당자", "수신", "참조", "발신", "작성자", "작성", "고객", "직원", "사원", "신청인", "대표", "보호자",
+              "환자", "후임", "전임", "팀원", "동료", "후배", "선배", "To", "CC", "From"}
+TITLE_WORDS = {"님", "씨", "대리", "과장", "차장", "부장", "팀장", "책임", "선임", "수석", "매니저", "사원", "주임", "실장", "본부장",
+               "이사", "상무", "전무", "대표", "파트장", "PM", "프로", "고객", "환자", "군", "양"}
+NAME_JOSA = ("에게서", "께서", "에게", "한테", "이랑", "의", "랑")  # 이름 끝 글자와 헷갈리지 않는 것만
+# 띄어 쓰지 않고 붙은 호칭(+조사): '홍길동씨', '박세진님께' — 이름이 '씨·님'으로 끝나는 경우는 없다고 본다
+HONORIFIC = tuple(h + j for h in ("씨", "님") for j in ("께서", "에게", "한테", "께", "의", "이", "은", "을", "가", "는", "를", "도", ""))
+# 이름 뒤에서 떼어도 되는 꼬리 ('남궁민서' 의 '서' 처럼 mecab 이 이름 끝을 조사로 보는 경우가 있어 목록으로 한정)
+NAME_TAIL = set(NAME_JOSA) | {"가", "는", "를", "와", "과", "도", "만", "님", "씨", "이가", "이는", "이를", "이도", "이랑", "이에게"}
+PERSON_NOUNS = {"고객", "분", "환자", "직원", "사원", "사람", "씨", "님", "대상", "대상자", "인원"}
+EDGE_PUNCT = " ,.;:·/|"
+# 떼어도 안전한 격조사 ('만'·'도'·'이' 는 '1만'·숫자 단위·서술어와 헷갈려 뺀다)
+CASE_JOSA = {"과", "와", "를", "을", "은", "는", "의", "에", "에서", "로", "으로", "에게", "한테", "와의", "과의", "이랑", "랑", "께", "가"}
+
+
+def _pieces(splitter, text, start, end):
+    """구간 안 어절 조각 [(시작, 끝, 꼬리인지)]. 꼬리 = 분리기가 한글 어절 끝에서 떼어낸 조사·어미 조각
+    ('5,400' 의 '400' 처럼 기호 경계로 붙은 조각은 꼬리가 아니다)."""
+    out = []
+    for m in WORD.finditer(text):
+        pos = m.start()
+        for k, piece in enumerate(splitter.split_word(m.group())):
+            a, b = pos, pos + len(piece)
+            if a >= start and b <= end:
+                out.append([a, b, k > 0])
+            pos = b
+    return out
+
+
+def refine_span(text, start, end, rid, splitter):
+    """모델 구간의 앞뒤를 다듬는다. 다 깎이면 원래 구간을 그대로 돌려준다."""
+    ps = _pieces(splitter, text, start, end)
+    if not ps:
+        return start, end
+    word = lambda p: text[p[0]:p[1]]
+    if rid == "P-NAME":
+        while len(ps) > 1 and not ps[0][2] and word(ps[0]) in ROLE_WORDS:
+            ps.pop(0)
+        while len(ps) > 1 and ((ps[-1][2] and word(ps[-1]) in NAME_TAIL) or (not ps[-1][2] and word(ps[-1]) in TITLE_WORDS)):
+            ps.pop()
+        st, en = ps[0][0], ps[-1][1]
+        w = text[st:en]
+        for j in HONORIFIC + NAME_JOSA:  # mecab 이 못 떼는 '김민수의', '홍길동씨'
+            if w.endswith(j) and len(w) - len(j) >= 2 and " " not in w:
+                en -= len(j)
+                break
+        return st, en
+    # 기밀·주소·민감정보: 평가 기준은 서술어·단위까지 구간에 넣으므로('당뇨 진단을 받으셨어', '1만 대')
+    # 확실한 격조사 꼬리와 끝에 붙은 사람 명사만 뗀다
+    while len(ps) > 1:
+        # '받'+'은' 처럼 한 글자 줄기 뒤의 '은·는·가'는 어미일 수 있어 남긴다
+        if ps[-1][2] and word(ps[-1]) in CASE_JOSA and not (word(ps[-1]) in ("은", "는", "가") and len(word(ps[-2])) < 2):
+            ps.pop()
+        elif rid != "P-ADDR" and not ps[-1][2] and word(ps[-1]) in PERSON_NOUNS:
+            ps.pop()
+        else:
+            break
+    st, en = ps[0][0], ps[-1][1]
+    while en > st and text[en - 1] in EDGE_PUNCT:
+        en -= 1
+    return (st, en) if en > st else (start, end)
 
 
 def load_policy(path):
@@ -34,7 +101,7 @@ def load_policy(path):
 
 
 class SlmDetector:
-    def __init__(self, model_dir, policy=None, thresholds=None, device="cpu"):
+    def __init__(self, model_dir, policy=None, thresholds=None, device="cpu", refine=True):
         from gliner import GLiNER
 
         from splitter import EojeolSplitter
@@ -47,6 +114,7 @@ class SlmDetector:
         meta = json.loads((path / "train_meta.json").read_text())
         self.desc = meta.get("desc", False)
         self.th = {**DEFAULT_THRESHOLDS, **(thresholds or {})}
+        self.refine = refine
         self.fixed = json.loads((HERE / "data" / "fixed_labels.json").read_text())["labels"]
         self.set_policy(load_policy(policy) if policy else [])
 
@@ -90,7 +158,10 @@ class SlmDetector:
                 if e["score"] < self.th[typ]:
                     continue
                 r = self.rules[rid]
-                found.append({"start": off + e["start"], "end": off + e["end"], "type": typ, "rule_id": rid,
+                st, en = off + e["start"], off + e["end"]
+                if self.refine:
+                    st, en = refine_span(text, st, en, rid, self.splitter)
+                found.append({"start": st, "end": en, "type": typ, "rule_id": rid,
                               "label": r["label"], "grade": r.get("grade", "S"), "action": r.get("action", "대체"),
                               "score": round(float(e["score"]), 3)})
         # 겹침 허용으로 예측하면 같은 규칙이 겹친 구간을 여러 개 낸다 → 같은 규칙끼리는 가장 긴 것만
