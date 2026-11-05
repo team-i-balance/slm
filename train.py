@@ -89,6 +89,7 @@ def main():
     ap.add_argument("--batch", type=int, default=8)
     ap.add_argument("--max-width", type=int, default=24)
     ap.add_argument("--eval-every", type=int, default=200)
+    ap.add_argument("--resume", default=None, help="이어서 학습할 체크포인트 경로")
     a = ap.parse_args()
 
     from gliner import GLiNER
@@ -108,7 +109,21 @@ def main():
         save_steps=a.eval_every, eval_steps=a.eval_every, eval_strategy="steps",
         save_total_limit=2, load_best_model_at_end=True, metric_for_best_model="eval_loss",
         logging_steps=20, dataloader_num_workers=0, use_cpu=device == "cpu")
-    model.train_model(train_dataset=train, eval_dataset=dev, training_args=args)
+    # model.train_model 대신 직접 만든다: 콜백을 넣으려고
+    from gliner.training import Trainer
+    from transformers import TrainerCallback
+
+    class EmptyMpsCache(TrainerCallback):
+        """문장마다 라벨 수·길이가 달라 텐서 모양이 매번 바뀌고, MPS 캐시가 비워지지 않아
+        통합 메모리 22GB까지 불어나 스왑이 났다 (400스텝 뒤 스텝당 4초 → 20초)."""
+        def on_step_end(self, *_, **__):
+            if device == "mps":
+                torch.mps.empty_cache()
+
+    trainer = Trainer(model=model, args=args, train_dataset=train, eval_dataset=dev,
+                      data_collator=model._create_data_collator(),
+                      processing_class=model.data_processor.transformer_tokenizer, callbacks=[EmptyMpsCache()])
+    trainer.train(resume_from_checkpoint=a.resume)
     model.save_pretrained(Path(a.out) / "final")
     (Path(a.out) / "final" / "train_meta.json").write_text(json.dumps(
         {"base": a.base, "desc": a.desc, "steps": a.steps, "max_width": a.max_width, "splitter": "eojeol"},
