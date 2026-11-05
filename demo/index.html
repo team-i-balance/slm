@@ -135,7 +135,7 @@
         <button class="b primary" id="upload">검사하기</button>
         <span class="muted" id="flat"></span>
       </div>
-      <div class="row muted">샘플(가상 데이터): <a href="samples/pii_only.xlsx" download>이름·주소만 있는 파일</a> · <a href="samples/confidential.xlsx" download>실적 수치가 있는 파일</a></div>
+      <div class="row muted">샘플(가상 데이터): <a href="samples/slm_partners.xlsx" download>★ SLM: 거래처·담당자 현황 (규칙만으로는 0건)</a> · <a href="samples/pii_only.xlsx" download>이름·주소만 있는 파일</a> · <a href="samples/confidential.xlsx" download>실적 수치가 있는 파일</a></div>
       <div class="err" id="ferr"></div>
     </div>
     <div class="card hidden" id="fresult">
@@ -155,6 +155,8 @@ const TYPE_KO = { NAME: "이름", ADDRESS: "주소", SENSITIVE: "민감정보", 
   PHONE: "전화번호", EMAIL: "이메일", BUSINESS_NUMBER: "사업자번호", API_KEY: "API키", ACCESS_TOKEN: "토큰" };
 const QUEUE_KO = { pre_warning: "사전 경고 로그", detection_improve: "탐지 개선 큐", violation_candidate: "위반 후보 큐", real_violation: "실제 위반 큐" };
 const SAMPLES = [
+  ["★ SLM: 계약+담당자(S)", "다온물산과 연간 유지보수 계약을 3억 2천으로 갱신했어. 담당 한지우 매니저한테 보낼 감사 메일 써줘"],
+  ["★ SLM: 동료 건강(C)", "인사팀 윤서진 과장이 요즘 우울증 치료 때문에 휴직 고민 중이래. 팀장님께 보고할 메일 초안 써줘"],
   ["이름·주소·전화", "김민지 고객님 배송지 서울시 마포구 월드컵북로4길 17, 3층으로 변경 안내문 써줘. 연락처 010-1234-5678"],
   ["미공개 실적", "3분기 잠정 매출 1,240억, 영업이익 87억인데 IR 문구 다듬어줘"],
   ["징계(민감정보)", "박서윤 대리 근태 불량으로 경고 징계 내렸어. 통보 메일 써줘"],
